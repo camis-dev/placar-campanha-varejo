@@ -34,11 +34,11 @@
 
   /* ---- Section nav (Placar / Buscar / Ranking / Relatorios) ---- */
   .secnav {
-    display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; margin-bottom: 18px;
+    display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; margin-bottom: 18px;
     background: #EFEEE8; padding: 4px; border-radius: 10px;
   }
   .secnav .item {
-    font-size: 10px; font-weight: 700; text-align: center; padding: 9px 1px; border-radius: 7px;
+    font-size: 9px; font-weight: 700; text-align: center; padding: 9px 1px; border-radius: 7px;
     cursor: pointer; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .2px;
   }
   .secnav .item.active { background: var(--ink); color: #fff; }
@@ -63,6 +63,7 @@
   .score-team { font-size: 11px; text-transform: uppercase; letter-spacing: .5px; font-weight: 700; color: var(--ink-soft); }
   .score-nums { font-size: 13px; color: var(--ink-soft); margin-top: 1px; }
   .score-nums b { color: var(--ink); }
+  .score-premio { font-size: 11px; color: var(--ink-soft); margin-top: 3px; }
   .score-pct { font-family: 'Oswald', sans-serif; font-size: 26px; font-weight: 700; min-width: 62px; text-align: right; }
   .score-track { height: 5px; background: #EEEDE7; border-radius: 3px; margin-top: 6px; overflow: hidden; }
   .score-fill { height: 100%; border-radius: 3px; }
@@ -112,6 +113,12 @@
   .vrow.open .chevron { transform: rotate(180deg); }
   .vdetail .k { font-size: 10px; text-transform: uppercase; letter-spacing: .3px; color: var(--ink-soft); font-weight: 700; }
   .vdetail .v { font-family: 'Oswald', sans-serif; font-size: 17px; font-weight: 600; margin-top: 2px; }
+  .premio-full { grid-column: 1 / -1; margin-top: 4px; padding-top: 8px; border-top: 1px dashed var(--line); }
+
+  /* ---- Premios ---- */
+  .premio-marks { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+  .premio-ind { font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 6px; background: #EEEDE7; color: var(--ink-soft); }
+  .premio-ind.ok { background: var(--green-soft); color: var(--green); }
   .chevron { font-size: 11px; color: var(--ink-soft); transition: transform .15s ease; flex-shrink: 0; }
   .empty { text-align: center; padding: 30px 10px; color: var(--ink-soft); font-size: 13px; }
 

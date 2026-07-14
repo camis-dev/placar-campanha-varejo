@@ -12,6 +12,21 @@ const TEAM_COLOR = { Washignton: "#1E7145", Rodrigo: "#B8620A", Sueli: "#A33B3B"
 const PERIODO = "01/07 – 13/07/2026 (mês em andamento)";
 document.getElementById("periodoLabel").textContent = PERIODO;
 
+const PREMIO_POR_INDUSTRIA = 100;
+const PREMIO_VENDEDOR_3_INDUSTRIAS = 500;
+const PREMIO_SUPERVISOR_3_INDUSTRIAS = 300;
+
+/* Regra: vendedor ganha R$100 por indústria batida (meta >= 100%); batendo as 3, o
+   prêmio sobe para R$500. Supervisor só ganha (R$300) se a equipe bater as 3. */
+function calcPremio(pessoa) {
+  const industriasBatidas = INDUSTRIAS.filter(ind => pessoa.industrias[ind].pct >= 100);
+  const qtd = industriasBatidas.length;
+  const valor = pessoa.isSupervisor
+    ? (qtd === 3 ? PREMIO_SUPERVISOR_3_INDUSTRIAS : 0)
+    : (qtd === 3 ? PREMIO_VENDEDOR_3_INDUSTRIAS : qtd * PREMIO_POR_INDUSTRIA);
+  return { industriasBatidas, qtd, valor };
+}
+
 let abaAtiva = "PANASONIC";
 let busca = "";
 let equipeFiltro = "Todas";
@@ -34,6 +49,7 @@ function renderSecNav() {
     { key: "ranking", label: "Ranking" },
     { key: "financeiro", label: "Financeiro" },
     { key: "relatorios", label: "Relat." },
+    { key: "premios", label: "Prêmios" },
   ];
   document.getElementById("secNav").innerHTML = secs.map(s => `
     <div class="item ${secaoAtiva === s.key ? "active" : ""}" onclick="setSecao('${s.key}')">${s.label}</div>
@@ -42,7 +58,7 @@ function renderSecNav() {
 function setSecao(key) {
   secaoAtiva = key;
   renderSecNav();
-  ["placar", "buscar", "ranking", "financeiro", "relatorios"].forEach(k => {
+  ["placar", "buscar", "ranking", "financeiro", "relatorios", "premios"].forEach(k => {
     document.getElementById("sec-" + k).classList.toggle("active", k === key);
   });
 }
@@ -69,12 +85,14 @@ function renderScoreboard() {
   document.getElementById("scoreboard").innerHTML = supervisores.map(sup => {
     const d = sup.industrias[abaAtiva];
     const real = d.projetado, meta = d.metaNova, pct = d.pct;
+    const p = calcPremio(sup);
     return `
       <div class="score-row">
         <div class="score-flag" style="background:${TEAM_COLOR[sup.equipe]}"></div>
         <div class="score-info">
           <div class="score-team">Equipe ${sup.nome}</div>
           <div class="score-nums"><b class="num">${fmt0(real)}</b> / ${fmt0(meta)} meta · Fat. ${d.faturado} · A Fat. ${d.naoFaturado}</div>
+          <div class="score-premio">Prêmio da equipe (3 indústrias): <b style="color:${p.valor > 0 ? "var(--green)" : "var(--ink-soft)"}">${fmtMoney(p.valor)}</b></div>
           <div class="score-track"><div class="score-fill" style="width:${Math.min(pct,100)}%;background:${pctColor(pct)}"></div></div>
         </div>
         <div class="score-pct num" style="color:${pctColor(pct)}">${fmt0(pct)}%</div>
@@ -106,11 +124,16 @@ function vendorRowHTML(r, pos, aba) {
   const pctVal = d.pct;
   const mainNum = fmt0(pctVal) + "%";
   const track = `<div class="vtrack"><div class="vfill" style="width:${Math.min(pctVal,100)}%;background:${pctColor(pctVal)}"></div></div>`;
+  const p = calcPremio(r);
   const detail = `
     <div><div class="k">Meta</div><div class="v">${fmt0(d.metaNova)}</div></div>
     <div><div class="k">Realizado</div><div class="v">${d.projetado}</div></div>
     <div><div class="k">Faturado</div><div class="v">${d.faturado}</div></div>
     <div><div class="k">A Faturar</div><div class="v">${d.naoFaturado}</div></div>
+    <div class="premio-full">
+      <div class="k">Prêmio (${p.qtd}/3 indústrias batidas)</div>
+      <div class="v" style="color:${p.valor > 0 ? "var(--green)" : "var(--ink-soft)"}">${fmtMoney(p.valor)}</div>
+    </div>
   `;
   return `
     <div class="vrow" id="vrow-${r.setor}" onclick="toggleRow(${r.setor})">
@@ -321,6 +344,55 @@ function exportSupplierCSV(ind) {
   downloadCSV(lines, `relatorio_${ind.toLowerCase().replace(" ", "_")}.csv`);
 }
 
+/* ================= SECAO PREMIOS ================= */
+function getPremiosRows() {
+  const rows = DATA.map(r => ({ r, p: calcPremio(r) }));
+  rows.sort((a, b) => b.p.valor - a.p.valor || a.r.nome.localeCompare(b.r.nome));
+  return rows;
+}
+function premioRowHTML(item, pos) {
+  const { r, p } = item;
+  const marks = INDUSTRIAS.map(ind => {
+    const bateu = r.industrias[ind].pct >= 100;
+    return `<span class="premio-ind ${bateu ? "ok" : "no"}">${IND_LABEL[ind]} ${bateu ? "✓" : "—"}</span>`;
+  }).join("");
+  return `
+    <div class="vrow ${r.isSupervisor ? "sup" : ""}" style="cursor:default;">
+      <div class="vrow-top">
+        <div class="pos-badge">${pos}</div>
+        <div class="vname">
+          <div class="n">${r.nome}${r.isSupervisor ? " (equipe)" : ""}</div>
+          <div class="t" style="color:${TEAM_COLOR[r.equipe]}">${r.equipe}${r.isSupervisor ? "" : " · Setor " + r.setor}</div>
+        </div>
+        <div class="vpct num" style="color:${p.valor > 0 ? "var(--green)" : "var(--ink-soft)"}">${fmtMoney(p.valor)}</div>
+      </div>
+      <div class="premio-marks">${marks}</div>
+    </div>
+  `;
+}
+function renderPremiosBoard() {
+  const rows = getPremiosRows();
+  document.getElementById("premiosBoard").innerHTML = rows.map((item, i) => premioRowHTML(item, i + 1)).join("");
+  document.getElementById("premiosCount").textContent = `${rows.length} participantes`;
+  const totalGeral = rows.reduce((s, x) => s + x.p.valor, 0);
+  const totalVendedores = rows.filter(x => !x.r.isSupervisor && x.p.valor > 0).length;
+  document.getElementById("premiosTotal").innerHTML = `
+    <div>Ganhadores<b>${totalVendedores} de ${DATA.filter(r=>!r.isSupervisor).length} vendedores</b></div>
+    <div>Total a pagar<b>${fmtMoney(totalGeral)}</b></div>
+  `;
+}
+function exportPremiosCSV() {
+  const rows = getPremiosRows();
+  const headers = ["Posição", "Setor", "Nome", "Tipo", "Equipe", ...INDUSTRIAS.map(i => IND_LABEL[i] + " batida"), "Prêmio (R$)"];
+  const lines = [headers.join(";")];
+  rows.forEach((item, i) => {
+    const { r, p } = item;
+    const marks = INDUSTRIAS.map(ind => (r.industrias[ind].pct >= 100 ? "Sim" : "Não"));
+    lines.push([i + 1, r.setor, r.nome, r.isSupervisor ? "Supervisor" : "Vendedor", r.equipe, ...marks, p.valor.toFixed(2)].join(";"));
+  });
+  downloadCSV(lines, "premios_campanha_varejo.csv");
+}
+
 /* ================= INICIALIZACAO ================= */
 fetch("data.json")
   .then(r => r.json())
@@ -342,5 +414,7 @@ fetch("data.json")
     renderFinTabs();
     renderFinTable();
     renderSupplierButtons();
+    renderPremiosBoard();
   });
+
 

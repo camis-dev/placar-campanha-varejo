@@ -93,6 +93,24 @@
     <div id="supplierReport"></div>
   </div>
 
+  <!-- ============ SECAO: PREMIOS ============ -->
+  <div class="section" id="sec-premios">
+    <div class="legend" style="margin:0 0 10px;">
+      Vendedor: R$ 100 por indústria batida (meta ≥ 100%) — batendo as 3, o prêmio sobe para R$ 500.<br>
+      Supervisor: R$ 300 se a equipe bater as 3 indústrias.
+    </div>
+    <div class="geral-strip" id="premiosTotal"></div>
+    <div class="sort-row" style="margin-top:14px;">
+      <span class="sort-label">Ordenado por prêmio</span>
+      <span class="count-label" id="premiosCount"></span>
+    </div>
+    <div class="board" id="premiosBoard"></div>
+    <div class="actions no-print">
+      <button class="btn" onclick="exportPremiosCSV()">⬇ Excel (CSV)</button>
+      <button class="btn" onclick="window.print()">🖶 PDF</button>
+    </div>
+  </div>
+
 </div>
 
 <script src="script.js"></script>

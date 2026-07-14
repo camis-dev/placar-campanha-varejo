@@ -9,39 +9,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  38,
                                              "metaNova":  49,
-                                             "faturado":  53,
-                                             "naoFaturado":  0,
-                                             "projetado":  53,
-                                             "valorFaturado":  15311.31,
+                                             "faturado":  7,
+                                             "naoFaturado":  21,
+                                             "projetado":  28,
+                                             "valorFaturado":  3225.31,
                                              "valorAFaturar":  33189.74,
-                                             "pct":  108
+                                             "pct":  57
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  47,
                                            "metaNova":  61,
-                                           "faturado":  93,
-                                           "naoFaturado":  4,
-                                           "projetado":  97,
-                                           "valorFaturado":  35854.51,
+                                           "faturado":  10,
+                                           "naoFaturado":  15,
+                                           "projetado":  25,
+                                           "valorFaturado":  1744.63,
                                            "valorAFaturar":  3652.82,
-                                           "pct":  159
+                                           "pct":  41
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  35,
                                             "metaNova":  46,
-                                            "faturado":  70,
-                                            "naoFaturado":  3,
-                                            "projetado":  73,
-                                            "valorFaturado":  25210.06,
+                                            "faturado":  4,
+                                            "naoFaturado":  7,
+                                            "projetado":  11,
+                                            "valorFaturado":  956.46,
                                             "valorAFaturar":  1993.33,
-                                            "pct":  159
+                                            "pct":  24
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  223,
-                           "totalValorFaturado":  76375.88,
+                           "totalPositivado":  64,
+                           "totalValorFaturado":  5926.4,
                            "totalValorAFaturar":  38835.89,
-                           "totalValorGeral":  115211.77
+                           "totalValorGeral":  44762.29
                        },
         "representatividade":  {
                                    "PANASONIC":  2.533,
@@ -59,39 +59,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  42,
                                              "metaNova":  55,
-                                             "faturado":  219,
-                                             "naoFaturado":  2,
-                                             "projetado":  221,
-                                             "valorFaturado":  134003.97,
+                                             "faturado":  3,
+                                             "naoFaturado":  18,
+                                             "projetado":  21,
+                                             "valorFaturado":  1595.67,
                                              "valorAFaturar":  2313.63,
-                                             "pct":  402
+                                             "pct":  38
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  52,
                                            "metaNova":  68,
                                            "faturado":  2,
-                                           "naoFaturado":  0,
-                                           "projetado":  2,
+                                           "naoFaturado":  20,
+                                           "projetado":  22,
                                            "valorFaturado":  62.67,
                                            "valorAFaturar":  4644.19,
-                                           "pct":  3
+                                           "pct":  32
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  40,
                                             "metaNova":  52,
                                             "faturado":  1,
-                                            "naoFaturado":  0,
-                                            "projetado":  1,
+                                            "naoFaturado":  18,
+                                            "projetado":  19,
                                             "valorFaturado":  20.38,
                                             "valorAFaturar":  2158.37,
-                                            "pct":  2
+                                            "pct":  37
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  224,
-                           "totalValorFaturado":  134087.02,
+                           "totalPositivado":  62,
+                           "totalValorFaturado":  1678.72,
                            "totalValorAFaturar":  9116.19,
-                           "totalValorGeral":  143203.21
+                           "totalValorGeral":  10794.91
                        },
         "representatividade":  {
                                    "PANASONIC":  2.8,
@@ -110,35 +110,35 @@
                                              "metaAtual":  59,
                                              "metaNova":  77,
                                              "faturado":  15,
-                                             "naoFaturado":  1,
-                                             "projetado":  16,
+                                             "naoFaturado":  22,
+                                             "projetado":  37,
                                              "valorFaturado":  2278.78,
                                              "valorAFaturar":  3402.5,
-                                             "pct":  21
+                                             "pct":  48
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  80,
                                            "metaNova":  104,
                                            "faturado":  18,
-                                           "naoFaturado":  5,
-                                           "projetado":  23,
+                                           "naoFaturado":  34,
+                                           "projetado":  52,
                                            "valorFaturado":  5178.62,
                                            "valorAFaturar":  9385.29,
-                                           "pct":  22
+                                           "pct":  50
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  67,
                                             "metaNova":  87,
                                             "faturado":  17,
-                                            "naoFaturado":  4,
-                                            "projetado":  21,
+                                            "naoFaturado":  27,
+                                            "projetado":  44,
                                             "valorFaturado":  4687.04,
                                             "valorAFaturar":  6259.37,
-                                            "pct":  24
+                                            "pct":  51
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  60,
+                           "totalPositivado":  133,
                            "totalValorFaturado":  12144.44,
                            "totalValorAFaturar":  19047.16,
                            "totalValorGeral":  31191.6
@@ -160,35 +160,35 @@
                                              "metaAtual":  37,
                                              "metaNova":  48,
                                              "faturado":  5,
-                                             "naoFaturado":  5,
-                                             "projetado":  10,
+                                             "naoFaturado":  9,
+                                             "projetado":  14,
                                              "valorFaturado":  921.46,
                                              "valorAFaturar":  527.31,
-                                             "pct":  21
+                                             "pct":  29
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  55,
                                            "metaNova":  72,
                                            "faturado":  6,
-                                           "naoFaturado":  1,
-                                           "projetado":  7,
+                                           "naoFaturado":  19,
+                                           "projetado":  25,
                                            "valorFaturado":  3094.83,
                                            "valorAFaturar":  3800.28,
-                                           "pct":  10
+                                           "pct":  35
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  61,
                                             "metaNova":  79,
                                             "faturado":  4,
-                                            "naoFaturado":  4,
-                                            "projetado":  8,
+                                            "naoFaturado":  17,
+                                            "projetado":  21,
                                             "valorFaturado":  2480.95,
                                             "valorAFaturar":  2192.3,
-                                            "pct":  10
+                                            "pct":  27
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  25,
+                           "totalPositivado":  60,
                            "totalValorFaturado":  6497.24,
                            "totalValorAFaturar":  6519.89,
                            "totalValorGeral":  13017.13
@@ -210,35 +210,35 @@
                                              "metaAtual":  22,
                                              "metaNova":  29,
                                              "faturado":  1,
-                                             "naoFaturado":  0,
-                                             "projetado":  1,
+                                             "naoFaturado":  12,
+                                             "projetado":  13,
                                              "valorFaturado":  271.31,
                                              "valorAFaturar":  50769,
-                                             "pct":  3
+                                             "pct":  45
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  25,
                                            "metaNova":  33,
                                            "faturado":  4,
-                                           "naoFaturado":  0,
-                                           "projetado":  4,
+                                           "naoFaturado":  10,
+                                           "projetado":  14,
                                            "valorFaturado":  1542.86,
                                            "valorAFaturar":  3890.77,
-                                           "pct":  12
+                                           "pct":  42
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  32,
                                             "metaNova":  42,
                                             "faturado":  5,
-                                            "naoFaturado":  4,
-                                            "projetado":  9,
+                                            "naoFaturado":  11,
+                                            "projetado":  16,
                                             "valorFaturado":  1213.73,
                                             "valorAFaturar":  7099.13,
-                                            "pct":  21
+                                            "pct":  38
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  14,
+                           "totalPositivado":  43,
                            "totalValorFaturado":  3027.9,
                            "totalValorAFaturar":  61758.9,
                            "totalValorGeral":  64786.8
@@ -260,35 +260,35 @@
                                              "metaAtual":  49,
                                              "metaNova":  64,
                                              "faturado":  4,
-                                             "naoFaturado":  4,
-                                             "projetado":  8,
+                                             "naoFaturado":  15,
+                                             "projetado":  19,
                                              "valorFaturado":  486.25,
                                              "valorAFaturar":  2754.09,
-                                             "pct":  12
+                                             "pct":  30
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  72,
                                            "metaNova":  94,
                                            "faturado":  7,
-                                           "naoFaturado":  1,
-                                           "projetado":  8,
+                                           "naoFaturado":  24,
+                                           "projetado":  31,
                                            "valorFaturado":  2651.13,
                                            "valorAFaturar":  1926.17,
-                                           "pct":  9
+                                           "pct":  33
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  66,
                                             "metaNova":  86,
                                             "faturado":  3,
-                                            "naoFaturado":  3,
-                                            "projetado":  6,
+                                            "naoFaturado":  16,
+                                            "projetado":  19,
                                             "valorFaturado":  334.6,
                                             "valorAFaturar":  5158.54,
-                                            "pct":  7
+                                            "pct":  22
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  22,
+                           "totalPositivado":  69,
                            "totalValorFaturado":  3471.98,
                            "totalValorAFaturar":  9838.8,
                            "totalValorGeral":  13310.78
@@ -310,35 +310,35 @@
                                              "metaAtual":  43,
                                              "metaNova":  56,
                                              "faturado":  5,
-                                             "naoFaturado":  4,
-                                             "projetado":  9,
+                                             "naoFaturado":  5,
+                                             "projetado":  10,
                                              "valorFaturado":  6042.58,
                                              "valorAFaturar":  1368.52,
-                                             "pct":  16
+                                             "pct":  18
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  59,
                                            "metaNova":  77,
                                            "faturado":  14,
-                                           "naoFaturado":  0,
-                                           "projetado":  14,
+                                           "naoFaturado":  21,
+                                           "projetado":  35,
                                            "valorFaturado":  8651.07,
                                            "valorAFaturar":  11260.94,
-                                           "pct":  18
+                                           "pct":  45
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  60,
                                             "metaNova":  78,
                                             "faturado":  9,
-                                            "naoFaturado":  5,
-                                            "projetado":  14,
+                                            "naoFaturado":  24,
+                                            "projetado":  33,
                                             "valorFaturado":  3996.93,
                                             "valorAFaturar":  17157.06,
-                                            "pct":  18
+                                            "pct":  42
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  37,
+                           "totalPositivado":  78,
                            "totalValorFaturado":  18690.58,
                            "totalValorAFaturar":  29786.52,
                            "totalValorGeral":  48477.1
@@ -360,35 +360,35 @@
                                              "metaAtual":  50,
                                              "metaNova":  65,
                                              "faturado":  5,
-                                             "naoFaturado":  5,
-                                             "projetado":  10,
+                                             "naoFaturado":  24,
+                                             "projetado":  29,
                                              "valorFaturado":  288.93,
                                              "valorAFaturar":  5410.14,
-                                             "pct":  15
+                                             "pct":  45
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  67,
                                            "metaNova":  87,
                                            "faturado":  8,
-                                           "naoFaturado":  5,
-                                           "projetado":  13,
+                                           "naoFaturado":  21,
+                                           "projetado":  29,
                                            "valorFaturado":  1075.18,
                                            "valorAFaturar":  3926.28,
-                                           "pct":  15
+                                           "pct":  33
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  55,
                                             "metaNova":  72,
                                             "faturado":  8,
-                                            "naoFaturado":  3,
-                                            "projetado":  11,
+                                            "naoFaturado":  15,
+                                            "projetado":  23,
                                             "valorFaturado":  3960.17,
                                             "valorAFaturar":  8636.14,
-                                            "pct":  15
+                                            "pct":  32
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  34,
+                           "totalPositivado":  81,
                            "totalValorFaturado":  5324.28,
                            "totalValorAFaturar":  17972.56,
                            "totalValorGeral":  23296.84
@@ -410,35 +410,35 @@
                                              "metaAtual":  44,
                                              "metaNova":  57,
                                              "faturado":  5,
-                                             "naoFaturado":  4,
-                                             "projetado":  9,
+                                             "naoFaturado":  10,
+                                             "projetado":  15,
                                              "valorFaturado":  509.05,
                                              "valorAFaturar":  3826.29,
-                                             "pct":  16
+                                             "pct":  26
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  77,
                                            "metaNova":  100,
                                            "faturado":  11,
-                                           "naoFaturado":  3,
-                                           "projetado":  14,
+                                           "naoFaturado":  26,
+                                           "projetado":  37,
                                            "valorFaturado":  2048.2,
                                            "valorAFaturar":  14315.73,
-                                           "pct":  14
+                                           "pct":  37
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  71,
                                             "metaNova":  92,
                                             "faturado":  12,
-                                            "naoFaturado":  5,
-                                            "projetado":  17,
+                                            "naoFaturado":  19,
+                                            "projetado":  31,
                                             "valorFaturado":  2751.33,
                                             "valorAFaturar":  5446.85,
-                                            "pct":  18
+                                            "pct":  34
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  40,
+                           "totalPositivado":  83,
                            "totalValorFaturado":  5308.58,
                            "totalValorAFaturar":  23588.87,
                            "totalValorGeral":  28897.45
@@ -460,35 +460,35 @@
                                              "metaAtual":  30,
                                              "metaNova":  39,
                                              "faturado":  0,
-                                             "naoFaturado":  4,
-                                             "projetado":  4,
+                                             "naoFaturado":  9,
+                                             "projetado":  9,
                                              "valorFaturado":  0,
                                              "valorAFaturar":  1070.87,
-                                             "pct":  10
+                                             "pct":  23
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  38,
                                            "metaNova":  49,
                                            "faturado":  1,
-                                           "naoFaturado":  3,
-                                           "projetado":  4,
+                                           "naoFaturado":  18,
+                                           "projetado":  19,
                                            "valorFaturado":  161.82,
                                            "valorAFaturar":  5762.87,
-                                           "pct":  8
+                                           "pct":  39
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  23,
                                             "metaNova":  30,
                                             "faturado":  1,
-                                            "naoFaturado":  0,
-                                            "projetado":  1,
+                                            "naoFaturado":  6,
+                                            "projetado":  7,
                                             "valorFaturado":  117.28,
                                             "valorAFaturar":  1966.41,
-                                            "pct":  3
+                                            "pct":  23
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  9,
+                           "totalPositivado":  35,
                            "totalValorFaturado":  279.1,
                            "totalValorAFaturar":  8800.15,
                            "totalValorGeral":  9079.25
@@ -510,21 +510,21 @@
                                              "metaAtual":  8,
                                              "metaNova":  10,
                                              "faturado":  0,
-                                             "naoFaturado":  0,
-                                             "projetado":  0,
+                                             "naoFaturado":  7,
+                                             "projetado":  7,
                                              "valorFaturado":  0,
                                              "valorAFaturar":  4347.11,
-                                             "pct":  0
+                                             "pct":  70
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  30,
                                            "metaNova":  39,
                                            "faturado":  5,
-                                           "naoFaturado":  2,
-                                           "projetado":  7,
+                                           "naoFaturado":  21,
+                                           "projetado":  26,
                                            "valorFaturado":  7753.65,
                                            "valorAFaturar":  9565.54,
-                                           "pct":  18
+                                           "pct":  67
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  54,
@@ -538,7 +538,7 @@
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  15,
+                           "totalPositivado":  41,
                            "totalValorFaturado":  11797.65,
                            "totalValorAFaturar":  14530.14,
                            "totalValorGeral":  26327.79
@@ -560,35 +560,35 @@
                                              "metaAtual":  23,
                                              "metaNova":  30,
                                              "faturado":  4,
-                                             "naoFaturado":  2,
-                                             "projetado":  6,
+                                             "naoFaturado":  9,
+                                             "projetado":  13,
                                              "valorFaturado":  1007.97,
                                              "valorAFaturar":  3910.58,
-                                             "pct":  20
+                                             "pct":  43
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  39,
                                            "metaNova":  51,
                                            "faturado":  7,
-                                           "naoFaturado":  0,
-                                           "projetado":  7,
+                                           "naoFaturado":  14,
+                                           "projetado":  21,
                                            "valorFaturado":  1889.85,
                                            "valorAFaturar":  4679.38,
-                                           "pct":  14
+                                           "pct":  41
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  17,
                                             "metaNova":  22,
                                             "faturado":  3,
-                                            "naoFaturado":  1,
-                                            "projetado":  4,
+                                            "naoFaturado":  6,
+                                            "projetado":  9,
                                             "valorFaturado":  647.19,
                                             "valorAFaturar":  1236.22,
-                                            "pct":  18
+                                            "pct":  41
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  17,
+                           "totalPositivado":  43,
                            "totalValorFaturado":  3545.01,
                            "totalValorAFaturar":  9826.18,
                            "totalValorGeral":  13371.19
@@ -609,39 +609,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  445,
                                              "metaNova":  579,
-                                             "faturado":  316,
-                                             "naoFaturado":  31,
-                                             "projetado":  347,
-                                             "valorFaturado":  161121.61,
+                                             "faturado":  54,
+                                             "naoFaturado":  161,
+                                             "projetado":  215,
+                                             "valorFaturado":  16627.31,
                                              "valorAFaturar":  112889.78,
-                                             "pct":  60
+                                             "pct":  37
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  641,
                                            "metaNova":  833,
-                                           "faturado":  176,
-                                           "naoFaturado":  24,
-                                           "projetado":  200,
-                                           "valorFaturado":  69964.39,
+                                           "faturado":  93,
+                                           "naoFaturado":  243,
+                                           "projetado":  336,
+                                           "valorFaturado":  35854.51,
                                            "valorAFaturar":  76810.26,
-                                           "pct":  24
+                                           "pct":  40
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  581,
                                             "metaNova":  755,
-                                            "faturado":  136,
-                                            "naoFaturado":  37,
-                                            "projetado":  173,
-                                            "valorFaturado":  49463.66,
+                                            "faturado":  70,
+                                            "naoFaturado":  171,
+                                            "projetado":  241,
+                                            "valorFaturado":  25210.06,
                                             "valorAFaturar":  59921.21,
-                                            "pct":  23
+                                            "pct":  32
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  720,
-                           "totalValorFaturado":  280549.66,
+                           "totalPositivado":  792,
+                           "totalValorFaturado":  77691.88,
                            "totalValorAFaturar":  249621.25,
-                           "totalValorGeral":  530170.91
+                           "totalValorGeral":  327313.13
                        }
     },
     {
@@ -655,35 +655,35 @@
                                              "metaAtual":  22,
                                              "metaNova":  29,
                                              "faturado":  2,
-                                             "naoFaturado":  3,
-                                             "projetado":  5,
+                                             "naoFaturado":  7,
+                                             "projetado":  9,
                                              "valorFaturado":  204.42,
                                              "valorAFaturar":  1305.78,
-                                             "pct":  17
+                                             "pct":  31
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  30,
                                            "metaNova":  39,
                                            "faturado":  5,
-                                           "naoFaturado":  5,
-                                           "projetado":  10,
+                                           "naoFaturado":  10,
+                                           "projetado":  15,
                                            "valorFaturado":  1257.13,
                                            "valorAFaturar":  2581.19,
-                                           "pct":  26
+                                           "pct":  38
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  23,
                                             "metaNova":  30,
                                             "faturado":  2,
-                                            "naoFaturado":  2,
-                                            "projetado":  4,
+                                            "naoFaturado":  8,
+                                            "projetado":  10,
                                             "valorFaturado":  421.39,
                                             "valorAFaturar":  2558.78,
-                                            "pct":  13
+                                            "pct":  33
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  19,
+                           "totalPositivado":  34,
                            "totalValorFaturado":  1882.94,
                            "totalValorAFaturar":  6445.75,
                            "totalValorGeral":  8328.69
@@ -725,15 +725,15 @@
                                             "metaAtual":  22,
                                             "metaNova":  29,
                                             "faturado":  7,
-                                            "naoFaturado":  2,
-                                            "projetado":  9,
+                                            "naoFaturado":  5,
+                                            "projetado":  12,
                                             "valorFaturado":  3354.15,
                                             "valorAFaturar":  2454.12,
-                                            "pct":  31
+                                            "pct":  41
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  26,
+                           "totalPositivado":  29,
                            "totalValorFaturado":  5093.53,
                            "totalValorAFaturar":  14282.49,
                            "totalValorGeral":  19376.02
@@ -805,35 +805,35 @@
                                              "metaAtual":  65,
                                              "metaNova":  85,
                                              "faturado":  21,
-                                             "naoFaturado":  5,
-                                             "projetado":  26,
+                                             "naoFaturado":  19,
+                                             "projetado":  40,
                                              "valorFaturado":  3260.43,
                                              "valorAFaturar":  4894.97,
-                                             "pct":  31
+                                             "pct":  47
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  74,
                                            "metaNova":  96,
                                            "faturado":  24,
-                                           "naoFaturado":  2,
-                                           "projetado":  26,
+                                           "naoFaturado":  25,
+                                           "projetado":  49,
                                            "valorFaturado":  4617.44,
                                            "valorAFaturar":  5494.78,
-                                           "pct":  27
+                                           "pct":  51
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  58,
                                             "metaNova":  75,
                                             "faturado":  12,
-                                            "naoFaturado":  0,
-                                            "projetado":  12,
+                                            "naoFaturado":  13,
+                                            "projetado":  25,
                                             "valorFaturado":  3519.26,
                                             "valorAFaturar":  5535.71,
-                                            "pct":  16
+                                            "pct":  33
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  64,
+                           "totalPositivado":  114,
                            "totalValorFaturado":  11397.13,
                            "totalValorAFaturar":  15925.46,
                            "totalValorGeral":  27322.59
@@ -855,35 +855,35 @@
                                              "metaAtual":  40,
                                              "metaNova":  52,
                                              "faturado":  7,
-                                             "naoFaturado":  0,
-                                             "projetado":  7,
+                                             "naoFaturado":  12,
+                                             "projetado":  19,
                                              "valorFaturado":  1456.16,
                                              "valorAFaturar":  2578.56,
-                                             "pct":  13
+                                             "pct":  37
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  68,
                                            "metaNova":  88,
                                            "faturado":  17,
-                                           "naoFaturado":  2,
-                                           "projetado":  19,
+                                           "naoFaturado":  23,
+                                           "projetado":  40,
                                            "valorFaturado":  5079.16,
                                            "valorAFaturar":  7020.29,
-                                           "pct":  22
+                                           "pct":  45
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  66,
                                             "metaNova":  86,
                                             "faturado":  13,
-                                            "naoFaturado":  4,
-                                            "projetado":  17,
+                                            "naoFaturado":  24,
+                                            "projetado":  37,
                                             "valorFaturado":  4480.59,
                                             "valorAFaturar":  9622.31,
-                                            "pct":  20
+                                            "pct":  43
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  43,
+                           "totalPositivado":  96,
                            "totalValorFaturado":  11015.91,
                            "totalValorAFaturar":  19221.16,
                            "totalValorGeral":  30237.07
@@ -905,35 +905,35 @@
                                              "metaAtual":  46,
                                              "metaNova":  60,
                                              "faturado":  9,
-                                             "naoFaturado":  0,
-                                             "projetado":  9,
+                                             "naoFaturado":  17,
+                                             "projetado":  26,
                                              "valorFaturado":  1005.57,
                                              "valorAFaturar":  3520.83,
-                                             "pct":  15
+                                             "pct":  43
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  56,
                                            "metaNova":  73,
                                            "faturado":  7,
-                                           "naoFaturado":  3,
-                                           "projetado":  10,
+                                           "naoFaturado":  18,
+                                           "projetado":  25,
                                            "valorFaturado":  1323.27,
                                            "valorAFaturar":  7718.39,
-                                           "pct":  14
+                                           "pct":  34
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  51,
                                             "metaNova":  66,
                                             "faturado":  9,
-                                            "naoFaturado":  0,
-                                            "projetado":  9,
+                                            "naoFaturado":  13,
+                                            "projetado":  22,
                                             "valorFaturado":  7538.77,
                                             "valorAFaturar":  3383.13,
-                                            "pct":  14
+                                            "pct":  33
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  28,
+                           "totalPositivado":  73,
                            "totalValorFaturado":  9867.61,
                            "totalValorAFaturar":  14622.35,
                            "totalValorGeral":  24489.96
@@ -955,35 +955,35 @@
                                              "metaAtual":  31,
                                              "metaNova":  40,
                                              "faturado":  6,
-                                             "naoFaturado":  0,
-                                             "projetado":  6,
+                                             "naoFaturado":  29,
+                                             "projetado":  35,
                                              "valorFaturado":  998.78,
                                              "valorAFaturar":  3683.42,
-                                             "pct":  15
+                                             "pct":  88
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  42,
                                            "metaNova":  55,
                                            "faturado":  12,
-                                           "naoFaturado":  2,
-                                           "projetado":  14,
+                                           "naoFaturado":  40,
+                                           "projetado":  52,
                                            "valorFaturado":  3854.42,
                                            "valorAFaturar":  11767.26,
-                                           "pct":  25
+                                           "pct":  95
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  37,
                                             "metaNova":  48,
                                             "faturado":  12,
-                                            "naoFaturado":  3,
-                                            "projetado":  15,
+                                            "naoFaturado":  26,
+                                            "projetado":  38,
                                             "valorFaturado":  4855.05,
                                             "valorAFaturar":  10097.43,
-                                            "pct":  31
+                                            "pct":  79
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  35,
+                           "totalPositivado":  125,
                            "totalValorFaturado":  9708.25,
                            "totalValorAFaturar":  25548.11,
                            "totalValorGeral":  35256.36
@@ -1005,35 +1005,35 @@
                                              "metaAtual":  56,
                                              "metaNova":  73,
                                              "faturado":  4,
-                                             "naoFaturado":  4,
-                                             "projetado":  8,
+                                             "naoFaturado":  15,
+                                             "projetado":  19,
                                              "valorFaturado":  2104.36,
                                              "valorAFaturar":  2495.89,
-                                             "pct":  11
+                                             "pct":  26
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  75,
                                            "metaNova":  98,
                                            "faturado":  5,
-                                           "naoFaturado":  1,
-                                           "projetado":  6,
+                                           "naoFaturado":  32,
+                                           "projetado":  37,
                                            "valorFaturado":  1077.9,
                                            "valorAFaturar":  13090.94,
-                                           "pct":  6
+                                           "pct":  38
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  88,
                                             "metaNova":  114,
                                             "faturado":  5,
-                                            "naoFaturado":  3,
-                                            "projetado":  8,
+                                            "naoFaturado":  35,
+                                            "projetado":  40,
                                             "valorFaturado":  3061.4,
                                             "valorAFaturar":  19573.47,
-                                            "pct":  7
+                                            "pct":  35
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  22,
+                           "totalPositivado":  96,
                            "totalValorFaturado":  6243.66,
                            "totalValorAFaturar":  35160.3,
                            "totalValorGeral":  41403.96
@@ -1055,35 +1055,35 @@
                                              "metaAtual":  23,
                                              "metaNova":  30,
                                              "faturado":  2,
-                                             "naoFaturado":  5,
-                                             "projetado":  7,
+                                             "naoFaturado":  6,
+                                             "projetado":  8,
                                              "valorFaturado":  622.79,
                                              "valorAFaturar":  20971.07,
-                                             "pct":  23
+                                             "pct":  27
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  32,
                                            "metaNova":  42,
                                            "faturado":  1,
-                                           "naoFaturado":  2,
-                                           "projetado":  3,
+                                           "naoFaturado":  6,
+                                           "projetado":  7,
                                            "valorFaturado":  403.8,
                                            "valorAFaturar":  4654.52,
-                                           "pct":  7
+                                           "pct":  17
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  27,
                                             "metaNova":  35,
                                             "faturado":  0,
-                                            "naoFaturado":  3,
-                                            "projetado":  3,
+                                            "naoFaturado":  5,
+                                            "projetado":  5,
                                             "valorFaturado":  0,
                                             "valorAFaturar":  1478.45,
-                                            "pct":  9
+                                            "pct":  14
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  13,
+                           "totalPositivado":  20,
                            "totalValorFaturado":  1026.59,
                            "totalValorAFaturar":  27104.04,
                            "totalValorGeral":  28130.63
@@ -1115,25 +1115,25 @@
                                            "metaAtual":  70,
                                            "metaNova":  91,
                                            "faturado":  9,
-                                           "naoFaturado":  0,
-                                           "projetado":  9,
+                                           "naoFaturado":  15,
+                                           "projetado":  24,
                                            "valorFaturado":  2415.25,
                                            "valorAFaturar":  4169.64,
-                                           "pct":  10
+                                           "pct":  26
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  54,
                                             "metaNova":  70,
                                             "faturado":  5,
-                                            "naoFaturado":  3,
-                                            "projetado":  8,
+                                            "naoFaturado":  10,
+                                            "projetado":  15,
                                             "valorFaturado":  1697.37,
                                             "valorAFaturar":  14960.73,
-                                            "pct":  11
+                                            "pct":  21
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  28,
+                           "totalPositivado":  50,
                            "totalValorFaturado":  4627.64,
                            "totalValorAFaturar":  20330.77,
                            "totalValorGeral":  24958.41
@@ -1165,25 +1165,25 @@
                                            "metaAtual":  22,
                                            "metaNova":  29,
                                            "faturado":  6,
-                                           "naoFaturado":  5,
-                                           "projetado":  11,
+                                           "naoFaturado":  10,
+                                           "projetado":  16,
                                            "valorFaturado":  8643.48,
                                            "valorAFaturar":  4808.32,
-                                           "pct":  38
+                                           "pct":  55
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  11,
                                             "metaNova":  14,
                                             "faturado":  4,
-                                            "naoFaturado":  1,
-                                            "projetado":  5,
+                                            "naoFaturado":  9,
+                                            "projetado":  13,
                                             "valorFaturado":  16300.22,
                                             "valorAFaturar":  14008.05,
-                                            "pct":  36
+                                            "pct":  93
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  19,
+                           "totalPositivado":  32,
                            "totalValorFaturado":  25627.69,
                            "totalValorAFaturar":  21832.87,
                            "totalValorGeral":  47460.56
@@ -1204,39 +1204,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  51,
                                              "metaNova":  66,
-                                             "faturado":  68,
-                                             "naoFaturado":  3,
-                                             "projetado":  71,
-                                             "valorFaturado":  12412.21,
+                                             "faturado":  4,
+                                             "naoFaturado":  7,
+                                             "projetado":  11,
+                                             "valorFaturado":  764.12,
                                              "valorAFaturar":  5876.69,
-                                             "pct":  108
+                                             "pct":  17
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  58,
                                            "metaNova":  75,
-                                           "faturado":  97,
-                                           "naoFaturado":  3,
-                                           "projetado":  100,
-                                           "valorFaturado":  32695.41,
+                                           "faturado":  7,
+                                           "naoFaturado":  20,
+                                           "projetado":  27,
+                                           "valorFaturado":  2930.18,
                                            "valorAFaturar":  30948.14,
-                                           "pct":  133
+                                           "pct":  36
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  62,
                                             "metaNova":  81,
-                                            "faturado":  72,
-                                            "naoFaturado":  1,
-                                            "projetado":  73,
-                                            "valorFaturado":  44126.85,
+                                            "faturado":  5,
+                                            "naoFaturado":  11,
+                                            "projetado":  16,
+                                            "valorFaturado":  1667.67,
                                             "valorAFaturar":  11956.95,
-                                            "pct":  90
+                                            "pct":  20
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  244,
-                           "totalValorFaturado":  89234.47,
+                           "totalPositivado":  54,
+                           "totalValorFaturado":  5361.97,
                            "totalValorAFaturar":  48781.78,
-                           "totalValorGeral":  138016.25
+                           "totalValorGeral":  54143.75
                        },
         "representatividade":  {
                                    "PANASONIC":  3.4,
@@ -1254,39 +1254,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  422,
                                              "metaNova":  549,
-                                             "faturado":  136,
-                                             "naoFaturado":  31,
-                                             "projetado":  167,
-                                             "valorFaturado":  24542.52,
+                                             "faturado":  72,
+                                             "naoFaturado":  123,
+                                             "projetado":  195,
+                                             "valorFaturado":  12894.43,
                                              "valorAFaturar":  59664.65,
-                                             "pct":  30
+                                             "pct":  36
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  598,
                                            "metaNova":  777,
-                                           "faturado":  193,
-                                           "naoFaturado":  30,
-                                           "projetado":  223,
-                                           "valorFaturado":  63717.8,
+                                           "faturado":  103,
+                                           "naoFaturado":  204,
+                                           "projetado":  307,
+                                           "valorFaturado":  33952.57,
                                            "valorAFaturar":  94681.87,
-                                           "pct":  29
+                                           "pct":  40
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  539,
                                             "metaNova":  701,
-                                            "faturado":  146,
-                                            "naoFaturado":  24,
-                                            "projetado":  170,
-                                            "valorFaturado":  89940.18,
+                                            "faturado":  79,
+                                            "naoFaturado":  161,
+                                            "projetado":  240,
+                                            "valorFaturado":  47481,
                                             "valorAFaturar":  97490.81,
-                                            "pct":  24
+                                            "pct":  34
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  560,
-                           "totalValorFaturado":  178200.5,
+                           "totalPositivado":  742,
+                           "totalValorFaturado":  94328,
                            "totalValorAFaturar":  251837.33,
-                           "totalValorGeral":  430037.83
+                           "totalValorGeral":  346165.33
                        }
     },
     {
@@ -1300,35 +1300,35 @@
                                              "metaAtual":  66,
                                              "metaNova":  86,
                                              "faturado":  7,
-                                             "naoFaturado":  0,
-                                             "projetado":  7,
+                                             "naoFaturado":  26,
+                                             "projetado":  33,
                                              "valorFaturado":  556.4,
                                              "valorAFaturar":  3418.78,
-                                             "pct":  8
+                                             "pct":  38
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  84,
                                            "metaNova":  109,
                                            "faturado":  8,
-                                           "naoFaturado":  5,
-                                           "projetado":  13,
+                                           "naoFaturado":  31,
+                                           "projetado":  39,
                                            "valorFaturado":  794.91,
                                            "valorAFaturar":  5550.69,
-                                           "pct":  12
+                                           "pct":  36
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  58,
                                             "metaNova":  75,
                                             "faturado":  4,
-                                            "naoFaturado":  0,
-                                            "projetado":  4,
+                                            "naoFaturado":  22,
+                                            "projetado":  26,
                                             "valorFaturado":  556.64,
                                             "valorAFaturar":  3421.13,
-                                            "pct":  5
+                                            "pct":  35
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  24,
+                           "totalPositivado":  98,
                            "totalValorFaturado":  1907.95,
                            "totalValorAFaturar":  12390.6,
                            "totalValorGeral":  14298.55
@@ -1360,25 +1360,25 @@
                                            "metaAtual":  46,
                                            "metaNova":  60,
                                            "faturado":  6,
-                                           "naoFaturado":  5,
-                                           "projetado":  11,
+                                           "naoFaturado":  11,
+                                           "projetado":  17,
                                            "valorFaturado":  1215.66,
                                            "valorAFaturar":  2856.21,
-                                           "pct":  18
+                                           "pct":  28
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  42,
                                             "metaNova":  55,
                                             "faturado":  5,
-                                            "naoFaturado":  4,
-                                            "projetado":  9,
+                                            "naoFaturado":  9,
+                                            "projetado":  14,
                                             "valorFaturado":  1152.84,
                                             "valorAFaturar":  1514.95,
-                                            "pct":  16
+                                            "pct":  25
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  23,
+                           "totalPositivado":  34,
                            "totalValorFaturado":  2424.6,
                            "totalValorAFaturar":  4771.5,
                            "totalValorGeral":  7196.1
@@ -1400,35 +1400,35 @@
                                              "metaAtual":  38,
                                              "metaNova":  49,
                                              "faturado":  2,
-                                             "naoFaturado":  2,
-                                             "projetado":  4,
+                                             "naoFaturado":  3,
+                                             "projetado":  5,
                                              "valorFaturado":  126.48,
                                              "valorAFaturar":  272.23,
-                                             "pct":  8
+                                             "pct":  10
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  60,
                                            "metaNova":  78,
                                            "faturado":  7,
-                                           "naoFaturado":  1,
-                                           "projetado":  8,
+                                           "naoFaturado":  16,
+                                           "projetado":  23,
                                            "valorFaturado":  2706.18,
                                            "valorAFaturar":  3450.72,
-                                           "pct":  10
+                                           "pct":  29
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  30,
                                             "metaNova":  39,
                                             "faturado":  12,
-                                            "naoFaturado":  4,
-                                            "projetado":  16,
+                                            "naoFaturado":  14,
+                                            "projetado":  26,
                                             "valorFaturado":  2649.94,
                                             "valorAFaturar":  4032.83,
-                                            "pct":  41
+                                            "pct":  67
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  28,
+                           "totalPositivado":  54,
                            "totalValorFaturado":  5482.6,
                            "totalValorAFaturar":  7755.78,
                            "totalValorGeral":  13238.38
@@ -1449,39 +1449,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  29,
                                              "metaNova":  38,
-                                             "faturado":  13,
+                                             "faturado":  1,
                                              "naoFaturado":  1,
-                                             "projetado":  14,
-                                             "valorFaturado":  991.77,
+                                             "projetado":  2,
+                                             "valorFaturado":  99.67,
                                              "valorAFaturar":  59.4,
-                                             "pct":  37
+                                             "pct":  5
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  48,
                                            "metaNova":  62,
-                                           "faturado":  30,
-                                           "naoFaturado":  5,
-                                           "projetado":  35,
-                                           "valorFaturado":  8523.25,
+                                           "faturado":  5,
+                                           "naoFaturado":  9,
+                                           "projetado":  14,
+                                           "valorFaturado":  3275.75,
                                            "valorAFaturar":  7030.04,
-                                           "pct":  56
+                                           "pct":  23
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  45,
                                             "metaNova":  59,
-                                            "faturado":  24,
-                                            "naoFaturado":  1,
-                                            "projetado":  25,
-                                            "valorFaturado":  4975.81,
+                                            "faturado":  1,
+                                            "naoFaturado":  7,
+                                            "projetado":  8,
+                                            "valorFaturado":  138.08,
                                             "valorAFaturar":  2398.2,
-                                            "pct":  42
+                                            "pct":  14
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  74,
-                           "totalValorFaturado":  14490.83,
+                           "totalPositivado":  24,
+                           "totalValorFaturado":  3513.5,
                            "totalValorAFaturar":  9487.64,
-                           "totalValorGeral":  23978.47
+                           "totalValorGeral":  13001.14
                        },
         "representatividade":  {
                                    "PANASONIC":  1.933,
@@ -1510,25 +1510,25 @@
                                            "metaAtual":  59,
                                            "metaNova":  77,
                                            "faturado":  4,
-                                           "naoFaturado":  2,
-                                           "projetado":  6,
+                                           "naoFaturado":  13,
+                                           "projetado":  17,
                                            "valorFaturado":  530.75,
                                            "valorAFaturar":  5300.66,
-                                           "pct":  8
+                                           "pct":  22
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  71,
                                             "metaNova":  92,
                                             "faturado":  2,
-                                            "naoFaturado":  1,
-                                            "projetado":  3,
+                                            "naoFaturado":  13,
+                                            "projetado":  15,
                                             "valorFaturado":  478.31,
                                             "valorAFaturar":  4181.16,
-                                            "pct":  3
+                                            "pct":  16
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  12,
+                           "totalPositivado":  35,
                            "totalValorFaturado":  1162.18,
                            "totalValorAFaturar":  9583.49,
                            "totalValorGeral":  10745.67
@@ -1549,39 +1549,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  187,
                                              "metaNova":  243,
-                                             "faturado":  25,
-                                             "naoFaturado":  6,
-                                             "projetado":  31,
-                                             "valorFaturado":  1883.87,
+                                             "faturado":  13,
+                                             "naoFaturado":  33,
+                                             "projetado":  46,
+                                             "valorFaturado":  991.77,
                                              "valorAFaturar":  4252.42,
-                                             "pct":  13
+                                             "pct":  19
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  297,
                                            "metaNova":  386,
-                                           "faturado":  55,
-                                           "naoFaturado":  18,
-                                           "projetado":  73,
-                                           "valorFaturado":  13770.75,
+                                           "faturado":  30,
+                                           "naoFaturado":  80,
+                                           "projetado":  110,
+                                           "valorFaturado":  8523.25,
                                            "valorAFaturar":  24188.32,
-                                           "pct":  19
+                                           "pct":  28
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  246,
                                             "metaNova":  320,
-                                            "faturado":  47,
-                                            "naoFaturado":  10,
-                                            "projetado":  57,
-                                            "valorFaturado":  9813.54,
+                                            "faturado":  24,
+                                            "naoFaturado":  65,
+                                            "projetado":  89,
+                                            "valorFaturado":  4975.81,
                                             "valorAFaturar":  15548.27,
-                                            "pct":  18
+                                            "pct":  28
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  161,
-                           "totalValorFaturado":  25468.16,
+                           "totalPositivado":  245,
+                           "totalValorFaturado":  14490.83,
                            "totalValorAFaturar":  43989.01,
-                           "totalValorGeral":  69457.17
+                           "totalValorGeral":  58479.84
                        }
     }
 ]
