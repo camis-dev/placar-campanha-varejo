@@ -1,1 +1,1587 @@
-[{"setor": 530, "nome": "Marcos Aurelio", "isSupervisor": false, "equipe": "Washignton", "metaCarteira": 107, "industrias": {"PANASONIC": {"metaAtual": 38, "metaNova": 49, "faturado": 9, "naoFaturado": 21, "projetado": 30, "valorFaturado": 21761.93, "valorAFaturar": 33189.74, "pct": 61}, "INGLEZA": {"metaAtual": 47, "metaNova": 61, "faturado": 12, "naoFaturado": 15, "projetado": 27, "valorFaturado": 39343.77, "valorAFaturar": 3652.82, "pct": 44}, "AB MAURI": {"metaAtual": 35, "metaNova": 46, "faturado": 6, "naoFaturado": 7, "projetado": 13, "valorFaturado": 27122.98, "valorAFaturar": 1993.33, "pct": 28}}, "totalGeral": {"totalPositivado": 70, "totalValorFaturado": 88228.68, "totalValorAFaturar": 38835.89, "totalValorGeral": 127064.57}, "representatividade": {"PANASONIC": 2.533, "INGLEZA": 2.238, "AB MAURI": 1.75}}, {"setor": 244, "nome": "Marcia Martins Goncalves", "isSupervisor": false, "equipe": "Washignton", "metaCarteira": 89, "industrias": {"PANASONIC": {"metaAtual": 42, "metaNova": 55, "faturado": 6, "naoFaturado": 18, "projetado": 24, "valorFaturado": 138511.31, "valorAFaturar": 2313.63, "pct": 44}, "INGLEZA": {"metaAtual": 52, "metaNova": 68, "faturado": 3, "naoFaturado": 20, "projetado": 23, "valorFaturado": 125.34, "valorAFaturar": 4644.19, "pct": 34}, "AB MAURI": {"metaAtual": 40, "metaNova": 52, "faturado": 2, "naoFaturado": 18, "projetado": 20, "valorFaturado": 40.76, "valorAFaturar": 2158.37, "pct": 38}}, "totalGeral": {"totalPositivado": 67, "totalValorFaturado": 138677.41, "totalValorAFaturar": 9116.19, "totalValorGeral": 147793.6}, "representatividade": {"PANASONIC": 2.8, "INGLEZA": 2.476, "AB MAURI": 2.0}}, {"setor": 245, "nome": "Jorge dos Santos", "isSupervisor": false, "equipe": "Washignton", "metaCarteira": 107, "industrias": {"PANASONIC": {"metaAtual": 59, "metaNova": 77, "faturado": 16, "naoFaturado": 22, "projetado": 36, "valorFaturado": 4557.56, "valorAFaturar": 3402.5, "pct": 47}, "INGLEZA": {"metaAtual": 80, "metaNova": 104, "faturado": 19, "naoFaturado": 34, "projetado": 49, "valorFaturado": 10357.24, "valorAFaturar": 9385.29, "pct": 47}, "AB MAURI": {"metaAtual": 67, "metaNova": 87, "faturado": 18, "naoFaturado": 27, "projetado": 43, "valorFaturado": 9374.08, "valorAFaturar": 6259.37, "pct": 49}}, "totalGeral": {"totalPositivado": 128, "totalValorFaturado": 24288.88, "totalValorAFaturar": 19047.16, "totalValorGeral": 43336.04}, "representatividade": {"PANASONIC": 3.933, "INGLEZA": 3.81, "AB MAURI": 3.35}}, {"setor": 247, "nome": "Vanessa Mendes da Luz", "isSupervisor": false, "equipe": "Washignton", "metaCarteira": 102, "industrias": {"PANASONIC": {"metaAtual": 37, "metaNova": 48, "faturado": 6, "naoFaturado": 9, "projetado": 15, "valorFaturado": 1842.92, "valorAFaturar": 527.31, "pct": 31}, "INGLEZA": {"metaAtual": 55, "metaNova": 72, "faturado": 7, "naoFaturado": 19, "projetado": 26, "valorFaturado": 6189.66, "valorAFaturar": 3800.28, "pct": 36}, "AB MAURI": {"metaAtual": 61, "metaNova": 79, "faturado": 5, "naoFaturado": 17, "projetado": 22, "valorFaturado": 4961.9, "valorAFaturar": 2192.3, "pct": 28}}, "totalGeral": {"totalPositivado": 63, "totalValorFaturado": 12994.48, "totalValorAFaturar": 6519.89, "totalValorGeral": 19514.37}, "representatividade": {"PANASONIC": 2.466, "INGLEZA": 2.619, "AB MAURI": 3.05}}, {"setor": 250, "nome": "Tania Regina", "isSupervisor": false, "equipe": "Washignton", "metaCarteira": 149, "industrias": {"PANASONIC": {"metaAtual": 22, "metaNova": 29, "faturado": 2, "naoFaturado": 12, "projetado": 14, "valorFaturado": 542.62, "valorAFaturar": 50769.0, "pct": 48}, "INGLEZA": {"metaAtual": 25, "metaNova": 33, "faturado": 5, "naoFaturado": 10, "projetado": 15, "valorFaturado": 3085.72, "valorAFaturar": 3890.77, "pct": 45}, "AB MAURI": {"metaAtual": 32, "metaNova": 42, "faturado": 6, "naoFaturado": 11, "projetado": 16, "valorFaturado": 2427.46, "valorAFaturar": 7099.13, "pct": 38}}, "totalGeral": {"totalPositivado": 45, "totalValorFaturado": 6055.8, "totalValorAFaturar": 61758.9, "totalValorGeral": 67814.7}, "representatividade": {"PANASONIC": 1.467, "INGLEZA": 1.191, "AB MAURI": 1.6}}, {"setor": 251, "nome": "Ana Carolina Maciel Brotto", "isSupervisor": false, "equipe": "Washignton", "metaCarteira": 93, "industrias": {"PANASONIC": {"metaAtual": 49, "metaNova": 64, "faturado": 5, "naoFaturado": 15, "projetado": 19, "valorFaturado": 972.5, "valorAFaturar": 2754.09, "pct": 30}, "INGLEZA": {"metaAtual": 72, "metaNova": 94, "faturado": 8, "naoFaturado": 24, "projetado": 30, "valorFaturado": 5302.26, "valorAFaturar": 1926.17, "pct": 32}, "AB MAURI": {"metaAtual": 66, "metaNova": 86, "faturado": 4, "naoFaturado": 16, "projetado": 18, "valorFaturado": 669.2, "valorAFaturar": 5158.54, "pct": 21}}, "totalGeral": {"totalPositivado": 67, "totalValorFaturado": 6943.96, "totalValorAFaturar": 9838.8, "totalValorGeral": 16782.76}, "representatividade": {"PANASONIC": 3.266, "INGLEZA": 3.429, "AB MAURI": 3.3}}, {"setor": 252, "nome": "Luciana Agata Pinto", "isSupervisor": false, "equipe": "Washignton", "metaCarteira": 83, "industrias": {"PANASONIC": {"metaAtual": 43, "metaNova": 56, "faturado": 6, "naoFaturado": 5, "projetado": 11, "valorFaturado": 12085.16, "valorAFaturar": 1368.52, "pct": 20}, "INGLEZA": {"metaAtual": 59, "metaNova": 77, "faturado": 15, "naoFaturado": 21, "projetado": 32, "valorFaturado": 17302.14, "valorAFaturar": 11260.94, "pct": 42}, "AB MAURI": {"metaAtual": 60, "metaNova": 78, "faturado": 10, "naoFaturado": 24, "projetado": 32, "valorFaturado": 7993.86, "valorAFaturar": 17157.06, "pct": 41}}, "totalGeral": {"totalPositivado": 75, "totalValorFaturado": 37381.16, "totalValorAFaturar": 29786.52, "totalValorGeral": 67167.68}, "representatividade": {"PANASONIC": 2.866, "INGLEZA": 2.81, "AB MAURI": 3.0}}, {"setor": 253, "nome": "Aparecido Agnaldo Araujo", "isSupervisor": false, "equipe": "Washignton", "metaCarteira": 93, "industrias": {"PANASONIC": {"metaAtual": 50, "metaNova": 65, "faturado": 6, "naoFaturado": 24, "projetado": 27, "valorFaturado": 577.86, "valorAFaturar": 5410.14, "pct": 42}, "INGLEZA": {"metaAtual": 67, "metaNova": 87, "faturado": 9, "naoFaturado": 21, "projetado": 29, "valorFaturado": 2150.36, "valorAFaturar": 3926.28, "pct": 33}, "AB MAURI": {"metaAtual": 55, "metaNova": 72, "faturado": 9, "naoFaturado": 15, "projetado": 23, "valorFaturado": 7920.34, "valorAFaturar": 8636.14, "pct": 32}}, "totalGeral": {"totalPositivado": 79, "totalValorFaturado": 10648.56, "totalValorAFaturar": 17972.56, "totalValorGeral": 28621.12}, "representatividade": {"PANASONIC": 3.333, "INGLEZA": 3.191, "AB MAURI": 2.75}}, {"setor": 255, "nome": "Willians de Alcantra Correa", "isSupervisor": false, "equipe": "Washignton", "metaCarteira": 95, "industrias": {"PANASONIC": {"metaAtual": 44, "metaNova": 57, "faturado": 6, "naoFaturado": 10, "projetado": 16, "valorFaturado": 1018.1, "valorAFaturar": 3826.29, "pct": 28}, "INGLEZA": {"metaAtual": 77, "metaNova": 100, "faturado": 12, "naoFaturado": 26, "projetado": 36, "valorFaturado": 4096.4, "valorAFaturar": 14315.73, "pct": 36}, "AB MAURI": {"metaAtual": 71, "metaNova": 92, "faturado": 13, "naoFaturado": 19, "projetado": 30, "valorFaturado": 5502.66, "valorAFaturar": 5446.85, "pct": 33}}, "totalGeral": {"totalPositivado": 82, "totalValorFaturado": 10617.16, "totalValorAFaturar": 23588.87, "totalValorGeral": 34206.03}, "representatividade": {"PANASONIC": 2.933, "INGLEZA": 3.667, "AB MAURI": 3.55}}, {"setor": 271, "nome": "Cleverson Rodrigues Ferreira", "isSupervisor": false, "equipe": "Washignton", "metaCarteira": 92, "industrias": {"PANASONIC": {"metaAtual": 30, "metaNova": 39, "faturado": 0, "naoFaturado": 9, "projetado": 9, "valorFaturado": 0.0, "valorAFaturar": 1070.87, "pct": 23}, "INGLEZA": {"metaAtual": 38, "metaNova": 49, "faturado": 2, "naoFaturado": 18, "projetado": 20, "valorFaturado": 323.64, "valorAFaturar": 5762.87, "pct": 41}, "AB MAURI": {"metaAtual": 23, "metaNova": 30, "faturado": 2, "naoFaturado": 6, "projetado": 8, "valorFaturado": 234.56, "valorAFaturar": 1966.41, "pct": 27}}, "totalGeral": {"totalPositivado": 37, "totalValorFaturado": 558.2, "totalValorAFaturar": 8800.15, "totalValorGeral": 9358.35}, "representatividade": {"PANASONIC": 2.0, "INGLEZA": 1.81, "AB MAURI": 1.15}}, {"setor": 267, "nome": "Kamilla Aparecida Xavier", "isSupervisor": false, "equipe": "Washignton", "metaCarteira": 122, "industrias": {"PANASONIC": {"metaAtual": 8, "metaNova": 10, "faturado": 0, "naoFaturado": 7, "projetado": 7, "valorFaturado": 0.0, "valorAFaturar": 4347.11, "pct": 70}, "INGLEZA": {"metaAtual": 30, "metaNova": 39, "faturado": 6, "naoFaturado": 21, "projetado": 27, "valorFaturado": 15507.3, "valorAFaturar": 9565.54, "pct": 69}, "AB MAURI": {"metaAtual": 54, "metaNova": 70, "faturado": 4, "naoFaturado": 5, "projetado": 9, "valorFaturado": 8088.0, "valorAFaturar": 617.49, "pct": 13}}, "totalGeral": {"totalPositivado": 43, "totalValorFaturado": 23595.3, "totalValorAFaturar": 14530.14, "totalValorGeral": 38125.44}, "representatividade": {"PANASONIC": 0.533, "INGLEZA": 1.429, "AB MAURI": 2.7}}, {"setor": 527, "nome": "Maria Madalena", "isSupervisor": false, "equipe": "Washignton", "metaCarteira": 105, "industrias": {"PANASONIC": {"metaAtual": 23, "metaNova": 30, "faturado": 5, "naoFaturado": 9, "projetado": 13, "valorFaturado": 2015.94, "valorAFaturar": 3910.58, "pct": 43}, "INGLEZA": {"metaAtual": 39, "metaNova": 51, "faturado": 8, "naoFaturado": 14, "projetado": 22, "valorFaturado": 3779.7, "valorAFaturar": 4679.38, "pct": 43}, "AB MAURI": {"metaAtual": 17, "metaNova": 22, "faturado": 4, "naoFaturado": 6, "projetado": 10, "valorFaturado": 1294.38, "valorAFaturar": 1236.22, "pct": 45}}, "totalGeral": {"totalPositivado": 45, "totalValorFaturado": 7090.02, "totalValorAFaturar": 9826.18, "totalValorGeral": 16916.2}, "representatividade": {"PANASONIC": 1.533, "INGLEZA": 1.857, "AB MAURI": 0.85}}, {"setor": 100, "nome": "WASHIGNTON", "isSupervisor": true, "equipe": "Washignton", "metaCarteira": 1237, "industrias": {"PANASONIC": {"metaAtual": 445, "metaNova": 579, "faturado": 67, "naoFaturado": 161, "projetado": 221, "valorFaturado": 183885.9, "valorAFaturar": 112889.78, "pct": 38}, "INGLEZA": {"metaAtual": 641, "metaNova": 833, "faturado": 106, "naoFaturado": 243, "projetado": 336, "valorFaturado": 107563.53, "valorAFaturar": 76810.26, "pct": 40}, "AB MAURI": {"metaAtual": 581, "metaNova": 755, "faturado": 83, "naoFaturado": 171, "projetado": 244, "valorFaturado": 75630.18, "valorAFaturar": 59921.21, "pct": 32}}, "totalGeral": {"totalPositivado": 801, "totalValorFaturado": 367079.61, "totalValorAFaturar": 249621.25, "totalValorGeral": 616700.86}}, {"setor": 239, "nome": "Eder da Silva Viana", "isSupervisor": false, "equipe": "Rodrigo", "metaCarteira": 104, "industrias": {"PANASONIC": {"metaAtual": 22, "metaNova": 29, "faturado": 3, "naoFaturado": 7, "projetado": 10, "valorFaturado": 408.84, "valorAFaturar": 1305.78, "pct": 34}, "INGLEZA": {"metaAtual": 30, "metaNova": 39, "faturado": 6, "naoFaturado": 10, "projetado": 14, "valorFaturado": 2514.26, "valorAFaturar": 2581.19, "pct": 36}, "AB MAURI": {"metaAtual": 23, "metaNova": 30, "faturado": 3, "naoFaturado": 8, "projetado": 10, "valorFaturado": 842.78, "valorAFaturar": 2558.78, "pct": 33}}, "totalGeral": {"totalPositivado": 34, "totalValorFaturado": 3765.88, "totalValorAFaturar": 6445.75, "totalValorGeral": 10211.63}, "representatividade": {"PANASONIC": 1.467, "INGLEZA": 1.429, "AB MAURI": 1.15}}, {"setor": 241, "nome": "Luiz Felipe Fernandes", "isSupervisor": false, "equipe": "Rodrigo", "metaCarteira": 47, "industrias": {"PANASONIC": {"metaAtual": 18, "metaNova": 23, "faturado": 5, "naoFaturado": 2, "projetado": 7, "valorFaturado": 964.44, "valorAFaturar": 9399.97, "pct": 30}, "INGLEZA": {"metaAtual": 24, "metaNova": 31, "faturado": 7, "naoFaturado": 5, "projetado": 11, "valorFaturado": 2514.32, "valorAFaturar": 2428.4, "pct": 35}, "AB MAURI": {"metaAtual": 22, "metaNova": 29, "faturado": 8, "naoFaturado": 5, "projetado": 12, "valorFaturado": 6708.3, "valorAFaturar": 2454.12, "pct": 41}}, "totalGeral": {"totalPositivado": 30, "totalValorFaturado": 10187.06, "totalValorAFaturar": 14282.49, "totalValorGeral": 24469.55}, "representatividade": {"PANASONIC": 1.2, "INGLEZA": 1.143, "AB MAURI": 1.1}}, {"setor": 243, "nome": "Beatriz Aparecida Cruz Vicente", "isSupervisor": false, "equipe": "Rodrigo", "metaCarteira": 82, "industrias": {"PANASONIC": {"metaAtual": 26, "metaNova": 34, "faturado": 6, "naoFaturado": 3, "projetado": 9, "valorFaturado": 1593.14, "valorAFaturar": 720.57, "pct": 26}, "INGLEZA": {"metaAtual": 47, "metaNova": 61, "faturado": 5, "naoFaturado": 0, "projetado": 5, "valorFaturado": 2186.76, "valorAFaturar": 0.0, "pct": 8}, "AB MAURI": {"metaAtual": 40, "metaNova": 52, "faturado": 6, "naoFaturado": 2, "projetado": 8, "valorFaturado": 1170.26, "valorAFaturar": 1861.68, "pct": 15}}, "totalGeral": {"totalPositivado": 22, "totalValorFaturado": 4950.16, "totalValorAFaturar": 2582.25, "totalValorGeral": 7532.41}, "representatividade": {"PANASONIC": 1.733, "INGLEZA": 2.238, "AB MAURI": 2.0}}, {"setor": 254, "nome": "Rodrigo Margulski", "isSupervisor": false, "equipe": "Rodrigo", "metaCarteira": 90, "industrias": {"PANASONIC": {"metaAtual": 65, "metaNova": 85, "faturado": 22, "naoFaturado": 19, "projetado": 36, "valorFaturado": 6520.86, "valorAFaturar": 4894.97, "pct": 42}, "INGLEZA": {"metaAtual": 74, "metaNova": 96, "faturado": 25, "naoFaturado": 25, "projetado": 45, "valorFaturado": 9234.88, "valorAFaturar": 5494.78, "pct": 47}, "AB MAURI": {"metaAtual": 58, "metaNova": 75, "faturado": 13, "naoFaturado": 13, "projetado": 23, "valorFaturado": 7038.52, "valorAFaturar": 5535.71, "pct": 31}}, "totalGeral": {"totalPositivado": 104, "totalValorFaturado": 22794.26, "totalValorAFaturar": 15925.46, "totalValorGeral": 38719.72}, "representatividade": {"PANASONIC": 4.333, "INGLEZA": 3.524, "AB MAURI": 2.9}}, {"setor": 257, "nome": "Cleyton Alberto Carvalho", "isSupervisor": false, "equipe": "Rodrigo", "metaCarteira": 104, "industrias": {"PANASONIC": {"metaAtual": 40, "metaNova": 52, "faturado": 8, "naoFaturado": 12, "projetado": 17, "valorFaturado": 2912.32, "valorAFaturar": 2578.56, "pct": 33}, "INGLEZA": {"metaAtual": 68, "metaNova": 88, "faturado": 18, "naoFaturado": 23, "projetado": 35, "valorFaturado": 10158.32, "valorAFaturar": 7020.29, "pct": 40}, "AB MAURI": {"metaAtual": 66, "metaNova": 86, "faturado": 14, "naoFaturado": 24, "projetado": 33, "valorFaturado": 8961.18, "valorAFaturar": 9622.31, "pct": 38}}, "totalGeral": {"totalPositivado": 85, "totalValorFaturado": 22031.82, "totalValorAFaturar": 19221.16, "totalValorGeral": 41252.98}, "representatividade": {"PANASONIC": 2.666, "INGLEZA": 3.238, "AB MAURI": 3.3}}, {"setor": 258, "nome": "Lidiane Cristina Henning", "isSupervisor": false, "equipe": "Rodrigo", "metaCarteira": 86, "industrias": {"PANASONIC": {"metaAtual": 46, "metaNova": 60, "faturado": 10, "naoFaturado": 17, "projetado": 24, "valorFaturado": 2011.14, "valorAFaturar": 3520.83, "pct": 40}, "INGLEZA": {"metaAtual": 56, "metaNova": 73, "faturado": 8, "naoFaturado": 18, "projetado": 23, "valorFaturado": 2646.54, "valorAFaturar": 7718.39, "pct": 32}, "AB MAURI": {"metaAtual": 51, "metaNova": 66, "faturado": 10, "naoFaturado": 13, "projetado": 21, "valorFaturado": 15077.54, "valorAFaturar": 3383.13, "pct": 32}}, "totalGeral": {"totalPositivado": 68, "totalValorFaturado": 19735.22, "totalValorAFaturar": 14622.35, "totalValorGeral": 34357.57}, "representatividade": {"PANASONIC": 3.066, "INGLEZA": 2.667, "AB MAURI": 2.55}}, {"setor": 269, "nome": "Valdir", "isSupervisor": false, "equipe": "Rodrigo", "metaCarteira": 122, "industrias": {"PANASONIC": {"metaAtual": 31, "metaNova": 40, "faturado": 7, "naoFaturado": 29, "projetado": 36, "valorFaturado": 1997.56, "valorAFaturar": 3683.42, "pct": 90}, "INGLEZA": {"metaAtual": 42, "metaNova": 55, "faturado": 13, "naoFaturado": 40, "projetado": 53, "valorFaturado": 7708.84, "valorAFaturar": 11767.26, "pct": 96}, "AB MAURI": {"metaAtual": 37, "metaNova": 48, "faturado": 13, "naoFaturado": 26, "projetado": 37, "valorFaturado": 9710.1, "valorAFaturar": 10097.43, "pct": 77}}, "totalGeral": {"totalPositivado": 126, "totalValorFaturado": 19416.5, "totalValorAFaturar": 25548.11, "totalValorGeral": 44964.61}, "representatividade": {"PANASONIC": 2.067, "INGLEZA": 2.0, "AB MAURI": 1.85}}, {"setor": 279, "nome": "Julio Cesar Passos Ferreira", "isSupervisor": false, "equipe": "Rodrigo", "metaCarteira": 89, "industrias": {"PANASONIC": {"metaAtual": 56, "metaNova": 73, "faturado": 5, "naoFaturado": 15, "projetado": 18, "valorFaturado": 4208.72, "valorAFaturar": 2495.89, "pct": 25}, "INGLEZA": {"metaAtual": 75, "metaNova": 98, "faturado": 6, "naoFaturado": 32, "projetado": 37, "valorFaturado": 2155.8, "valorAFaturar": 13090.94, "pct": 38}, "AB MAURI": {"metaAtual": 88, "metaNova": 114, "faturado": 6, "naoFaturado": 35, "projetado": 41, "valorFaturado": 6122.8, "valorAFaturar": 19573.47, "pct": 36}}, "totalGeral": {"totalPositivado": 96, "totalValorFaturado": 12487.32, "totalValorAFaturar": 35160.3, "totalValorGeral": 47647.62}, "representatividade": {"PANASONIC": 3.733, "INGLEZA": 3.572, "AB MAURI": 4.4}}, {"setor": 281, "nome": "Daniel Alexandre Nunes", "isSupervisor": false, "equipe": "Rodrigo", "metaCarteira": 135, "industrias": {"PANASONIC": {"metaAtual": 23, "metaNova": 30, "faturado": 3, "naoFaturado": 6, "projetado": 8, "valorFaturado": 1245.58, "valorAFaturar": 20971.07, "pct": 27}, "INGLEZA": {"metaAtual": 32, "metaNova": 42, "faturado": 2, "naoFaturado": 6, "projetado": 7, "valorFaturado": 807.6, "valorAFaturar": 4654.52, "pct": 17}, "AB MAURI": {"metaAtual": 27, "metaNova": 35, "faturado": 0, "naoFaturado": 5, "projetado": 5, "valorFaturado": 0.0, "valorAFaturar": 1478.45, "pct": 14}}, "totalGeral": {"totalPositivado": 20, "totalValorFaturado": 2053.18, "totalValorAFaturar": 27104.04, "totalValorGeral": 29157.22}, "representatividade": {"PANASONIC": 1.533, "INGLEZA": 1.524, "AB MAURI": 1.35}}, {"setor": 282, "nome": "Rafael Machado de Souza", "isSupervisor": false, "equipe": "Rodrigo", "metaCarteira": 115, "industrias": {"PANASONIC": {"metaAtual": 24, "metaNova": 31, "faturado": 7, "naoFaturado": 5, "projetado": 11, "valorFaturado": 1030.04, "valorAFaturar": 1200.4, "pct": 35}, "INGLEZA": {"metaAtual": 70, "metaNova": 91, "faturado": 10, "naoFaturado": 15, "projetado": 25, "valorFaturado": 4830.5, "valorAFaturar": 4169.64, "pct": 27}, "AB MAURI": {"metaAtual": 54, "metaNova": 70, "faturado": 6, "naoFaturado": 10, "projetado": 16, "valorFaturado": 3394.74, "valorAFaturar": 14960.73, "pct": 23}}, "totalGeral": {"totalPositivado": 52, "totalValorFaturado": 9255.28, "totalValorAFaturar": 20330.77, "totalValorGeral": 29586.05}, "representatividade": {"PANASONIC": 1.6, "INGLEZA": 3.334, "AB MAURI": 2.7}}, {"setor": 283, "nome": "Glacilda Faria", "isSupervisor": false, "equipe": "Rodrigo", "metaCarteira": 160, "industrias": {"PANASONIC": {"metaAtual": 20, "metaNova": 26, "faturado": 3, "naoFaturado": 1, "projetado": 4, "valorFaturado": 1367.98, "valorAFaturar": 3016.5, "pct": 15}, "INGLEZA": {"metaAtual": 22, "metaNova": 29, "faturado": 7, "naoFaturado": 10, "projetado": 17, "valorFaturado": 17286.96, "valorAFaturar": 4808.32, "pct": 59}, "AB MAURI": {"metaAtual": 11, "metaNova": 14, "faturado": 5, "naoFaturado": 9, "projetado": 14, "valorFaturado": 32600.44, "valorAFaturar": 14008.05, "pct": 100}}, "totalGeral": {"totalPositivado": 35, "totalValorFaturado": 51255.38, "totalValorAFaturar": 21832.87, "totalValorGeral": 73088.25}, "representatividade": {"PANASONIC": 1.333, "INGLEZA": 1.048, "AB MAURI": 0.55}}, {"setor": 528, "nome": "Maria Cristina", "isSupervisor": false, "equipe": "Rodrigo", "metaCarteira": 100, "industrias": {"PANASONIC": {"metaAtual": 51, "metaNova": 66, "faturado": 6, "naoFaturado": 7, "projetado": 12, "valorFaturado": 13940.45, "valorAFaturar": 5876.69, "pct": 18}, "INGLEZA": {"metaAtual": 58, "metaNova": 75, "faturado": 9, "naoFaturado": 20, "projetado": 27, "valorFaturado": 38555.77, "valorAFaturar": 30948.14, "pct": 36}, "AB MAURI": {"metaAtual": 62, "metaNova": 81, "faturado": 7, "naoFaturado": 11, "projetado": 17, "valorFaturado": 47462.19, "valorAFaturar": 11956.95, "pct": 21}}, "totalGeral": {"totalPositivado": 56, "totalValorFaturado": 99958.41, "totalValorAFaturar": 48781.78, "totalValorGeral": 148740.19}, "representatividade": {"PANASONIC": 3.4, "INGLEZA": 2.762, "AB MAURI": 3.1}}, {"setor": 27, "nome": "RODRIGO", "isSupervisor": true, "equipe": "Rodrigo", "metaCarteira": 1234, "industrias": {"PANASONIC": {"metaAtual": 422, "metaNova": 549, "faturado": 85, "naoFaturado": 123, "projetado": 192, "valorFaturado": 38201.07, "valorAFaturar": 59664.65, "pct": 35}, "INGLEZA": {"metaAtual": 598, "metaNova": 777, "faturado": 116, "naoFaturado": 204, "projetado": 299, "valorFaturado": 100600.55, "valorAFaturar": 94681.87, "pct": 38}, "AB MAURI": {"metaAtual": 539, "metaNova": 701, "faturado": 91, "naoFaturado": 161, "projetado": 237, "valorFaturado": 139088.85, "valorAFaturar": 97490.81, "pct": 34}}, "totalGeral": {"totalPositivado": 728, "totalValorFaturado": 277890.47, "totalValorAFaturar": 251837.33, "totalValorGeral": 529727.8}}, {"setor": 249, "nome": "Edinei Diego Specht", "isSupervisor": false, "equipe": "Sueli", "metaCarteira": 140, "industrias": {"PANASONIC": {"metaAtual": 66, "metaNova": 86, "faturado": 8, "naoFaturado": 26, "projetado": 34, "valorFaturado": 1112.8, "valorAFaturar": 3418.78, "pct": 40}, "INGLEZA": {"metaAtual": 84, "metaNova": 109, "faturado": 9, "naoFaturado": 31, "projetado": 40, "valorFaturado": 1589.82, "valorAFaturar": 5550.69, "pct": 37}, "AB MAURI": {"metaAtual": 58, "metaNova": 75, "faturado": 5, "naoFaturado": 22, "projetado": 27, "valorFaturado": 1113.28, "valorAFaturar": 3421.13, "pct": 36}}, "totalGeral": {"totalPositivado": 101, "totalValorFaturado": 3815.9, "totalValorAFaturar": 12390.6, "totalValorGeral": 16206.5}, "representatividade": {"PANASONIC": 4.4, "INGLEZA": 4.0, "AB MAURI": 2.9}}, {"setor": 261, "nome": "Pedro Henrique Deschk Gomes", "isSupervisor": false, "equipe": "Sueli", "metaCarteira": 86, "industrias": {"PANASONIC": {"metaAtual": 23, "metaNova": 30, "faturado": 2, "naoFaturado": 2, "projetado": 4, "valorFaturado": 112.2, "valorAFaturar": 400.34, "pct": 13}, "INGLEZA": {"metaAtual": 46, "metaNova": 60, "faturado": 7, "naoFaturado": 11, "projetado": 18, "valorFaturado": 2431.32, "valorAFaturar": 2856.21, "pct": 30}, "AB MAURI": {"metaAtual": 42, "metaNova": 55, "faturado": 6, "naoFaturado": 9, "projetado": 15, "valorFaturado": 2305.68, "valorAFaturar": 1514.95, "pct": 27}}, "totalGeral": {"totalPositivado": 37, "totalValorFaturado": 4849.2, "totalValorAFaturar": 4771.5, "totalValorGeral": 9620.7}, "representatividade": {"PANASONIC": 1.533, "INGLEZA": 2.191, "AB MAURI": 2.1}}, {"setor": 277, "nome": "Diego Bech", "isSupervisor": false, "equipe": "Sueli", "metaCarteira": 102, "industrias": {"PANASONIC": {"metaAtual": 38, "metaNova": 49, "faturado": 3, "naoFaturado": 3, "projetado": 6, "valorFaturado": 252.96, "valorAFaturar": 272.23, "pct": 12}, "INGLEZA": {"metaAtual": 60, "metaNova": 78, "faturado": 8, "naoFaturado": 16, "projetado": 24, "valorFaturado": 5412.36, "valorAFaturar": 3450.72, "pct": 31}, "AB MAURI": {"metaAtual": 30, "metaNova": 39, "faturado": 13, "naoFaturado": 14, "projetado": 27, "valorFaturado": 5299.88, "valorAFaturar": 4032.83, "pct": 69}}, "totalGeral": {"totalPositivado": 57, "totalValorFaturado": 10965.2, "totalValorAFaturar": 7755.78, "totalValorGeral": 18720.98}, "representatividade": {"PANASONIC": 2.533, "INGLEZA": 2.857, "AB MAURI": 1.5}}, {"setor": 529, "nome": "Paola de Paula", "isSupervisor": false, "equipe": "Sueli", "metaCarteira": 90, "industrias": {"PANASONIC": {"metaAtual": 29, "metaNova": 38, "faturado": 3, "naoFaturado": 1, "projetado": 4, "valorFaturado": 1191.11, "valorAFaturar": 59.4, "pct": 11}, "INGLEZA": {"metaAtual": 48, "metaNova": 62, "faturado": 7, "naoFaturado": 9, "projetado": 14, "valorFaturado": 15074.75, "valorAFaturar": 7030.04, "pct": 23}, "AB MAURI": {"metaAtual": 45, "metaNova": 59, "faturado": 3, "naoFaturado": 7, "projetado": 10, "valorFaturado": 5251.97, "valorAFaturar": 2398.2, "pct": 17}}, "totalGeral": {"totalPositivado": 28, "totalValorFaturado": 21517.83, "totalValorAFaturar": 9487.64, "totalValorGeral": 31005.47}, "representatividade": {"PANASONIC": 1.933, "INGLEZA": 2.286, "AB MAURI": 2.25}}, {"setor": 276, "nome": "Adao Expedito Vieira da Rocha", "isSupervisor": false, "equipe": "Sueli", "metaCarteira": 102, "industrias": {"PANASONIC": {"metaAtual": 31, "metaNova": 40, "faturado": 3, "naoFaturado": 1, "projetado": 4, "valorFaturado": 306.24, "valorAFaturar": 101.67, "pct": 10}, "INGLEZA": {"metaAtual": 59, "metaNova": 77, "faturado": 5, "naoFaturado": 13, "projetado": 18, "valorFaturado": 1061.5, "valorAFaturar": 5300.66, "pct": 23}, "AB MAURI": {"metaAtual": 71, "metaNova": 92, "faturado": 3, "naoFaturado": 13, "projetado": 16, "valorFaturado": 956.62, "valorAFaturar": 4181.16, "pct": 17}}, "totalGeral": {"totalPositivado": 38, "totalValorFaturado": 2324.36, "totalValorAFaturar": 9583.49, "totalValorGeral": 11907.85}, "representatividade": {"PANASONIC": 2.067, "INGLEZA": 2.81, "AB MAURI": 3.55}}, {"setor": 28, "nome": "SUELI", "isSupervisor": true, "equipe": "Sueli", "metaCarteira": 520, "industrias": {"PANASONIC": {"metaAtual": 187, "metaNova": 243, "faturado": 19, "naoFaturado": 33, "projetado": 52, "valorFaturado": 2975.31, "valorAFaturar": 4252.42, "pct": 21}, "INGLEZA": {"metaAtual": 297, "metaNova": 386, "faturado": 36, "naoFaturado": 80, "projetado": 114, "valorFaturado": 25569.75, "valorAFaturar": 24188.32, "pct": 30}, "AB MAURI": {"metaAtual": 246, "metaNova": 320, "faturado": 30, "naoFaturado": 65, "projetado": 95, "valorFaturado": 14927.43, "valorAFaturar": 15548.27, "pct": 30}}, "totalGeral": {"totalPositivado": 261, "totalValorFaturado": 43472.49, "totalValorAFaturar": 43989.01, "totalValorGeral": 87461.5}}]
+﻿[
+    {
+        "setor":  530,
+        "nome":  "Marcos Aurelio",
+        "isSupervisor":  false,
+        "equipe":  "Washignton",
+        "metaCarteira":  107,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  38,
+                                             "metaNova":  49,
+                                             "faturado":  53,
+                                             "naoFaturado":  0,
+                                             "projetado":  53,
+                                             "valorFaturado":  15311.31,
+                                             "valorAFaturar":  33189.74,
+                                             "pct":  108
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  47,
+                                           "metaNova":  61,
+                                           "faturado":  93,
+                                           "naoFaturado":  4,
+                                           "projetado":  97,
+                                           "valorFaturado":  35854.51,
+                                           "valorAFaturar":  3652.82,
+                                           "pct":  159
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  35,
+                                            "metaNova":  46,
+                                            "faturado":  70,
+                                            "naoFaturado":  3,
+                                            "projetado":  73,
+                                            "valorFaturado":  25210.06,
+                                            "valorAFaturar":  1993.33,
+                                            "pct":  159
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  223,
+                           "totalValorFaturado":  76375.88,
+                           "totalValorAFaturar":  38835.89,
+                           "totalValorGeral":  115211.77
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  2.533,
+                                   "INGLEZA":  2.238,
+                                   "AB MAURI":  1.75
+                               }
+    },
+    {
+        "setor":  244,
+        "nome":  "Marcia Martins Goncalves",
+        "isSupervisor":  false,
+        "equipe":  "Washignton",
+        "metaCarteira":  89,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  42,
+                                             "metaNova":  55,
+                                             "faturado":  219,
+                                             "naoFaturado":  2,
+                                             "projetado":  221,
+                                             "valorFaturado":  134003.97,
+                                             "valorAFaturar":  2313.63,
+                                             "pct":  402
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  52,
+                                           "metaNova":  68,
+                                           "faturado":  2,
+                                           "naoFaturado":  0,
+                                           "projetado":  2,
+                                           "valorFaturado":  62.67,
+                                           "valorAFaturar":  4644.19,
+                                           "pct":  3
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  40,
+                                            "metaNova":  52,
+                                            "faturado":  1,
+                                            "naoFaturado":  0,
+                                            "projetado":  1,
+                                            "valorFaturado":  20.38,
+                                            "valorAFaturar":  2158.37,
+                                            "pct":  2
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  224,
+                           "totalValorFaturado":  134087.02,
+                           "totalValorAFaturar":  9116.19,
+                           "totalValorGeral":  143203.21
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  2.8,
+                                   "INGLEZA":  2.476,
+                                   "AB MAURI":  2.0
+                               }
+    },
+    {
+        "setor":  245,
+        "nome":  "Jorge dos Santos",
+        "isSupervisor":  false,
+        "equipe":  "Washignton",
+        "metaCarteira":  107,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  59,
+                                             "metaNova":  77,
+                                             "faturado":  15,
+                                             "naoFaturado":  1,
+                                             "projetado":  16,
+                                             "valorFaturado":  2278.78,
+                                             "valorAFaturar":  3402.5,
+                                             "pct":  21
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  80,
+                                           "metaNova":  104,
+                                           "faturado":  18,
+                                           "naoFaturado":  5,
+                                           "projetado":  23,
+                                           "valorFaturado":  5178.62,
+                                           "valorAFaturar":  9385.29,
+                                           "pct":  22
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  67,
+                                            "metaNova":  87,
+                                            "faturado":  17,
+                                            "naoFaturado":  4,
+                                            "projetado":  21,
+                                            "valorFaturado":  4687.04,
+                                            "valorAFaturar":  6259.37,
+                                            "pct":  24
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  60,
+                           "totalValorFaturado":  12144.44,
+                           "totalValorAFaturar":  19047.16,
+                           "totalValorGeral":  31191.6
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  3.933,
+                                   "INGLEZA":  3.81,
+                                   "AB MAURI":  3.35
+                               }
+    },
+    {
+        "setor":  247,
+        "nome":  "Vanessa Mendes da Luz",
+        "isSupervisor":  false,
+        "equipe":  "Washignton",
+        "metaCarteira":  102,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  37,
+                                             "metaNova":  48,
+                                             "faturado":  5,
+                                             "naoFaturado":  5,
+                                             "projetado":  10,
+                                             "valorFaturado":  921.46,
+                                             "valorAFaturar":  527.31,
+                                             "pct":  21
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  55,
+                                           "metaNova":  72,
+                                           "faturado":  6,
+                                           "naoFaturado":  1,
+                                           "projetado":  7,
+                                           "valorFaturado":  3094.83,
+                                           "valorAFaturar":  3800.28,
+                                           "pct":  10
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  61,
+                                            "metaNova":  79,
+                                            "faturado":  4,
+                                            "naoFaturado":  4,
+                                            "projetado":  8,
+                                            "valorFaturado":  2480.95,
+                                            "valorAFaturar":  2192.3,
+                                            "pct":  10
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  25,
+                           "totalValorFaturado":  6497.24,
+                           "totalValorAFaturar":  6519.89,
+                           "totalValorGeral":  13017.13
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  2.466,
+                                   "INGLEZA":  2.619,
+                                   "AB MAURI":  3.05
+                               }
+    },
+    {
+        "setor":  250,
+        "nome":  "Tania Regina",
+        "isSupervisor":  false,
+        "equipe":  "Washignton",
+        "metaCarteira":  149,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  22,
+                                             "metaNova":  29,
+                                             "faturado":  1,
+                                             "naoFaturado":  0,
+                                             "projetado":  1,
+                                             "valorFaturado":  271.31,
+                                             "valorAFaturar":  50769,
+                                             "pct":  3
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  25,
+                                           "metaNova":  33,
+                                           "faturado":  4,
+                                           "naoFaturado":  0,
+                                           "projetado":  4,
+                                           "valorFaturado":  1542.86,
+                                           "valorAFaturar":  3890.77,
+                                           "pct":  12
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  32,
+                                            "metaNova":  42,
+                                            "faturado":  5,
+                                            "naoFaturado":  4,
+                                            "projetado":  9,
+                                            "valorFaturado":  1213.73,
+                                            "valorAFaturar":  7099.13,
+                                            "pct":  21
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  14,
+                           "totalValorFaturado":  3027.9,
+                           "totalValorAFaturar":  61758.9,
+                           "totalValorGeral":  64786.8
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  1.467,
+                                   "INGLEZA":  1.191,
+                                   "AB MAURI":  1.6
+                               }
+    },
+    {
+        "setor":  251,
+        "nome":  "Ana Carolina Maciel Brotto",
+        "isSupervisor":  false,
+        "equipe":  "Washignton",
+        "metaCarteira":  93,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  49,
+                                             "metaNova":  64,
+                                             "faturado":  4,
+                                             "naoFaturado":  4,
+                                             "projetado":  8,
+                                             "valorFaturado":  486.25,
+                                             "valorAFaturar":  2754.09,
+                                             "pct":  12
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  72,
+                                           "metaNova":  94,
+                                           "faturado":  7,
+                                           "naoFaturado":  1,
+                                           "projetado":  8,
+                                           "valorFaturado":  2651.13,
+                                           "valorAFaturar":  1926.17,
+                                           "pct":  9
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  66,
+                                            "metaNova":  86,
+                                            "faturado":  3,
+                                            "naoFaturado":  3,
+                                            "projetado":  6,
+                                            "valorFaturado":  334.6,
+                                            "valorAFaturar":  5158.54,
+                                            "pct":  7
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  22,
+                           "totalValorFaturado":  3471.98,
+                           "totalValorAFaturar":  9838.8,
+                           "totalValorGeral":  13310.78
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  3.266,
+                                   "INGLEZA":  3.429,
+                                   "AB MAURI":  3.3
+                               }
+    },
+    {
+        "setor":  252,
+        "nome":  "Luciana Agata Pinto",
+        "isSupervisor":  false,
+        "equipe":  "Washignton",
+        "metaCarteira":  83,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  43,
+                                             "metaNova":  56,
+                                             "faturado":  5,
+                                             "naoFaturado":  4,
+                                             "projetado":  9,
+                                             "valorFaturado":  6042.58,
+                                             "valorAFaturar":  1368.52,
+                                             "pct":  16
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  59,
+                                           "metaNova":  77,
+                                           "faturado":  14,
+                                           "naoFaturado":  0,
+                                           "projetado":  14,
+                                           "valorFaturado":  8651.07,
+                                           "valorAFaturar":  11260.94,
+                                           "pct":  18
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  60,
+                                            "metaNova":  78,
+                                            "faturado":  9,
+                                            "naoFaturado":  5,
+                                            "projetado":  14,
+                                            "valorFaturado":  3996.93,
+                                            "valorAFaturar":  17157.06,
+                                            "pct":  18
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  37,
+                           "totalValorFaturado":  18690.58,
+                           "totalValorAFaturar":  29786.52,
+                           "totalValorGeral":  48477.1
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  2.866,
+                                   "INGLEZA":  2.81,
+                                   "AB MAURI":  3.0
+                               }
+    },
+    {
+        "setor":  253,
+        "nome":  "Aparecido Agnaldo Araujo",
+        "isSupervisor":  false,
+        "equipe":  "Washignton",
+        "metaCarteira":  93,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  50,
+                                             "metaNova":  65,
+                                             "faturado":  5,
+                                             "naoFaturado":  5,
+                                             "projetado":  10,
+                                             "valorFaturado":  288.93,
+                                             "valorAFaturar":  5410.14,
+                                             "pct":  15
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  67,
+                                           "metaNova":  87,
+                                           "faturado":  8,
+                                           "naoFaturado":  5,
+                                           "projetado":  13,
+                                           "valorFaturado":  1075.18,
+                                           "valorAFaturar":  3926.28,
+                                           "pct":  15
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  55,
+                                            "metaNova":  72,
+                                            "faturado":  8,
+                                            "naoFaturado":  3,
+                                            "projetado":  11,
+                                            "valorFaturado":  3960.17,
+                                            "valorAFaturar":  8636.14,
+                                            "pct":  15
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  34,
+                           "totalValorFaturado":  5324.28,
+                           "totalValorAFaturar":  17972.56,
+                           "totalValorGeral":  23296.84
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  3.333,
+                                   "INGLEZA":  3.191,
+                                   "AB MAURI":  2.75
+                               }
+    },
+    {
+        "setor":  255,
+        "nome":  "Willians de Alcantra Correa",
+        "isSupervisor":  false,
+        "equipe":  "Washignton",
+        "metaCarteira":  95,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  44,
+                                             "metaNova":  57,
+                                             "faturado":  5,
+                                             "naoFaturado":  4,
+                                             "projetado":  9,
+                                             "valorFaturado":  509.05,
+                                             "valorAFaturar":  3826.29,
+                                             "pct":  16
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  77,
+                                           "metaNova":  100,
+                                           "faturado":  11,
+                                           "naoFaturado":  3,
+                                           "projetado":  14,
+                                           "valorFaturado":  2048.2,
+                                           "valorAFaturar":  14315.73,
+                                           "pct":  14
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  71,
+                                            "metaNova":  92,
+                                            "faturado":  12,
+                                            "naoFaturado":  5,
+                                            "projetado":  17,
+                                            "valorFaturado":  2751.33,
+                                            "valorAFaturar":  5446.85,
+                                            "pct":  18
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  40,
+                           "totalValorFaturado":  5308.58,
+                           "totalValorAFaturar":  23588.87,
+                           "totalValorGeral":  28897.45
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  2.933,
+                                   "INGLEZA":  3.667,
+                                   "AB MAURI":  3.55
+                               }
+    },
+    {
+        "setor":  271,
+        "nome":  "Cleverson Rodrigues Ferreira",
+        "isSupervisor":  false,
+        "equipe":  "Washignton",
+        "metaCarteira":  92,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  30,
+                                             "metaNova":  39,
+                                             "faturado":  0,
+                                             "naoFaturado":  4,
+                                             "projetado":  4,
+                                             "valorFaturado":  0,
+                                             "valorAFaturar":  1070.87,
+                                             "pct":  10
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  38,
+                                           "metaNova":  49,
+                                           "faturado":  1,
+                                           "naoFaturado":  3,
+                                           "projetado":  4,
+                                           "valorFaturado":  161.82,
+                                           "valorAFaturar":  5762.87,
+                                           "pct":  8
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  23,
+                                            "metaNova":  30,
+                                            "faturado":  1,
+                                            "naoFaturado":  0,
+                                            "projetado":  1,
+                                            "valorFaturado":  117.28,
+                                            "valorAFaturar":  1966.41,
+                                            "pct":  3
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  9,
+                           "totalValorFaturado":  279.1,
+                           "totalValorAFaturar":  8800.15,
+                           "totalValorGeral":  9079.25
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  2.0,
+                                   "INGLEZA":  1.81,
+                                   "AB MAURI":  1.15
+                               }
+    },
+    {
+        "setor":  267,
+        "nome":  "Kamilla Aparecida Xavier",
+        "isSupervisor":  false,
+        "equipe":  "Washignton",
+        "metaCarteira":  122,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  8,
+                                             "metaNova":  10,
+                                             "faturado":  0,
+                                             "naoFaturado":  0,
+                                             "projetado":  0,
+                                             "valorFaturado":  0,
+                                             "valorAFaturar":  4347.11,
+                                             "pct":  0
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  30,
+                                           "metaNova":  39,
+                                           "faturado":  5,
+                                           "naoFaturado":  2,
+                                           "projetado":  7,
+                                           "valorFaturado":  7753.65,
+                                           "valorAFaturar":  9565.54,
+                                           "pct":  18
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  54,
+                                            "metaNova":  70,
+                                            "faturado":  3,
+                                            "naoFaturado":  5,
+                                            "projetado":  8,
+                                            "valorFaturado":  4044,
+                                            "valorAFaturar":  617.49,
+                                            "pct":  11
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  15,
+                           "totalValorFaturado":  11797.65,
+                           "totalValorAFaturar":  14530.14,
+                           "totalValorGeral":  26327.79
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  0.533,
+                                   "INGLEZA":  1.429,
+                                   "AB MAURI":  2.7
+                               }
+    },
+    {
+        "setor":  527,
+        "nome":  "Maria Madalena",
+        "isSupervisor":  false,
+        "equipe":  "Washignton",
+        "metaCarteira":  105,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  23,
+                                             "metaNova":  30,
+                                             "faturado":  4,
+                                             "naoFaturado":  2,
+                                             "projetado":  6,
+                                             "valorFaturado":  1007.97,
+                                             "valorAFaturar":  3910.58,
+                                             "pct":  20
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  39,
+                                           "metaNova":  51,
+                                           "faturado":  7,
+                                           "naoFaturado":  0,
+                                           "projetado":  7,
+                                           "valorFaturado":  1889.85,
+                                           "valorAFaturar":  4679.38,
+                                           "pct":  14
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  17,
+                                            "metaNova":  22,
+                                            "faturado":  3,
+                                            "naoFaturado":  1,
+                                            "projetado":  4,
+                                            "valorFaturado":  647.19,
+                                            "valorAFaturar":  1236.22,
+                                            "pct":  18
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  17,
+                           "totalValorFaturado":  3545.01,
+                           "totalValorAFaturar":  9826.18,
+                           "totalValorGeral":  13371.19
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  1.533,
+                                   "INGLEZA":  1.857,
+                                   "AB MAURI":  0.85
+                               }
+    },
+    {
+        "setor":  100,
+        "nome":  "WASHIGNTON",
+        "isSupervisor":  true,
+        "equipe":  "Washignton",
+        "metaCarteira":  1237,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  445,
+                                             "metaNova":  579,
+                                             "faturado":  316,
+                                             "naoFaturado":  31,
+                                             "projetado":  347,
+                                             "valorFaturado":  161121.61,
+                                             "valorAFaturar":  112889.78,
+                                             "pct":  60
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  641,
+                                           "metaNova":  833,
+                                           "faturado":  176,
+                                           "naoFaturado":  24,
+                                           "projetado":  200,
+                                           "valorFaturado":  69964.39,
+                                           "valorAFaturar":  76810.26,
+                                           "pct":  24
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  581,
+                                            "metaNova":  755,
+                                            "faturado":  136,
+                                            "naoFaturado":  37,
+                                            "projetado":  173,
+                                            "valorFaturado":  49463.66,
+                                            "valorAFaturar":  59921.21,
+                                            "pct":  23
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  720,
+                           "totalValorFaturado":  280549.66,
+                           "totalValorAFaturar":  249621.25,
+                           "totalValorGeral":  530170.91
+                       }
+    },
+    {
+        "setor":  239,
+        "nome":  "Eder da Silva Viana",
+        "isSupervisor":  false,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  104,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  22,
+                                             "metaNova":  29,
+                                             "faturado":  2,
+                                             "naoFaturado":  3,
+                                             "projetado":  5,
+                                             "valorFaturado":  204.42,
+                                             "valorAFaturar":  1305.78,
+                                             "pct":  17
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  30,
+                                           "metaNova":  39,
+                                           "faturado":  5,
+                                           "naoFaturado":  5,
+                                           "projetado":  10,
+                                           "valorFaturado":  1257.13,
+                                           "valorAFaturar":  2581.19,
+                                           "pct":  26
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  23,
+                                            "metaNova":  30,
+                                            "faturado":  2,
+                                            "naoFaturado":  2,
+                                            "projetado":  4,
+                                            "valorFaturado":  421.39,
+                                            "valorAFaturar":  2558.78,
+                                            "pct":  13
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  19,
+                           "totalValorFaturado":  1882.94,
+                           "totalValorAFaturar":  6445.75,
+                           "totalValorGeral":  8328.69
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  1.467,
+                                   "INGLEZA":  1.429,
+                                   "AB MAURI":  1.15
+                               }
+    },
+    {
+        "setor":  241,
+        "nome":  "Luiz Felipe Fernandes",
+        "isSupervisor":  false,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  47,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  18,
+                                             "metaNova":  23,
+                                             "faturado":  4,
+                                             "naoFaturado":  2,
+                                             "projetado":  6,
+                                             "valorFaturado":  482.22,
+                                             "valorAFaturar":  9399.97,
+                                             "pct":  26
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  24,
+                                           "metaNova":  31,
+                                           "faturado":  6,
+                                           "naoFaturado":  5,
+                                           "projetado":  11,
+                                           "valorFaturado":  1257.16,
+                                           "valorAFaturar":  2428.4,
+                                           "pct":  35
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  22,
+                                            "metaNova":  29,
+                                            "faturado":  7,
+                                            "naoFaturado":  2,
+                                            "projetado":  9,
+                                            "valorFaturado":  3354.15,
+                                            "valorAFaturar":  2454.12,
+                                            "pct":  31
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  26,
+                           "totalValorFaturado":  5093.53,
+                           "totalValorAFaturar":  14282.49,
+                           "totalValorGeral":  19376.02
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  1.2,
+                                   "INGLEZA":  1.143,
+                                   "AB MAURI":  1.1
+                               }
+    },
+    {
+        "setor":  243,
+        "nome":  "Beatriz Aparecida Cruz Vicente",
+        "isSupervisor":  false,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  82,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  26,
+                                             "metaNova":  34,
+                                             "faturado":  5,
+                                             "naoFaturado":  3,
+                                             "projetado":  8,
+                                             "valorFaturado":  796.57,
+                                             "valorAFaturar":  720.57,
+                                             "pct":  24
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  47,
+                                           "metaNova":  61,
+                                           "faturado":  4,
+                                           "naoFaturado":  0,
+                                           "projetado":  4,
+                                           "valorFaturado":  1093.38,
+                                           "valorAFaturar":  0,
+                                           "pct":  7
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  40,
+                                            "metaNova":  52,
+                                            "faturado":  5,
+                                            "naoFaturado":  2,
+                                            "projetado":  7,
+                                            "valorFaturado":  585.13,
+                                            "valorAFaturar":  1861.68,
+                                            "pct":  13
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  19,
+                           "totalValorFaturado":  2475.08,
+                           "totalValorAFaturar":  2582.25,
+                           "totalValorGeral":  5057.33
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  1.733,
+                                   "INGLEZA":  2.238,
+                                   "AB MAURI":  2.0
+                               }
+    },
+    {
+        "setor":  254,
+        "nome":  "Rodrigo Margulski",
+        "isSupervisor":  false,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  90,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  65,
+                                             "metaNova":  85,
+                                             "faturado":  21,
+                                             "naoFaturado":  5,
+                                             "projetado":  26,
+                                             "valorFaturado":  3260.43,
+                                             "valorAFaturar":  4894.97,
+                                             "pct":  31
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  74,
+                                           "metaNova":  96,
+                                           "faturado":  24,
+                                           "naoFaturado":  2,
+                                           "projetado":  26,
+                                           "valorFaturado":  4617.44,
+                                           "valorAFaturar":  5494.78,
+                                           "pct":  27
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  58,
+                                            "metaNova":  75,
+                                            "faturado":  12,
+                                            "naoFaturado":  0,
+                                            "projetado":  12,
+                                            "valorFaturado":  3519.26,
+                                            "valorAFaturar":  5535.71,
+                                            "pct":  16
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  64,
+                           "totalValorFaturado":  11397.13,
+                           "totalValorAFaturar":  15925.46,
+                           "totalValorGeral":  27322.59
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  4.333,
+                                   "INGLEZA":  3.524,
+                                   "AB MAURI":  2.9
+                               }
+    },
+    {
+        "setor":  257,
+        "nome":  "Cleyton Alberto Carvalho",
+        "isSupervisor":  false,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  104,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  40,
+                                             "metaNova":  52,
+                                             "faturado":  7,
+                                             "naoFaturado":  0,
+                                             "projetado":  7,
+                                             "valorFaturado":  1456.16,
+                                             "valorAFaturar":  2578.56,
+                                             "pct":  13
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  68,
+                                           "metaNova":  88,
+                                           "faturado":  17,
+                                           "naoFaturado":  2,
+                                           "projetado":  19,
+                                           "valorFaturado":  5079.16,
+                                           "valorAFaturar":  7020.29,
+                                           "pct":  22
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  66,
+                                            "metaNova":  86,
+                                            "faturado":  13,
+                                            "naoFaturado":  4,
+                                            "projetado":  17,
+                                            "valorFaturado":  4480.59,
+                                            "valorAFaturar":  9622.31,
+                                            "pct":  20
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  43,
+                           "totalValorFaturado":  11015.91,
+                           "totalValorAFaturar":  19221.16,
+                           "totalValorGeral":  30237.07
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  2.666,
+                                   "INGLEZA":  3.238,
+                                   "AB MAURI":  3.3
+                               }
+    },
+    {
+        "setor":  258,
+        "nome":  "Lidiane Cristina Henning",
+        "isSupervisor":  false,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  86,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  46,
+                                             "metaNova":  60,
+                                             "faturado":  9,
+                                             "naoFaturado":  0,
+                                             "projetado":  9,
+                                             "valorFaturado":  1005.57,
+                                             "valorAFaturar":  3520.83,
+                                             "pct":  15
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  56,
+                                           "metaNova":  73,
+                                           "faturado":  7,
+                                           "naoFaturado":  3,
+                                           "projetado":  10,
+                                           "valorFaturado":  1323.27,
+                                           "valorAFaturar":  7718.39,
+                                           "pct":  14
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  51,
+                                            "metaNova":  66,
+                                            "faturado":  9,
+                                            "naoFaturado":  0,
+                                            "projetado":  9,
+                                            "valorFaturado":  7538.77,
+                                            "valorAFaturar":  3383.13,
+                                            "pct":  14
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  28,
+                           "totalValorFaturado":  9867.61,
+                           "totalValorAFaturar":  14622.35,
+                           "totalValorGeral":  24489.96
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  3.066,
+                                   "INGLEZA":  2.667,
+                                   "AB MAURI":  2.55
+                               }
+    },
+    {
+        "setor":  269,
+        "nome":  "Valdir",
+        "isSupervisor":  false,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  122,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  31,
+                                             "metaNova":  40,
+                                             "faturado":  6,
+                                             "naoFaturado":  0,
+                                             "projetado":  6,
+                                             "valorFaturado":  998.78,
+                                             "valorAFaturar":  3683.42,
+                                             "pct":  15
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  42,
+                                           "metaNova":  55,
+                                           "faturado":  12,
+                                           "naoFaturado":  2,
+                                           "projetado":  14,
+                                           "valorFaturado":  3854.42,
+                                           "valorAFaturar":  11767.26,
+                                           "pct":  25
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  37,
+                                            "metaNova":  48,
+                                            "faturado":  12,
+                                            "naoFaturado":  3,
+                                            "projetado":  15,
+                                            "valorFaturado":  4855.05,
+                                            "valorAFaturar":  10097.43,
+                                            "pct":  31
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  35,
+                           "totalValorFaturado":  9708.25,
+                           "totalValorAFaturar":  25548.11,
+                           "totalValorGeral":  35256.36
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  2.067,
+                                   "INGLEZA":  2.0,
+                                   "AB MAURI":  1.85
+                               }
+    },
+    {
+        "setor":  279,
+        "nome":  "Julio Cesar Passos Ferreira",
+        "isSupervisor":  false,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  89,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  56,
+                                             "metaNova":  73,
+                                             "faturado":  4,
+                                             "naoFaturado":  4,
+                                             "projetado":  8,
+                                             "valorFaturado":  2104.36,
+                                             "valorAFaturar":  2495.89,
+                                             "pct":  11
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  75,
+                                           "metaNova":  98,
+                                           "faturado":  5,
+                                           "naoFaturado":  1,
+                                           "projetado":  6,
+                                           "valorFaturado":  1077.9,
+                                           "valorAFaturar":  13090.94,
+                                           "pct":  6
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  88,
+                                            "metaNova":  114,
+                                            "faturado":  5,
+                                            "naoFaturado":  3,
+                                            "projetado":  8,
+                                            "valorFaturado":  3061.4,
+                                            "valorAFaturar":  19573.47,
+                                            "pct":  7
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  22,
+                           "totalValorFaturado":  6243.66,
+                           "totalValorAFaturar":  35160.3,
+                           "totalValorGeral":  41403.96
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  3.733,
+                                   "INGLEZA":  3.572,
+                                   "AB MAURI":  4.4
+                               }
+    },
+    {
+        "setor":  281,
+        "nome":  "Daniel Alexandre Nunes",
+        "isSupervisor":  false,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  135,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  23,
+                                             "metaNova":  30,
+                                             "faturado":  2,
+                                             "naoFaturado":  5,
+                                             "projetado":  7,
+                                             "valorFaturado":  622.79,
+                                             "valorAFaturar":  20971.07,
+                                             "pct":  23
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  32,
+                                           "metaNova":  42,
+                                           "faturado":  1,
+                                           "naoFaturado":  2,
+                                           "projetado":  3,
+                                           "valorFaturado":  403.8,
+                                           "valorAFaturar":  4654.52,
+                                           "pct":  7
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  27,
+                                            "metaNova":  35,
+                                            "faturado":  0,
+                                            "naoFaturado":  3,
+                                            "projetado":  3,
+                                            "valorFaturado":  0,
+                                            "valorAFaturar":  1478.45,
+                                            "pct":  9
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  13,
+                           "totalValorFaturado":  1026.59,
+                           "totalValorAFaturar":  27104.04,
+                           "totalValorGeral":  28130.63
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  1.533,
+                                   "INGLEZA":  1.524,
+                                   "AB MAURI":  1.35
+                               }
+    },
+    {
+        "setor":  282,
+        "nome":  "Rafael Machado de Souza",
+        "isSupervisor":  false,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  115,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  24,
+                                             "metaNova":  31,
+                                             "faturado":  6,
+                                             "naoFaturado":  5,
+                                             "projetado":  11,
+                                             "valorFaturado":  515.02,
+                                             "valorAFaturar":  1200.4,
+                                             "pct":  35
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  70,
+                                           "metaNova":  91,
+                                           "faturado":  9,
+                                           "naoFaturado":  0,
+                                           "projetado":  9,
+                                           "valorFaturado":  2415.25,
+                                           "valorAFaturar":  4169.64,
+                                           "pct":  10
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  54,
+                                            "metaNova":  70,
+                                            "faturado":  5,
+                                            "naoFaturado":  3,
+                                            "projetado":  8,
+                                            "valorFaturado":  1697.37,
+                                            "valorAFaturar":  14960.73,
+                                            "pct":  11
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  28,
+                           "totalValorFaturado":  4627.64,
+                           "totalValorAFaturar":  20330.77,
+                           "totalValorGeral":  24958.41
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  1.6,
+                                   "INGLEZA":  3.334,
+                                   "AB MAURI":  2.7
+                               }
+    },
+    {
+        "setor":  283,
+        "nome":  "Glacilda Faria",
+        "isSupervisor":  false,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  160,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  20,
+                                             "metaNova":  26,
+                                             "faturado":  2,
+                                             "naoFaturado":  1,
+                                             "projetado":  3,
+                                             "valorFaturado":  683.99,
+                                             "valorAFaturar":  3016.5,
+                                             "pct":  12
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  22,
+                                           "metaNova":  29,
+                                           "faturado":  6,
+                                           "naoFaturado":  5,
+                                           "projetado":  11,
+                                           "valorFaturado":  8643.48,
+                                           "valorAFaturar":  4808.32,
+                                           "pct":  38
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  11,
+                                            "metaNova":  14,
+                                            "faturado":  4,
+                                            "naoFaturado":  1,
+                                            "projetado":  5,
+                                            "valorFaturado":  16300.22,
+                                            "valorAFaturar":  14008.05,
+                                            "pct":  36
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  19,
+                           "totalValorFaturado":  25627.69,
+                           "totalValorAFaturar":  21832.87,
+                           "totalValorGeral":  47460.56
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  1.333,
+                                   "INGLEZA":  1.048,
+                                   "AB MAURI":  0.55
+                               }
+    },
+    {
+        "setor":  528,
+        "nome":  "Maria Cristina",
+        "isSupervisor":  false,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  100,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  51,
+                                             "metaNova":  66,
+                                             "faturado":  68,
+                                             "naoFaturado":  3,
+                                             "projetado":  71,
+                                             "valorFaturado":  12412.21,
+                                             "valorAFaturar":  5876.69,
+                                             "pct":  108
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  58,
+                                           "metaNova":  75,
+                                           "faturado":  97,
+                                           "naoFaturado":  3,
+                                           "projetado":  100,
+                                           "valorFaturado":  32695.41,
+                                           "valorAFaturar":  30948.14,
+                                           "pct":  133
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  62,
+                                            "metaNova":  81,
+                                            "faturado":  72,
+                                            "naoFaturado":  1,
+                                            "projetado":  73,
+                                            "valorFaturado":  44126.85,
+                                            "valorAFaturar":  11956.95,
+                                            "pct":  90
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  244,
+                           "totalValorFaturado":  89234.47,
+                           "totalValorAFaturar":  48781.78,
+                           "totalValorGeral":  138016.25
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  3.4,
+                                   "INGLEZA":  2.762,
+                                   "AB MAURI":  3.1
+                               }
+    },
+    {
+        "setor":  27,
+        "nome":  "RODRIGO",
+        "isSupervisor":  true,
+        "equipe":  "Rodrigo",
+        "metaCarteira":  1234,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  422,
+                                             "metaNova":  549,
+                                             "faturado":  136,
+                                             "naoFaturado":  31,
+                                             "projetado":  167,
+                                             "valorFaturado":  24542.52,
+                                             "valorAFaturar":  59664.65,
+                                             "pct":  30
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  598,
+                                           "metaNova":  777,
+                                           "faturado":  193,
+                                           "naoFaturado":  30,
+                                           "projetado":  223,
+                                           "valorFaturado":  63717.8,
+                                           "valorAFaturar":  94681.87,
+                                           "pct":  29
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  539,
+                                            "metaNova":  701,
+                                            "faturado":  146,
+                                            "naoFaturado":  24,
+                                            "projetado":  170,
+                                            "valorFaturado":  89940.18,
+                                            "valorAFaturar":  97490.81,
+                                            "pct":  24
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  560,
+                           "totalValorFaturado":  178200.5,
+                           "totalValorAFaturar":  251837.33,
+                           "totalValorGeral":  430037.83
+                       }
+    },
+    {
+        "setor":  249,
+        "nome":  "Edinei Diego Specht",
+        "isSupervisor":  false,
+        "equipe":  "Sueli",
+        "metaCarteira":  140,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  66,
+                                             "metaNova":  86,
+                                             "faturado":  7,
+                                             "naoFaturado":  0,
+                                             "projetado":  7,
+                                             "valorFaturado":  556.4,
+                                             "valorAFaturar":  3418.78,
+                                             "pct":  8
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  84,
+                                           "metaNova":  109,
+                                           "faturado":  8,
+                                           "naoFaturado":  5,
+                                           "projetado":  13,
+                                           "valorFaturado":  794.91,
+                                           "valorAFaturar":  5550.69,
+                                           "pct":  12
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  58,
+                                            "metaNova":  75,
+                                            "faturado":  4,
+                                            "naoFaturado":  0,
+                                            "projetado":  4,
+                                            "valorFaturado":  556.64,
+                                            "valorAFaturar":  3421.13,
+                                            "pct":  5
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  24,
+                           "totalValorFaturado":  1907.95,
+                           "totalValorAFaturar":  12390.6,
+                           "totalValorGeral":  14298.55
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  4.4,
+                                   "INGLEZA":  4.0,
+                                   "AB MAURI":  2.9
+                               }
+    },
+    {
+        "setor":  261,
+        "nome":  "Pedro Henrique Deschk Gomes",
+        "isSupervisor":  false,
+        "equipe":  "Sueli",
+        "metaCarteira":  86,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  23,
+                                             "metaNova":  30,
+                                             "faturado":  1,
+                                             "naoFaturado":  2,
+                                             "projetado":  3,
+                                             "valorFaturado":  56.1,
+                                             "valorAFaturar":  400.34,
+                                             "pct":  10
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  46,
+                                           "metaNova":  60,
+                                           "faturado":  6,
+                                           "naoFaturado":  5,
+                                           "projetado":  11,
+                                           "valorFaturado":  1215.66,
+                                           "valorAFaturar":  2856.21,
+                                           "pct":  18
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  42,
+                                            "metaNova":  55,
+                                            "faturado":  5,
+                                            "naoFaturado":  4,
+                                            "projetado":  9,
+                                            "valorFaturado":  1152.84,
+                                            "valorAFaturar":  1514.95,
+                                            "pct":  16
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  23,
+                           "totalValorFaturado":  2424.6,
+                           "totalValorAFaturar":  4771.5,
+                           "totalValorGeral":  7196.1
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  1.533,
+                                   "INGLEZA":  2.191,
+                                   "AB MAURI":  2.1
+                               }
+    },
+    {
+        "setor":  277,
+        "nome":  "Diego Bech",
+        "isSupervisor":  false,
+        "equipe":  "Sueli",
+        "metaCarteira":  102,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  38,
+                                             "metaNova":  49,
+                                             "faturado":  2,
+                                             "naoFaturado":  2,
+                                             "projetado":  4,
+                                             "valorFaturado":  126.48,
+                                             "valorAFaturar":  272.23,
+                                             "pct":  8
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  60,
+                                           "metaNova":  78,
+                                           "faturado":  7,
+                                           "naoFaturado":  1,
+                                           "projetado":  8,
+                                           "valorFaturado":  2706.18,
+                                           "valorAFaturar":  3450.72,
+                                           "pct":  10
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  30,
+                                            "metaNova":  39,
+                                            "faturado":  12,
+                                            "naoFaturado":  4,
+                                            "projetado":  16,
+                                            "valorFaturado":  2649.94,
+                                            "valorAFaturar":  4032.83,
+                                            "pct":  41
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  28,
+                           "totalValorFaturado":  5482.6,
+                           "totalValorAFaturar":  7755.78,
+                           "totalValorGeral":  13238.38
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  2.533,
+                                   "INGLEZA":  2.857,
+                                   "AB MAURI":  1.5
+                               }
+    },
+    {
+        "setor":  529,
+        "nome":  "Paola de Paula",
+        "isSupervisor":  false,
+        "equipe":  "Sueli",
+        "metaCarteira":  90,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  29,
+                                             "metaNova":  38,
+                                             "faturado":  13,
+                                             "naoFaturado":  1,
+                                             "projetado":  14,
+                                             "valorFaturado":  991.77,
+                                             "valorAFaturar":  59.4,
+                                             "pct":  37
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  48,
+                                           "metaNova":  62,
+                                           "faturado":  30,
+                                           "naoFaturado":  5,
+                                           "projetado":  35,
+                                           "valorFaturado":  8523.25,
+                                           "valorAFaturar":  7030.04,
+                                           "pct":  56
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  45,
+                                            "metaNova":  59,
+                                            "faturado":  24,
+                                            "naoFaturado":  1,
+                                            "projetado":  25,
+                                            "valorFaturado":  4975.81,
+                                            "valorAFaturar":  2398.2,
+                                            "pct":  42
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  74,
+                           "totalValorFaturado":  14490.83,
+                           "totalValorAFaturar":  9487.64,
+                           "totalValorGeral":  23978.47
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  1.933,
+                                   "INGLEZA":  2.286,
+                                   "AB MAURI":  2.25
+                               }
+    },
+    {
+        "setor":  276,
+        "nome":  "Adao Expedito Vieira da Rocha",
+        "isSupervisor":  false,
+        "equipe":  "Sueli",
+        "metaCarteira":  102,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  31,
+                                             "metaNova":  40,
+                                             "faturado":  2,
+                                             "naoFaturado":  1,
+                                             "projetado":  3,
+                                             "valorFaturado":  153.12,
+                                             "valorAFaturar":  101.67,
+                                             "pct":  8
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  59,
+                                           "metaNova":  77,
+                                           "faturado":  4,
+                                           "naoFaturado":  2,
+                                           "projetado":  6,
+                                           "valorFaturado":  530.75,
+                                           "valorAFaturar":  5300.66,
+                                           "pct":  8
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  71,
+                                            "metaNova":  92,
+                                            "faturado":  2,
+                                            "naoFaturado":  1,
+                                            "projetado":  3,
+                                            "valorFaturado":  478.31,
+                                            "valorAFaturar":  4181.16,
+                                            "pct":  3
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  12,
+                           "totalValorFaturado":  1162.18,
+                           "totalValorAFaturar":  9583.49,
+                           "totalValorGeral":  10745.67
+                       },
+        "representatividade":  {
+                                   "PANASONIC":  2.067,
+                                   "INGLEZA":  2.81,
+                                   "AB MAURI":  3.55
+                               }
+    },
+    {
+        "setor":  28,
+        "nome":  "SUELI",
+        "isSupervisor":  true,
+        "equipe":  "Sueli",
+        "metaCarteira":  520,
+        "industrias":  {
+                           "PANASONIC":  {
+                                             "metaAtual":  187,
+                                             "metaNova":  243,
+                                             "faturado":  25,
+                                             "naoFaturado":  6,
+                                             "projetado":  31,
+                                             "valorFaturado":  1883.87,
+                                             "valorAFaturar":  4252.42,
+                                             "pct":  13
+                                         },
+                           "INGLEZA":  {
+                                           "metaAtual":  297,
+                                           "metaNova":  386,
+                                           "faturado":  55,
+                                           "naoFaturado":  18,
+                                           "projetado":  73,
+                                           "valorFaturado":  13770.75,
+                                           "valorAFaturar":  24188.32,
+                                           "pct":  19
+                                       },
+                           "AB MAURI":  {
+                                            "metaAtual":  246,
+                                            "metaNova":  320,
+                                            "faturado":  47,
+                                            "naoFaturado":  10,
+                                            "projetado":  57,
+                                            "valorFaturado":  9813.54,
+                                            "valorAFaturar":  15548.27,
+                                            "pct":  18
+                                        }
+                       },
+        "totalGeral":  {
+                           "totalPositivado":  161,
+                           "totalValorFaturado":  25468.16,
+                           "totalValorAFaturar":  43989.01,
+                           "totalValorGeral":  69457.17
+                       }
+    }
+]

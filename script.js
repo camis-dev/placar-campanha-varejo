@@ -1,4 +1,4 @@
-// ---------------------------------------------------------------------------
+﻿// ---------------------------------------------------------------------------
 // Placar Campanha Varejo — logica da aplicacao
 // Dados dos vendedores ficam em data.json (carregado no fetch abaixo)
 // ---------------------------------------------------------------------------
@@ -343,3 +343,4 @@ fetch("data.json")
     renderFinTable();
     renderSupplierButtons();
   });
+
