@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campanha VJ Ingleza</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <h1>Campanha VJ Ingleza</h1>
+    <div class="periodo" id="periodoLabel"></div>
+  </div>
+
+  <div class="secnav no-print" id="secNav"></div>
+
+  <!-- ============ SECAO: PLACAR ============ -->
+  <div class="section active" id="sec-placar">
+    <div class="card gate-card" id="gateCard"></div>
+
+    <div class="filters no-print">
+      <div class="search-box">
+        <span class="search-icon">⌕</span>
+        <input id="buscaInput" type="text" placeholder="Buscar setor ou nome...">
+      </div>
+    </div>
+    <div class="filters no-print" style="margin-bottom:14px;">
+      <div class="team-chips" id="teamChips" style="flex:1"></div>
+    </div>
+
+    <div class="sort-row">
+      <span class="sort-label">Ordenado por % da meta individual</span>
+      <span class="count-label" id="countLabel"></span>
+    </div>
+
+    <div class="board" id="board"></div>
+
+    <div class="actions no-print">
+      <button class="btn" onclick="exportCSV()">⬇ Excel (CSV)</button>
+      <button class="btn" onclick="window.print()">🖶 PDF</button>
+    </div>
+
+    <div class="legend" id="legendText"></div>
+  </div>
+
+  <!-- ============ SECAO: PREMIOS ============ -->
+  <div class="section" id="sec-premios">
+    <div class="legend" style="margin:0 0 10px;">
+      A faixa de prêmio (R$100 / R$150 / R$250 / R$400 por vendedor) depende do atingimento da
+      <b>equipe geral</b>. Só recebe quem bateu 100% da própria meta individual. Abaixo de 85% de
+      atingimento geral, ninguém recebe. Supervisores ganham R$500 fixo quando a equipe geral atingir 100%.
+    </div>
+    <div class="geral-strip" id="premiosTotal"></div>
+    <div class="sort-row" style="margin-top:14px;">
+      <span class="sort-label">Ordenado por prêmio</span>
+      <span class="count-label" id="premiosCount"></span>
+    </div>
+    <div class="board" id="premiosBoard"></div>
+    <div class="actions no-print">
+      <button class="btn" onclick="exportPremiosCSV()">⬇ Excel (CSV)</button>
+      <button class="btn" onclick="window.print()">🖶 PDF</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
