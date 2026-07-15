@@ -42,16 +42,24 @@
   }
   .topbar .periodo { font-size: 12px; color: rgba(255,255,255,.85); font-weight: 500; margin-top: 4px; }
 
-  /* ---- Alternador Varejo / AS ---- */
-  .modo-switch { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 14px; }
+  /* ---- Alternador Varejo / AS / Geral ---- */
+  .modo-switch { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 14px; }
   .modo-btn {
-    padding: 12px 8px; border-radius: 10px; border: 2px solid var(--line); background: var(--panel);
+    padding: 12px 6px; border-radius: 10px; border: 2px solid var(--line); background: var(--panel);
     text-align: center; cursor: pointer;
   }
-  .modo-btn .mn { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: .3px; color: var(--ink); }
-  .modo-btn .md { font-size: 10px; color: var(--ink-soft); margin-top: 2px; }
+  .modo-btn .mn { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .3px; color: var(--ink); }
+  .modo-btn .md { font-size: 9px; color: var(--ink-soft); margin-top: 2px; }
   .modo-btn.active { border-color: var(--ink); background: var(--ink); }
   .modo-btn.active .mn, .modo-btn.active .md { color: #fff; }
+
+  /* ---- Badge de campanha (usado no modo Geral pra distinguir VRJ/AS) ---- */
+  .campanha-badge {
+    display: inline-block; font-size: 9px; font-weight: 700; letter-spacing: .3px; padding: 2px 7px;
+    border-radius: 5px; margin-right: 6px; vertical-align: middle;
+  }
+  .campanha-badge.varejo { background: var(--teal-soft); color: var(--teal); }
+  .campanha-badge.as { background: var(--faixa95-bg); color: var(--faixa95); }
 
   /* ---- Section nav ---- */
   .secnav {
@@ -145,12 +153,18 @@
   .vpct { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 22px; text-align: right; min-width: 58px; }
   .vtrack { height: 5px; background: #E7EEF0; border-radius: 3px; margin-top: 8px; overflow: hidden; }
   .vfill { height: 100%; border-radius: 3px; }
-  .vdetail { display: none; margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--line); grid-template-columns: repeat(3, 1fr); gap: 6px; text-align: center; }
-  .vrow.open .vdetail { display: grid; }
+  .vdetail { display: none; margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--line); }
+  .vrow.open .vdetail { display: block; }
   .vrow.open .chevron { transform: rotate(180deg); }
-  .vdetail .k { font-size: 10px; text-transform: uppercase; letter-spacing: .3px; color: var(--ink-soft); font-weight: 700; }
-  .vdetail .v { font-family: 'Oswald', sans-serif; font-size: 17px; font-weight: 600; margin-top: 2px; }
-  .premio-full { grid-column: 1 / -1; margin-top: 4px; padding-top: 8px; border-top: 1px dashed var(--line); }
+  table.vtable { width: 100%; border-collapse: collapse; font-size: 11px; }
+  table.vtable th {
+    font-size: 9px; text-transform: uppercase; letter-spacing: .2px; color: var(--ink-soft);
+    font-weight: 700; padding: 4px 2px; text-align: center; border-bottom: 2px solid var(--line);
+  }
+  table.vtable td { padding: 7px 2px; text-align: center; font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 14px; }
+  .premio-full { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line); display: flex; justify-content: space-between; align-items: center; }
+  .premio-full .k { font-size: 11px; color: var(--ink-soft); max-width: 70%; line-height: 1.4; }
+  .premio-full .v { font-family: 'Oswald', sans-serif; font-size: 18px; font-weight: 700; }
   .chevron { font-size: 11px; color: var(--ink-soft); transition: transform .15s ease; flex-shrink: 0; }
   .empty { text-align: center; padding: 30px 10px; color: var(--ink-soft); font-size: 13px; }
 
@@ -180,6 +194,23 @@
     border-radius: 8px; padding: 10px 14px; margin-top: 14px; font-size: 12px;
   }
   .geral-strip b { font-family: 'Oswald', sans-serif; font-size: 15px; display: block; color: var(--ink); }
+
+  /* ---- Resumo executivo do modo Geral ---- */
+  .geral-resumo { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 10px; }
+  .geral-mini { background: var(--panel); border: 1.5px solid var(--line); border-radius: 12px; padding: 14px; }
+  .geral-mini .gm-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  .geral-mini .gm-nome { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .3px; color: var(--ink-soft); }
+  .geral-mini .gm-pct { font-family: 'Oswald', sans-serif; font-size: 22px; font-weight: 700; }
+  .geral-mini .gm-nums { font-size: 11px; color: var(--ink-soft); margin-bottom: 8px; }
+  .geral-mini .gm-track { height: 8px; background: #E7EEF0; border-radius: 4px; overflow: hidden; }
+  .geral-mini .gm-fill { height: 100%; border-radius: 4px; }
+  .geral-mini .gm-status { margin-top: 8px; font-size: 10px; font-weight: 700; text-align: center; padding: 5px; border-radius: 6px; }
+
+  /* ---- Legenda ---- */
+  .legenda-card h2 { margin-bottom: 8px; }
+  .legenda-item { display: flex; align-items: center; gap: 8px; padding: 5px 0; font-size: 12px; color: var(--ink-soft); }
+  .legenda-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .legenda-item b { color: var(--ink); }
 
   @media print {
     .no-print { display: none !important; }
