@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Placar da Campanha Varejo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <h1>Placar Campanha Varejo</h1>
+    <div class="periodo" id="periodoLabel"></div>
+  </div>
+
+  <div class="secnav no-print" id="secNav"></div>
+
+  <!-- ============ SECAO: PLACAR ============ -->
+  <div class="section active" id="sec-placar">
+    <div class="tabs no-print" id="tabsContainer"></div>
+    <div class="scoreboard" id="scoreboard"></div>
+
+    <div class="filters no-print">
+      <div class="search-box">
+        <span class="search-icon">⌕</span>
+        <input id="buscaInput" type="text" placeholder="Buscar setor ou nome...">
+      </div>
+    </div>
+    <div class="filters no-print" style="margin-bottom:14px;">
+      <div class="team-chips" id="teamChips" style="flex:1"></div>
+    </div>
+
+    <div class="sort-row">
+      <span class="sort-label" id="sortLabel">Ordenado por % atingido</span>
+      <span class="count-label" id="countLabel"></span>
+    </div>
+
+    <div class="board" id="board"></div>
+
+    <div class="actions no-print">
+      <button class="btn" onclick="exportCSV()">⬇ Excel (CSV)</button>
+      <button class="btn" onclick="window.print()">🖶 PDF</button>
+    </div>
+
+    <div class="legend" id="legendText"></div>
+  </div>
+
+  <!-- ============ SECAO: BUSCAR ============ -->
+  <div class="section" id="sec-buscar">
+    <div class="card">
+      <h2>Buscar vendedor</h2>
+      <div class="field">
+        <label>Setor</label>
+        <select id="buscarSetor"></select>
+      </div>
+    </div>
+    <div id="resultCard"></div>
+  </div>
+
+  <!-- ============ SECAO: RANKING ============ -->
+  <div class="section" id="sec-ranking">
+    <div class="tabs no-print" id="rankTabs"></div>
+    <div class="sort-row">
+      <span class="sort-label" id="rankLabel">Ranking — melhores posições</span>
+      <span class="count-label" id="rankCount"></span>
+    </div>
+    <div class="board" id="rankBoard"></div>
+    <div class="actions no-print">
+      <button class="btn" onclick="exportRankingCSV()">⬇ Excel (CSV)</button>
+      <button class="btn" onclick="window.print()">🖶 PDF do dia</button>
+    </div>
+    <div class="legend">Relatório para tirar no final do dia: mostra quem atingiu a maior posição dentro da meta, do 1º ao último, na indústria selecionada acima.</div>
+  </div>
+
+  <!-- ============ SECAO: FINANCEIRO ============ -->
+  <div class="section" id="sec-financeiro">
+    <div class="tabs no-print" id="finTabs"></div>
+    <div class="legend" style="margin:0 0 10px;">Valores separados por indústria — não somados entre si.</div>
+    <table class="report" id="finTable"></table>
+    <div class="actions no-print">
+      <button class="btn" onclick="exportFinanceiroCSV()">⬇ Excel (CSV)</button>
+      <button class="btn" onclick="window.print()">🖶 PDF</button>
+    </div>
+  </div>
+
+  <!-- ============ SECAO: RELATORIOS ============ -->
+  <div class="section" id="sec-relatorios">
+    <div class="legend" style="margin-top:0 0 10px;">Relatório individual de cada fornecedor — pronto para enviar a eles.</div>
+    <div id="supplierButtons"></div>
+    <div id="supplierReport"></div>
+  </div>
+
+  <!-- ============ SECAO: PREMIOS ============ -->
+  <div class="section" id="sec-premios">
+    <div class="legend" style="margin:0 0 10px;">
+      Vendedor: R$ 100 por indústria batida (meta ≥ 100%) — batendo as 3, o prêmio sobe para R$ 500.<br>
+      Supervisor: R$ 300 se a equipe bater as 3 indústrias.
+    </div>
+    <div class="geral-strip" id="premiosTotal"></div>
+    <div class="sort-row" style="margin-top:14px;">
+      <span class="sort-label">Ordenado por prêmio</span>
+      <span class="count-label" id="premiosCount"></span>
+    </div>
+    <div class="board" id="premiosBoard"></div>
+    <div class="actions no-print">
+      <button class="btn" onclick="exportPremiosCSV()">⬇ Excel (CSV)</button>
+      <button class="btn" onclick="window.print()">🖶 PDF</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
