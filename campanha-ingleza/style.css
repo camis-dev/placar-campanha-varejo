@@ -138,6 +138,18 @@
   .board { display: flex; flex-direction: column; gap: 6px; }
   .vrow { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; cursor: pointer; }
   .vrow.sup { background: #EEF3F4; border-style: dashed; }
+  .vrow.equipe-row { border-style: solid; border-width: 1.5px; }
+  .equipe-flag { width: 6px; align-self: stretch; border-radius: 4px; flex-shrink: 0; }
+  .cruzado-linha { font-size: 10px; color: var(--ink-soft); margin-top: 3px; }
+  .cruzado-linha b { color: var(--ink); }
+
+  /* ---- Geral por filial ---- */
+  .filial-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 16px; }
+  .filial-card { background: var(--panel); border: 1.5px solid var(--line); border-radius: 10px; padding: 10px 6px; text-align: center; }
+  .filial-nome { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .2px; color: var(--ink-soft); margin-bottom: 6px; }
+  .filial-stat { display: flex; flex-direction: column; margin-bottom: 4px; }
+  .filial-stat .fk { font-size: 8px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .2px; }
+  .filial-stat .fv { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 12px; color: var(--ink); margin-top: 1px; }
   .vrow-top { display: flex; align-items: center; gap: 10px; }
   .pos-badge {
     font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 13px; width: 26px; height: 26px;

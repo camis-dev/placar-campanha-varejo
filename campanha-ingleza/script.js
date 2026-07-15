@@ -126,6 +126,8 @@ function setModo(key) {
   document.getElementById("buscaInput").value = "";
   renderModoSwitch();
   renderGateCard();
+  renderFilialSection();
+  renderEquipeBoard();
   renderTeamChips();
   renderBoard();
   renderLegend();
@@ -319,6 +321,96 @@ function getLinhas() {
   return rows;
 }
 function toggleRow(setor, campChave) { const el = document.getElementById(`vrow-${campChave}-${setor}`); if (el) el.classList.toggle("open"); }
+
+/* ================= TOTAL GERAL POR EQUIPE ================= */
+function getEquipeLinhas() {
+  if (isGeral()) {
+    return [
+      ...DATA.varejo.pessoas.filter(r => r.isSupervisor).map(r => ({ ...r, _campanha: "varejo" })),
+      ...DATA.as.pessoas.filter(r => r.isSupervisor).map(r => ({ ...r, _campanha: "as" })),
+    ];
+  }
+  return dados().pessoas.filter(r => r.isSupervisor).map(r => ({ ...r, _campanha: modoAtivo }));
+}
+function metricaTableHTML(titulo, meta, bloco, isMoeda) {
+  const fmt = n => isMoeda ? fmtMoney(n) : fmt0(n);
+  return `
+    <div class="k" style="text-align:left;margin-bottom:4px;">${titulo}</div>
+    <table class="vtable">
+      <thead><tr><th>Meta</th><th>Faturado</th><th>A Faturar</th><th>Projetado</th></tr></thead>
+      <tbody><tr>
+        <td>${meta === null ? "—" : fmt(meta)}</td>
+        <td>${fmt(bloco.faturado)}</td>
+        <td>${fmt(bloco.aFaturar)}</td>
+        <td>${fmt(bloco.projetado)}</td>
+      </tr></tbody>
+    </table>
+  `;
+}
+function equipeRowHTML(r) {
+  const camp = CAMPANHAS[r._campanha];
+  const pctVal = r.pct;
+  const track = `<div class="vtrack"><div class="vfill" style="width:${Math.min(pctVal,100)}%;background:${pctColor(pctVal)}"></div></div>`;
+  const premio = premioPessoaCamp(r, DATA[r._campanha].pctGeral, camp);
+  const campBadge = isGeral() ? `<span class="campanha-badge ${r._campanha}">${camp.tag}</span>` : "";
+  const cruzado = isGeral()
+    ? `<div class="cruzado-linha">Faturamento: <b>${fmtMoney(r.faturamento.projetado)}</b> · Positivação: <b>${fmt0(r.positivacao.projetado)}</b></div>`
+    : "";
+  const detailTabelas = isGeral()
+    ? metricaTableHTML("Positivação", camp.chave === "varejo" ? r.meta : null, r.positivacao, false) +
+      metricaTableHTML("Faturamento", camp.chave === "as" ? r.meta : null, r.faturamento, true)
+    : metricaTableHTML(camp.metricaLabel, r.meta, camp.chave === "varejo" ? r.positivacao : r.faturamento, camp.isMoeda);
+  const detail = `
+    ${detailTabelas}
+    <div class="premio-full">
+      <div class="k">Prêmio de liderança (equipe geral ${camp.tag} ≥ ${camp.gatilhoSupervisor}%? ${DATA[r._campanha].pctGeral >= camp.gatilhoSupervisor ? "sim" : "não"})</div>
+      <div class="v" style="color:${premio > 0 ? "var(--teal)" : "var(--ink-soft)"}">${fmtMoney(premio)}</div>
+    </div>
+  `;
+  return `
+    <div class="vrow sup equipe-row" id="vrow-${r._campanha}-${r.setor}" onclick="toggleRow(${r.setor},'${r._campanha}')">
+      <div class="vrow-top">
+        <div class="equipe-flag" style="background:${camp.teamColor[r.equipe]}"></div>
+        <div class="vname">
+          <div class="n">${campBadge}Equipe ${r.equipe}</div>
+          <div class="t" style="color:${camp.teamColor[r.equipe]}">${camp.tag} · ${r.nome}</div>
+          ${cruzado}
+        </div>
+        <div class="vpct num" style="color:${pctColor(pctVal)}">${fmt0(pctVal)}%</div>
+        <div class="chevron">▾</div>
+      </div>
+      ${track}
+      <div class="vdetail">${detail}</div>
+    </div>
+  `;
+}
+function renderEquipeBoard() {
+  document.getElementById("equipeBoard").innerHTML = getEquipeLinhas().map(r => equipeRowHTML(r)).join("");
+}
+
+/* ================= GERAL POR FILIAL (VJ + AS) ================= */
+function filialCardHTML(nome, d) {
+  return `
+    <div class="filial-card">
+      <div class="filial-nome">${nome}</div>
+      <div class="filial-stat"><span class="fk">Faturamento</span><span class="fv">${fmtMoney(d.faturamento)}</span></div>
+      <div class="filial-stat"><span class="fk">Positivação</span><span class="fv">${fmt0(d.positivacao)}</span></div>
+    </div>
+  `;
+}
+function renderFilialSection() {
+  const el = document.getElementById("filialSection");
+  if (!isGeral() || !DATA.resumoGeral) { el.innerHTML = ""; return; }
+  const rg = DATA.resumoGeral;
+  el.innerHTML = `
+    <div class="sort-row"><span class="sort-label">Geral por filial (VJ + AS)</span></div>
+    <div class="filial-grid">
+      ${filialCardHTML("Filial VJ", rg.filialVarejo)}
+      ${filialCardHTML("Filial AS", rg.filialAs)}
+      ${filialCardHTML("Geral (VJ+AS)", rg.geral)}
+    </div>
+  `;
+}
 function vendorRowHTML(r, pos) {
   const camp = CAMPANHAS[r._campanha];
   const badgeClass = pos === 1 ? "gold" : pos === 2 ? "silver" : pos === 3 ? "bronze" : "";
@@ -497,6 +589,8 @@ fetch("data.json")
     renderModoSwitch();
     renderSecNav();
     renderGateCard();
+    renderFilialSection();
+    renderEquipeBoard();
     renderTeamChips();
     renderBoard();
     renderLegend();
