@@ -14,6 +14,8 @@
     --faixa100-bg: #E4EBF1;
     --faixa110: #E3273B;
     --faixa110-bg: #FBE2E4;
+    --faixa95: #3B5BA5;
+    --faixa95-bg: #E6EBF6;
     --wash: #1E7145;
     --rodrigo: #B8620A;
     --sueli: #A33B3B;
@@ -40,6 +42,17 @@
   }
   .topbar .periodo { font-size: 12px; color: rgba(255,255,255,.85); font-weight: 500; margin-top: 4px; }
 
+  /* ---- Alternador Varejo / AS ---- */
+  .modo-switch { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 14px; }
+  .modo-btn {
+    padding: 12px 8px; border-radius: 10px; border: 2px solid var(--line); background: var(--panel);
+    text-align: center; cursor: pointer;
+  }
+  .modo-btn .mn { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: .3px; color: var(--ink); }
+  .modo-btn .md { font-size: 10px; color: var(--ink-soft); margin-top: 2px; }
+  .modo-btn.active { border-color: var(--ink); background: var(--ink); }
+  .modo-btn.active .mn, .modo-btn.active .md { color: #fff; }
+
   /* ---- Section nav ---- */
   .secnav {
     display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin-bottom: 18px;
@@ -60,21 +73,24 @@
   .gate-pct { font-family: 'Oswald', sans-serif; font-size: 28px; font-weight: 700; }
   .gate-nums { font-size: 12px; color: var(--ink-soft); margin-bottom: 12px; }
   .gate-track { position: relative; height: 14px; background: #E7EEF0; border-radius: 7px; overflow: visible; margin: 12px 4px 10px; }
-  .gate-fill { position: absolute; left:0; top:0; height: 100%; border-radius: 7px; background: linear-gradient(90deg,var(--faixa85),var(--faixa90),var(--faixa100),var(--faixa110)); }
+  .gate-fill { position: absolute; left:0; top:0; height: 100%; border-radius: 7px; }
   .gate-marker { position: absolute; top: 0; transform: translateX(-50%); text-align: center; }
   .gate-marker .dot { width: 8px; height: 8px; border-radius: 50%; background: #fff; border: 2px solid var(--ink-soft); margin: 3px auto 0; }
   .gate-marker.active .dot { border-color: var(--ink); background: var(--ink); width: 10px; height: 10px; margin-top: 2px; }
-  .gate-faixas { display: grid; grid-template-columns: repeat(4,1fr); gap: 6px; margin-top: 22px; }
+  .gate-faixas { display: grid; gap: 6px; margin-top: 22px; }
   .gate-faixa { text-align: center; padding: 10px 4px; border-radius: 8px; border: 1.5px solid var(--line); background: #F7F9FA; opacity: .55; }
   .gate-faixa.ativa { opacity: 1; box-shadow: 0 2px 6px rgba(0,0,0,.08); }
   .gate-faixa.f85.ativa { background: var(--faixa85-bg); border-color: var(--faixa85); }
   .gate-faixa.f90.ativa { background: var(--faixa90-bg); border-color: var(--faixa90); }
+  .gate-faixa.f95.ativa { background: var(--faixa95-bg); border-color: var(--faixa95); }
   .gate-faixa.f100.ativa { background: var(--faixa100-bg); border-color: var(--faixa100); }
   .gate-faixa.f110.ativa { background: var(--faixa110-bg); border-color: var(--faixa110); }
+  .gate-faixa .fn { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .3px; color: var(--ink-soft); display: block; margin-bottom: 2px; }
   .gate-faixa .fp { font-size: 10px; font-weight: 700; color: var(--ink-soft); text-transform: uppercase; }
   .gate-faixa .fv { font-family: 'Oswald', sans-serif; font-size: 15px; font-weight: 700; margin-top: 2px; }
   .gate-faixa.f85.ativa .fv { color: var(--faixa85); }
   .gate-faixa.f90.ativa .fv { color: var(--faixa90); }
+  .gate-faixa.f95.ativa .fv { color: var(--faixa95); }
   .gate-faixa.f100.ativa .fv { color: var(--faixa100); }
   .gate-faixa.f110.ativa .fv { color: var(--faixa110); }
   .gate-status { margin-top: 12px; font-size: 12px; text-align: center; padding: 8px; border-radius: 8px; font-weight: 700; }

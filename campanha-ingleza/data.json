@@ -1,0 +1,507 @@
+﻿{
+    "periodo":  "01/07 a 31/07/2026",
+    "varejo":  {
+                   "metaGeral":  1535.84,
+                   "valorGeral":  556,
+                   "pctGeral":  36.2,
+                   "pessoas":  [
+                                   {
+                                       "setor":  530,
+                                       "nome":  "Marcos Aurelio",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Washignton",
+                                       "meta":  47,
+                                       "valor":  14,
+                                       "pct":  30,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  244,
+                                       "nome":  "Marcia Martins Goncalves",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Washignton",
+                                       "meta":  52,
+                                       "valor":  20,
+                                       "pct":  38,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  245,
+                                       "nome":  "Jorge Dos Santos",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Washignton",
+                                       "meta":  80,
+                                       "valor":  32,
+                                       "pct":  40,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  247,
+                                       "nome":  "Vanessa Mendes Da Luz",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Washignton",
+                                       "meta":  55,
+                                       "valor":  19,
+                                       "pct":  35,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  250,
+                                       "nome":  "Tania Regina",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Washignton",
+                                       "meta":  25,
+                                       "valor":  10,
+                                       "pct":  40,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  251,
+                                       "nome":  "Ana Carolina Maciel Brotto",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Washignton",
+                                       "meta":  72,
+                                       "valor":  26,
+                                       "pct":  36,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  252,
+                                       "nome":  "Luciana Agata Pinto",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Washignton",
+                                       "meta":  59,
+                                       "valor":  19,
+                                       "pct":  32,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  253,
+                                       "nome":  "Aparecido Agnaldo Araujo",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Washignton",
+                                       "meta":  67,
+                                       "valor":  23,
+                                       "pct":  34,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  255,
+                                       "nome":  "Willians De Alcantra Correa",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Washignton",
+                                       "meta":  77,
+                                       "valor":  25,
+                                       "pct":  32,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  271,
+                                       "nome":  "Cleverson Rodrigues Ferreira",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Washignton",
+                                       "meta":  38,
+                                       "valor":  16,
+                                       "pct":  42,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  267,
+                                       "nome":  "Kamilla Aparecida Xavier",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Washignton",
+                                       "meta":  30,
+                                       "valor":  22,
+                                       "pct":  73,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  527,
+                                       "nome":  "Maria Madalena",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Washignton",
+                                       "meta":  39,
+                                       "valor":  13,
+                                       "pct":  33,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  100,
+                                       "nome":  "WASHIGNTON",
+                                       "isSupervisor":  true,
+                                       "equipe":  "Washignton",
+                                       "meta":  641,
+                                       "valor":  239,
+                                       "pct":  37,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  249,
+                                       "nome":  "Edinei Diego Specth",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Sueli",
+                                       "meta":  84,
+                                       "valor":  35,
+                                       "pct":  42,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  261,
+                                       "nome":  "Pedro Henrique Deschk Gomes",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Sueli",
+                                       "meta":  45.851578947368417,
+                                       "valor":  12,
+                                       "pct":  26,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  277,
+                                       "nome":  "Diego Bech",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Sueli",
+                                       "meta":  60,
+                                       "valor":  17,
+                                       "pct":  28,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  529,
+                                       "nome":  "Paola De Paula",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Sueli",
+                                       "meta":  47.984210526315785,
+                                       "valor":  12,
+                                       "pct":  25,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  276,
+                                       "nome":  "Adao Expedito Vieira Da Rocha",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Sueli",
+                                       "meta":  59,
+                                       "valor":  15,
+                                       "pct":  25,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  28,
+                                       "nome":  "SUELI",
+                                       "isSupervisor":  true,
+                                       "equipe":  "Sueli",
+                                       "meta":  296.8357894736842,
+                                       "valor":  91,
+                                       "pct":  31,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  239,
+                                       "nome":  "Eder Da Silva Viana",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  30,
+                                       "valor":  10,
+                                       "pct":  33,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  241,
+                                       "nome":  "Luiz Felipe Fernandes",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  24,
+                                       "valor":  2,
+                                       "pct":  8,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  243,
+                                       "nome":  "Beatriz Aparecida Cruz Vicente",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  47,
+                                       "valor":  0,
+                                       "pct":  0,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  254,
+                                       "nome":  "Rodrigo Margulski",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  74,
+                                       "valor":  36,
+                                       "pct":  49,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  257,
+                                       "nome":  "Cleyton Alberto Carvalho",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  68,
+                                       "valor":  25,
+                                       "pct":  37,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  258,
+                                       "nome":  "Lidiane Cristina Henning",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  56,
+                                       "valor":  19,
+                                       "pct":  34,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  269,
+                                       "nome":  "Valdir",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  42,
+                                       "valor":  44,
+                                       "pct":  105,
+                                       "bateuIndividual":  true
+                                   },
+                                   {
+                                       "setor":  279,
+                                       "nome":  "Julio Cesar Passos Ferreira",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  75,
+                                       "valor":  34,
+                                       "pct":  45,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  281,
+                                       "nome":  "Daniel Alexandre Nunes",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  32,
+                                       "valor":  6,
+                                       "pct":  19,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  282,
+                                       "nome":  "Rafael Machado De Souza",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  70,
+                                       "valor":  18,
+                                       "pct":  26,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  283,
+                                       "nome":  "Glacilda Faria",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  22,
+                                       "valor":  11,
+                                       "pct":  50,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  528,
+                                       "nome":  "Maria Cristina",
+                                       "isSupervisor":  false,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  58,
+                                       "valor":  21,
+                                       "pct":  36,
+                                       "bateuIndividual":  false
+                                   },
+                                   {
+                                       "setor":  27,
+                                       "nome":  "RODRIGO",
+                                       "isSupervisor":  true,
+                                       "equipe":  "Rodrigo",
+                                       "meta":  598,
+                                       "valor":  226,
+                                       "pct":  38,
+                                       "bateuIndividual":  false
+                                   }
+                               ]
+               },
+    "as":  {
+               "metaGeral":  1900000,
+               "valorGeral":  388921.38,
+               "pctGeral":  20.5,
+               "pessoas":  [
+                               {
+                                   "setor":  240,
+                                   "nome":  "Pj Sergio Augusto Brauza",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Arildo",
+                                   "meta":  100322,
+                                   "valor":  136800.48,
+                                   "pct":  136,
+                                   "bateuIndividual":  true
+                               },
+                               {
+                                   "setor":  242,
+                                   "nome":  "Clodoaldo Dos Santos",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Arildo",
+                                   "meta":  148451,
+                                   "valor":  430.8,
+                                   "pct":  0,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  265,
+                                   "nome":  "Marcos Jose Walesko",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Arildo",
+                                   "meta":  50722,
+                                   "valor":  28427.76,
+                                   "pct":  56,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  275,
+                                   "nome":  "Pj-Fabiano Aparecido Santos",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Arildo",
+                                   "meta":  144943,
+                                   "valor":  98624.98,
+                                   "pct":  68,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  278,
+                                   "nome":  "Pj- Pedro Paulo Do Nascimento",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Arildo",
+                                   "meta":  143407,
+                                   "valor":  0,
+                                   "pct":  0,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  24,
+                                   "nome":  "ARILDO",
+                                   "isSupervisor":  true,
+                                   "equipe":  "Arildo",
+                                   "meta":  587845,
+                                   "valor":  264284.02,
+                                   "pct":  45,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  238,
+                                   "nome":  "Aquinele Roberta",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Alessandro",
+                                   "meta":  60442,
+                                   "valor":  11190.38,
+                                   "pct":  19,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  264,
+                                   "nome":  "Pj - Jair Antonio Tosto",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Alessandro",
+                                   "meta":  85406,
+                                   "valor":  29650.51,
+                                   "pct":  35,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  266,
+                                   "nome":  "Pj-Adilson Santos Biauki",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Alessandro",
+                                   "meta":  55631,
+                                   "valor":  9753.55,
+                                   "pct":  18,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  280,
+                                   "nome":  "Aricleia Do Rocio Stofella",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Alessandro",
+                                   "meta":  1180,
+                                   "valor":  86.01,
+                                   "pct":  7,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  80,
+                                   "nome":  "ALESSANDRO",
+                                   "isSupervisor":  true,
+                                   "equipe":  "Alessandro",
+                                   "meta":  202659,
+                                   "valor":  50680.450000000004,
+                                   "pct":  25,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  256,
+                                   "nome":  "Pj-Eliseu Hauagge Neto",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Anderson",
+                                   "meta":  36101,
+                                   "valor":  4071.28,
+                                   "pct":  11,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  263,
+                                   "nome":  "Pj-Luiz Carlos P. Pereira",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Anderson",
+                                   "meta":  64570,
+                                   "valor":  8997.64,
+                                   "pct":  14,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  268,
+                                   "nome":  "Pj-Anderson Kosowski",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Anderson",
+                                   "meta":  148814,
+                                   "valor":  23795.58,
+                                   "pct":  16,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  272,
+                                   "nome":  "Pj- Joao Miguel Andriolli",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Anderson",
+                                   "meta":  175864,
+                                   "valor":  16659.89,
+                                   "pct":  9,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  274,
+                                   "nome":  "Pj- Sueli Representacoes Com.",
+                                   "isSupervisor":  false,
+                                   "equipe":  "Anderson",
+                                   "meta":  57080,
+                                   "valor":  20432.52,
+                                   "pct":  36,
+                                   "bateuIndividual":  false
+                               },
+                               {
+                                   "setor":  23,
+                                   "nome":  "ANDERSON",
+                                   "isSupervisor":  true,
+                                   "equipe":  "Anderson",
+                                   "meta":  482429,
+                                   "valor":  73956.91,
+                                   "pct":  15,
+                                   "bateuIndividual":  false
+                               }
+                           ]
+           }
+}

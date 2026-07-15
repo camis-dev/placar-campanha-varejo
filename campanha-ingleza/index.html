@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campanha Ingleza</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <h1>Campanha Ingleza</h1>
+    <div class="periodo" id="periodoLabel"></div>
+  </div>
+
+  <div class="modo-switch no-print" id="modoSwitch"></div>
+
+  <div class="secnav no-print" id="secNav"></div>
+
+  <!-- ============ SECAO: PLACAR ============ -->
+  <div class="section active" id="sec-placar">
+    <div class="card gate-card" id="gateCard"></div>
+
+    <div class="filters no-print">
+      <div class="search-box">
+        <span class="search-icon">⌕</span>
+        <input id="buscaInput" type="text" placeholder="Buscar setor ou nome...">
+      </div>
+    </div>
+    <div class="filters no-print" style="margin-bottom:14px;">
+      <div class="team-chips" id="teamChips" style="flex:1"></div>
+    </div>
+
+    <div class="sort-row">
+      <span class="sort-label" id="sortLabel">Ordenado por % da meta individual</span>
+      <span class="count-label" id="countLabel"></span>
+    </div>
+
+    <div class="board" id="board"></div>
+
+    <div class="actions no-print">
+      <button class="btn" onclick="exportCSV()">⬇ Excel (CSV)</button>
+      <button class="btn" onclick="window.print()">🖶 PDF</button>
+    </div>
+
+    <div class="legend" id="legendText"></div>
+  </div>
+
+  <!-- ============ SECAO: REGRAS ============ -->
+  <div class="section" id="sec-regras">
+    <div class="card">
+      <h2 id="regrasTitulo">Regras da Campanha</h2>
+      <div id="regrasLista"></div>
+    </div>
+    <div class="card">
+      <h2>Recompensa de Liderança</h2>
+      <div class="txt" id="liderancaTexto" style="font-size:13px;color:var(--ink-soft);line-height:1.6;"></div>
+      <div class="lideranca-box" id="liderancaBox"></div>
+    </div>
+  </div>
+
+  <!-- ============ SECAO: PREMIOS ============ -->
+  <div class="section" id="sec-premios">
+    <div class="legend" id="premiosLegenda" style="margin:0 0 10px;"></div>
+    <div class="geral-strip" id="premiosTotal"></div>
+    <div class="sort-row" style="margin-top:14px;">
+      <span class="sort-label">Ordenado por prêmio</span>
+      <span class="count-label" id="premiosCount"></span>
+    </div>
+    <div class="board" id="premiosBoard"></div>
+    <div class="actions no-print">
+      <button class="btn" onclick="exportPremiosCSV()">⬇ Excel (CSV)</button>
+      <button class="btn" onclick="window.print()">🖶 PDF</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
