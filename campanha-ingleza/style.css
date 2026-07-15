@@ -150,6 +150,8 @@
   .filial-stat { display: flex; flex-direction: column; margin-bottom: 4px; }
   .filial-stat .fk { font-size: 8px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .2px; }
   .filial-stat .fv { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 12px; color: var(--ink); margin-top: 1px; }
+  .filial-stat .fm { font-size: 8px; color: var(--ink-soft); margin-top: 1px; }
+  .filial-stat { margin-bottom: 8px; }
   .vrow-top { display: flex; align-items: center; gap: 10px; }
   .pos-badge {
     font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 13px; width: 26px; height: 26px;

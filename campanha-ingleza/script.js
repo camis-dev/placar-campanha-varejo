@@ -332,14 +332,14 @@ function getEquipeLinhas() {
   }
   return dados().pessoas.filter(r => r.isSupervisor).map(r => ({ ...r, _campanha: modoAtivo }));
 }
-function metricaTableHTML(titulo, meta, bloco, isMoeda) {
+function metricaTableHTML(titulo, bloco, isMoeda) {
   const fmt = n => isMoeda ? fmtMoney(n) : fmt0(n);
   return `
-    <div class="k" style="text-align:left;margin-bottom:4px;">${titulo}</div>
+    <div class="k" style="text-align:left;margin-bottom:4px;">${titulo} <span style="color:${pctColor(bloco.pct)}">(${bloco.pct}%)</span></div>
     <table class="vtable">
       <thead><tr><th>Meta</th><th>Faturado</th><th>A Faturar</th><th>Projetado</th></tr></thead>
       <tbody><tr>
-        <td>${meta === null ? "—" : fmt(meta)}</td>
+        <td>${fmt(bloco.meta)}</td>
         <td>${fmt(bloco.faturado)}</td>
         <td>${fmt(bloco.aFaturar)}</td>
         <td>${fmt(bloco.projetado)}</td>
@@ -354,12 +354,11 @@ function equipeRowHTML(r) {
   const premio = premioPessoaCamp(r, DATA[r._campanha].pctGeral, camp);
   const campBadge = isGeral() ? `<span class="campanha-badge ${r._campanha}">${camp.tag}</span>` : "";
   const cruzado = isGeral()
-    ? `<div class="cruzado-linha">Faturamento: <b>${fmtMoney(r.faturamento.projetado)}</b> · Positivação: <b>${fmt0(r.positivacao.projetado)}</b></div>`
+    ? `<div class="cruzado-linha">Faturamento: <b>${fmtMoney(r.faturamento.projetado)}</b> (${r.faturamento.pct}%) · Positivação: <b>${fmt0(r.positivacao.projetado)}</b> (${r.positivacao.pct}%)</div>`
     : "";
   const detailTabelas = isGeral()
-    ? metricaTableHTML("Positivação", camp.chave === "varejo" ? r.meta : null, r.positivacao, false) +
-      metricaTableHTML("Faturamento", camp.chave === "as" ? r.meta : null, r.faturamento, true)
-    : metricaTableHTML(camp.metricaLabel, r.meta, camp.chave === "varejo" ? r.positivacao : r.faturamento, camp.isMoeda);
+    ? metricaTableHTML("Positivação", r.positivacao, false) + metricaTableHTML("Faturamento", r.faturamento, true)
+    : metricaTableHTML(camp.metricaLabel, camp.chave === "varejo" ? r.positivacao : r.faturamento, camp.isMoeda);
   const detail = `
     ${detailTabelas}
     <div class="premio-full">
@@ -390,11 +389,21 @@ function renderEquipeBoard() {
 
 /* ================= GERAL POR FILIAL (VJ + AS) ================= */
 function filialCardHTML(nome, d) {
+  const pctFat = d.faturamento.meta > 0 ? Math.round(d.faturamento.realizado / d.faturamento.meta * 100) : 0;
+  const pctPos = d.positivacao.meta > 0 ? Math.round(d.positivacao.realizado / d.positivacao.meta * 100) : 0;
   return `
     <div class="filial-card">
       <div class="filial-nome">${nome}</div>
-      <div class="filial-stat"><span class="fk">Faturamento</span><span class="fv">${fmtMoney(d.faturamento)}</span></div>
-      <div class="filial-stat"><span class="fk">Positivação</span><span class="fv">${fmt0(d.positivacao)}</span></div>
+      <div class="filial-stat">
+        <span class="fk">Faturamento</span>
+        <span class="fv">${fmtMoney(d.faturamento.realizado)}</span>
+        <span class="fm">de ${fmtMoney(d.faturamento.meta)} (${pctFat}%)</span>
+      </div>
+      <div class="filial-stat">
+        <span class="fk">Positivação</span>
+        <span class="fv">${fmt0(d.positivacao.realizado)}</span>
+        <span class="fm">de ${fmt0(d.positivacao.meta)} (${pctPos}%)</span>
+      </div>
     </div>
   `;
 }
