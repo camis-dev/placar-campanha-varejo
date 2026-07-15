@@ -11,10 +11,10 @@ const TEAM_COLOR = { Washignton: "#1E7145", Rodrigo: "#B8620A", Sueli: "#A33B3B"
 // Escala de premios: a faixa ativa e a de maior "min" que a equipe geral atingiu.
 // Abaixo de 85% (gatilho de positivacao), ninguem recebe.
 const FAIXAS = [
-  { min: 110, valor: 400, label: "110%" },
-  { min: 100, valor: 250, label: "100%" },
-  { min: 90,  valor: 150, label: "90%" },
-  { min: 85,  valor: 100, label: "85%" },
+  { min: 110, valor: 400, label: "110%", css: "f110" },
+  { min: 100, valor: 250, label: "100%", css: "f100" },
+  { min: 90,  valor: 150, label: "90%",  css: "f90" },
+  { min: 85,  valor: 100, label: "85%",  css: "f85" },
 ];
 const PREMIO_SUPERVISOR = 500;      // pago quando a equipe geral atinge 100%
 const GATILHO_SUPERVISOR = 100;
@@ -47,6 +47,7 @@ function premioPessoa(p, pctEquipe) {
 function renderSecNav() {
   const secs = [
     { key: "placar", label: "Placar" },
+    { key: "regras", label: "Regras" },
     { key: "premios", label: "Prêmios" },
   ];
   document.getElementById("secNav").innerHTML = secs.map(s => `
@@ -56,7 +57,7 @@ function renderSecNav() {
 function setSecao(key) {
   secaoAtiva = key;
   renderSecNav();
-  ["placar", "premios"].forEach(k => {
+  ["placar", "regras", "premios"].forEach(k => {
     document.getElementById("sec-" + k).classList.toggle("active", k === key);
   });
 }
@@ -73,8 +74,8 @@ function renderGateCard() {
     return `<div class="gate-marker ${ativo ? "active" : ""}" style="left:${(m/maxEscala*100)}%"><div class="dot"></div></div>`;
   }).join("");
 
-  const faixasHTML = FAIXAS.map(f => `
-    <div class="gate-faixa ${faixa && faixa.min === f.min ? "ativa" : ""}">
+  const faixasHTML = FAIXAS.slice().reverse().map(f => `
+    <div class="gate-faixa ${f.css} ${faixa && faixa.min === f.min ? "ativa" : ""}">
       <div class="fp">${f.label}</div>
       <div class="fv">${fmtMoney(f.valor)}</div>
     </div>
