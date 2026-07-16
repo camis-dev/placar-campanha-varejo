@@ -2,8 +2,8 @@
     "periodo":  "01/07 a 31/07/2026",
     "varejo":  {
                    "metaGeral":  1462,
-                   "valorGeral":  766,
-                   "pctGeral":  52.4,
+                   "valorGeral":  765,
+                   "pctGeral":  52.3,
                    "pessoas":  [
                                    {
                                        "setor":  530,
@@ -480,16 +480,16 @@
                                        "equipe":  "Sueli",
                                        "meta":  238,
                                        "faturado":  30,
-                                       "aFaturar":  101,
-                                       "projetado":  128,
-                                       "pct":  54,
+                                       "aFaturar":  100,
+                                       "projetado":  127,
+                                       "pct":  53,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  238,
                                                            "faturado":  30,
-                                                           "aFaturar":  101,
-                                                           "projetado":  128,
-                                                           "pct":  54
+                                                           "aFaturar":  100,
+                                                           "projetado":  127,
+                                                           "pct":  53
                                                        },
                                        "faturamento":  {
                                                            "meta":  79635,
@@ -1292,7 +1292,7 @@
                         "filialVarejo":  {
                                              "positivacao":  {
                                                                  "meta":  1462,
-                                                                 "realizado":  766
+                                                                 "realizado":  765
                                                              },
                                              "faturamento":  {
                                                                  "meta":  627311,
@@ -1312,7 +1312,7 @@
                         "geral":  {
                                       "positivacao":  {
                                                           "meta":  2416,
-                                                          "realizado":  1104
+                                                          "realizado":  1101
                                                       },
                                       "faturamento":  {
                                                           "meta":  1900000,
