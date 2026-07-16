@@ -205,25 +205,29 @@ function gateCardHTML(camp, d) {
       <div class="gate-title">${camp.gateLabel}</div>
       <div class="gate-pct num" style="color:${pctColor(pct)}">${pct}%</div>
     </div>
-    <div class="gate-nums">${fmtValorCamp(d.valorGeral, camp)} / ${fmtValorCamp(d.metaGeral, camp)} ${camp.metricaLabelPlural} (${camp.equipes.join(" + ")})</div>
+    <div class="gate-nums">${fmtValorCamp(d.valorGeral, camp)} / ${fmtValorCamp(d.metaGeral, camp)} ${camp.metricaLabelPlural} (Empresa toda — VJ + AS)</div>
     <div class="gate-track">
       ${marcadores}
       <div class="gate-fill" style="width:${(pctBarra / maxEscala * 100)}%;background:linear-gradient(90deg,${gradiente})"></div>
     </div>
     <div class="gate-faixas" style="grid-template-columns:repeat(${camp.faixas.length},1fr)">${faixasHTML}</div>
     ${statusHTML}
-    ${gatilhoCombinadoStatusHTML()}
+    ${gatilhoCombinadoStatusHTML(camp)}
   `;
 }
-function gatilhoCombinadoStatusHTML() {
+function gatilhoCombinadoStatusHTML(camp) {
   const rg = DATA.resumoGeral;
   if (!rg) return "";
   const ok = gatilhoCombinadoOk();
+  const outraEhPositivacao = camp.chave !== "varejo";
+  const outraLabel = outraEhPositivacao ? "positivação" : "faturamento";
+  const outraBloco = outraEhPositivacao ? rg.geral.positivacao : rg.geral.faturamento;
+  const outraFmt = outraEhPositivacao ? fmt0 : fmtMoney;
   return `
     <div class="gate-status ${ok ? "acima" : "abaixo"}" style="margin-top:8px;">
       ${ok
-        ? "Trava combinada da empresa (VJ+AS+demais) liberada: positivação e faturamento bateram a meta."
-        : `Trava adicional (empresa toda): positivação ${fmt0(rg.geral.positivacao.realizado)}/${fmt0(rg.geral.positivacao.meta)} e faturamento ${fmtMoney(rg.geral.faturamento.realizado)}/${fmtMoney(rg.geral.faturamento.meta)} — enquanto as duas não baterem juntas, nenhum prêmio é liberado em nenhuma das campanhas, mesmo com a equipe na própria meta.`}
+        ? "Trava combinada da empresa liberada: positivação e faturamento bateram a meta juntos."
+        : `Também precisa bater ${outraLabel}: ${outraFmt(outraBloco.realizado)} / ${outraFmt(outraBloco.meta)} — sem as duas juntas, nenhum prêmio é liberado em nenhuma das campanhas.`}
     </div>
   `;
 }
@@ -252,11 +256,10 @@ function gatilhoCombinadoMiniHTML() {
   return `
     <div class="geral-mini" style="grid-column:1 / -1;">
       <div class="gm-head">
-        <div class="gm-nome">Trava combinada da empresa (VJ + AS + demais)</div>
+        <div class="gm-nome">Trava combinada (positivação e faturamento acima precisam bater juntos)</div>
       </div>
-      <div class="gm-nums">Positivação ${fmt0(rg.geral.positivacao.realizado)}/${fmt0(rg.geral.positivacao.meta)} · Faturamento ${fmtMoney(rg.geral.faturamento.realizado)}/${fmtMoney(rg.geral.faturamento.meta)}</div>
       <div class="gm-status" style="background:${ok ? "var(--teal-soft)" : "var(--faixa110-bg)"};color:${ok ? "var(--teal)" : "var(--faixa110)"}">
-        ${ok ? "Liberada — nenhuma trava adicional" : "Bloqueada — sem prêmio em nenhuma campanha até bater as duas juntas"}
+        ${ok ? "Liberada — as duas bateram juntas" : "Bloqueada — falta uma das duas metas acima"}
       </div>
     </div>
   `;
@@ -644,6 +647,23 @@ fetch("data.json")
   .then(r => r.json())
   .then(data => {
     DATA = data;
+    // A régua/gauge de cada campanha passa a mostrar a meta e o realizado da
+    // EMPRESA TODA (VJ+AS+demais), não mais o escopo próprio de cada campanha
+    // (1.462 positivações só de Washignton+Rodrigo+Sueli, ou R$1.272.933 só
+    // de Alessandro+Anderson+Arildo) — pedido explícito do usuário: "Meta
+    // 2.416" e "atingimento da filial como toda AS + VJ" nos dois lados,
+    // somando meta E realizado. Sobrescreve metaGeral/valorGeral/pctGeral
+    // aqui, na fonte, pra que todo o resto (faixas de prêmio, gatilho de
+    // supervisor, cards do modo Geral, export CSV) automaticamente use o
+    // número certo sem precisar duplicar essa lógica em cada função.
+    if (DATA.resumoGeral) {
+      DATA.varejo.metaGeral = DATA.resumoGeral.geral.positivacao.meta;
+      DATA.varejo.valorGeral = DATA.resumoGeral.geral.positivacao.realizado;
+      DATA.varejo.pctGeral = Math.round(DATA.varejo.valorGeral / DATA.varejo.metaGeral * 1000) / 10;
+      DATA.as.metaGeral = DATA.resumoGeral.geral.faturamento.meta;
+      DATA.as.valorGeral = DATA.resumoGeral.geral.faturamento.realizado;
+      DATA.as.pctGeral = Math.round(DATA.as.valorGeral / DATA.as.metaGeral * 1000) / 10;
+    }
     document.getElementById("periodoLabel").textContent = "Período: " + DATA.periodo;
     document.getElementById("buscaInput").addEventListener("input", e => { busca = e.target.value; renderBoard(); });
 
