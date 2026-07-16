@@ -2,8 +2,8 @@
     "periodo":  "01/07 a 31/07/2026",
     "varejo":  {
                    "metaGeral":  1462,
-                   "valorGeral":  819,
-                   "pctGeral":  56,
+                   "valorGeral":  766,
+                   "pctGeral":  52.4,
                    "pessoas":  [
                                    {
                                        "setor":  530,
@@ -38,16 +38,16 @@
                                        "equipe":  "Washignton",
                                        "meta":  52,
                                        "faturado":  4,
-                                       "aFaturar":  19,
-                                       "projetado":  23,
-                                       "pct":  44,
+                                       "aFaturar":  17,
+                                       "projetado":  21,
+                                       "pct":  40,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  52,
                                                            "faturado":  4,
-                                                           "aFaturar":  19,
-                                                           "projetado":  23,
-                                                           "pct":  44
+                                                           "aFaturar":  17,
+                                                           "projetado":  21,
+                                                           "pct":  40
                                                        },
                                        "faturamento":  {
                                                            "meta":  54331,
@@ -64,16 +64,16 @@
                                        "equipe":  "Washignton",
                                        "meta":  80,
                                        "faturado":  17,
-                                       "aFaturar":  36,
-                                       "projetado":  53,
-                                       "pct":  66,
+                                       "aFaturar":  35,
+                                       "projetado":  49,
+                                       "pct":  61,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  80,
                                                            "faturado":  17,
-                                                           "aFaturar":  36,
-                                                           "projetado":  53,
-                                                           "pct":  66
+                                                           "aFaturar":  35,
+                                                           "projetado":  49,
+                                                           "pct":  61
                                                        },
                                        "faturamento":  {
                                                            "meta":  20677,
@@ -90,16 +90,16 @@
                                        "equipe":  "Washignton",
                                        "meta":  55,
                                        "faturado":  6,
-                                       "aFaturar":  21,
-                                       "projetado":  27,
-                                       "pct":  49,
+                                       "aFaturar":  20,
+                                       "projetado":  25,
+                                       "pct":  45,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  55,
                                                            "faturado":  6,
-                                                           "aFaturar":  21,
-                                                           "projetado":  27,
-                                                           "pct":  49
+                                                           "aFaturar":  20,
+                                                           "projetado":  25,
+                                                           "pct":  45
                                                        },
                                        "faturamento":  {
                                                            "meta":  19260,
@@ -143,15 +143,15 @@
                                        "meta":  72,
                                        "faturado":  7,
                                        "aFaturar":  29,
-                                       "projetado":  36,
-                                       "pct":  50,
+                                       "projetado":  34,
+                                       "pct":  47,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  72,
                                                            "faturado":  7,
                                                            "aFaturar":  29,
-                                                           "projetado":  36,
-                                                           "pct":  50
+                                                           "projetado":  34,
+                                                           "pct":  47
                                                        },
                                        "faturamento":  {
                                                            "meta":  11826,
@@ -168,16 +168,16 @@
                                        "equipe":  "Washignton",
                                        "meta":  59,
                                        "faturado":  14,
-                                       "aFaturar":  22,
-                                       "projetado":  36,
-                                       "pct":  61,
+                                       "aFaturar":  21,
+                                       "projetado":  32,
+                                       "pct":  54,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  59,
                                                            "faturado":  14,
-                                                           "aFaturar":  22,
-                                                           "projetado":  36,
-                                                           "pct":  61
+                                                           "aFaturar":  21,
+                                                           "projetado":  32,
+                                                           "pct":  54
                                                        },
                                        "faturamento":  {
                                                            "meta":  36192,
@@ -194,16 +194,16 @@
                                        "equipe":  "Washignton",
                                        "meta":  67,
                                        "faturado":  11,
-                                       "aFaturar":  22,
-                                       "projetado":  33,
-                                       "pct":  49,
+                                       "aFaturar":  21,
+                                       "projetado":  31,
+                                       "pct":  46,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  67,
                                                            "faturado":  11,
-                                                           "aFaturar":  22,
-                                                           "projetado":  33,
-                                                           "pct":  49
+                                                           "aFaturar":  21,
+                                                           "projetado":  31,
+                                                           "pct":  46
                                                        },
                                        "faturamento":  {
                                                            "meta":  17806,
@@ -220,16 +220,16 @@
                                        "equipe":  "Washignton",
                                        "meta":  77,
                                        "faturado":  14,
-                                       "aFaturar":  22,
-                                       "projetado":  36,
-                                       "pct":  47,
+                                       "aFaturar":  18,
+                                       "projetado":  30,
+                                       "pct":  39,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  77,
                                                            "faturado":  14,
-                                                           "aFaturar":  22,
-                                                           "projetado":  36,
-                                                           "pct":  47
+                                                           "aFaturar":  18,
+                                                           "projetado":  30,
+                                                           "pct":  39
                                                        },
                                        "faturamento":  {
                                                            "meta":  25401,
@@ -272,16 +272,16 @@
                                        "equipe":  "Washignton",
                                        "meta":  15,
                                        "faturado":  4,
-                                       "aFaturar":  24,
-                                       "projetado":  28,
-                                       "pct":  187,
+                                       "aFaturar":  23,
+                                       "projetado":  26,
+                                       "pct":  173,
                                        "bateuIndividual":  true,
                                        "positivacao":  {
                                                            "meta":  15,
                                                            "faturado":  4,
-                                                           "aFaturar":  24,
-                                                           "projetado":  28,
-                                                           "pct":  187
+                                                           "aFaturar":  23,
+                                                           "projetado":  26,
+                                                           "pct":  173
                                                        },
                                        "faturamento":  {
                                                            "meta":  20567,
@@ -324,16 +324,16 @@
                                        "equipe":  "Washignton",
                                        "meta":  626,
                                        "faturado":  109,
-                                       "aFaturar":  248,
-                                       "projetado":  357,
-                                       "pct":  57,
+                                       "aFaturar":  237,
+                                       "projetado":  333,
+                                       "pct":  53,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  626,
                                                            "faturado":  109,
-                                                           "aFaturar":  248,
-                                                           "projetado":  357,
-                                                           "pct":  57
+                                                           "aFaturar":  237,
+                                                           "projetado":  333,
+                                                           "pct":  53
                                                        },
                                        "faturamento":  {
                                                            "meta":  249739,
@@ -429,15 +429,15 @@
                                        "meta":  6,
                                        "faturado":  5,
                                        "aFaturar":  16,
-                                       "projetado":  21,
-                                       "pct":  350,
+                                       "projetado":  18,
+                                       "pct":  300,
                                        "bateuIndividual":  true,
                                        "positivacao":  {
                                                            "meta":  6,
                                                            "faturado":  5,
                                                            "aFaturar":  16,
-                                                           "projetado":  21,
-                                                           "pct":  350
+                                                           "projetado":  18,
+                                                           "pct":  300
                                                        },
                                        "faturamento":  {
                                                            "meta":  9700,
@@ -454,16 +454,16 @@
                                        "equipe":  "Sueli",
                                        "meta":  59,
                                        "faturado":  4,
-                                       "aFaturar":  16,
-                                       "projetado":  20,
-                                       "pct":  34,
+                                       "aFaturar":  15,
+                                       "projetado":  19,
+                                       "pct":  32,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  59,
                                                            "faturado":  4,
-                                                           "aFaturar":  16,
-                                                           "projetado":  20,
-                                                           "pct":  34
+                                                           "aFaturar":  15,
+                                                           "projetado":  19,
+                                                           "pct":  32
                                                        },
                                        "faturamento":  {
                                                            "meta":  40447,
@@ -480,16 +480,16 @@
                                        "equipe":  "Sueli",
                                        "meta":  238,
                                        "faturado":  30,
-                                       "aFaturar":  102,
-                                       "projetado":  132,
-                                       "pct":  55,
+                                       "aFaturar":  101,
+                                       "projetado":  128,
+                                       "pct":  54,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  238,
                                                            "faturado":  30,
-                                                           "aFaturar":  102,
-                                                           "projetado":  132,
-                                                           "pct":  55
+                                                           "aFaturar":  101,
+                                                           "projetado":  128,
+                                                           "pct":  54
                                                        },
                                        "faturamento":  {
                                                            "meta":  79635,
@@ -507,15 +507,15 @@
                                        "meta":  30,
                                        "faturado":  5,
                                        "aFaturar":  11,
-                                       "projetado":  16,
-                                       "pct":  53,
+                                       "projetado":  14,
+                                       "pct":  47,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  30,
                                                            "faturado":  5,
                                                            "aFaturar":  11,
-                                                           "projetado":  16,
-                                                           "pct":  53
+                                                           "projetado":  14,
+                                                           "pct":  47
                                                        },
                                        "faturamento":  {
                                                            "meta":  38871,
@@ -584,16 +584,16 @@
                                        "equipe":  "Rodrigo",
                                        "meta":  74,
                                        "faturado":  30,
-                                       "aFaturar":  30,
-                                       "projetado":  60,
-                                       "pct":  81,
+                                       "aFaturar":  29,
+                                       "projetado":  52,
+                                       "pct":  70,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  74,
                                                            "faturado":  30,
-                                                           "aFaturar":  30,
-                                                           "projetado":  60,
-                                                           "pct":  81
+                                                           "aFaturar":  29,
+                                                           "projetado":  52,
+                                                           "pct":  70
                                                        },
                                        "faturamento":  {
                                                            "meta":  23533,
@@ -610,16 +610,16 @@
                                        "equipe":  "Rodrigo",
                                        "meta":  68,
                                        "faturado":  19,
-                                       "aFaturar":  19,
-                                       "projetado":  38,
-                                       "pct":  56,
+                                       "aFaturar":  18,
+                                       "projetado":  32,
+                                       "pct":  47,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  68,
                                                            "faturado":  19,
-                                                           "aFaturar":  19,
-                                                           "projetado":  38,
-                                                           "pct":  56
+                                                           "aFaturar":  18,
+                                                           "projetado":  32,
+                                                           "pct":  47
                                                        },
                                        "faturamento":  {
                                                            "meta":  25970,
@@ -663,15 +663,15 @@
                                        "meta":  42,
                                        "faturado":  11,
                                        "aFaturar":  46,
-                                       "projetado":  57,
-                                       "pct":  136,
+                                       "projetado":  56,
+                                       "pct":  133,
                                        "bateuIndividual":  true,
                                        "positivacao":  {
                                                            "meta":  42,
                                                            "faturado":  11,
                                                            "aFaturar":  46,
-                                                           "projetado":  57,
-                                                           "pct":  136
+                                                           "projetado":  56,
+                                                           "pct":  133
                                                        },
                                        "faturamento":  {
                                                            "meta":  19306,
@@ -689,15 +689,15 @@
                                        "meta":  75,
                                        "faturado":  7,
                                        "aFaturar":  34,
-                                       "projetado":  41,
-                                       "pct":  55,
+                                       "projetado":  37,
+                                       "pct":  49,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  75,
                                                            "faturado":  7,
                                                            "aFaturar":  34,
-                                                           "projetado":  41,
-                                                           "pct":  55
+                                                           "projetado":  37,
+                                                           "pct":  49
                                                        },
                                        "faturamento":  {
                                                            "meta":  28142,
@@ -715,15 +715,15 @@
                                        "meta":  32,
                                        "faturado":  1,
                                        "aFaturar":  6,
-                                       "projetado":  7,
-                                       "pct":  22,
+                                       "projetado":  6,
+                                       "pct":  19,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  32,
                                                            "faturado":  1,
                                                            "aFaturar":  6,
-                                                           "projetado":  7,
-                                                           "pct":  22
+                                                           "projetado":  6,
+                                                           "pct":  19
                                                        },
                                        "faturamento":  {
                                                            "meta":  29400,
@@ -741,15 +741,15 @@
                                        "meta":  70,
                                        "faturado":  18,
                                        "aFaturar":  13,
-                                       "projetado":  31,
-                                       "pct":  44,
+                                       "projetado":  29,
+                                       "pct":  41,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  70,
                                                            "faturado":  18,
                                                            "aFaturar":  13,
-                                                           "projetado":  31,
-                                                           "pct":  44
+                                                           "projetado":  29,
+                                                           "pct":  41
                                                        },
                                        "faturamento":  {
                                                            "meta":  23410,
@@ -793,15 +793,15 @@
                                        "meta":  58,
                                        "faturado":  15,
                                        "aFaturar":  12,
-                                       "projetado":  27,
-                                       "pct":  47,
+                                       "projetado":  26,
+                                       "pct":  45,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  58,
                                                            "faturado":  15,
                                                            "aFaturar":  12,
-                                                           "projetado":  27,
-                                                           "pct":  47
+                                                           "projetado":  26,
+                                                           "pct":  45
                                                        },
                                        "faturamento":  {
                                                            "meta":  28383,
@@ -818,16 +818,16 @@
                                        "equipe":  "Rodrigo",
                                        "meta":  598,
                                        "faturado":  139,
-                                       "aFaturar":  191,
-                                       "projetado":  330,
-                                       "pct":  55,
+                                       "aFaturar":  189,
+                                       "projetado":  305,
+                                       "pct":  51,
                                        "bateuIndividual":  false,
                                        "positivacao":  {
                                                            "meta":  598,
                                                            "faturado":  139,
-                                                           "aFaturar":  191,
-                                                           "projetado":  330,
-                                                           "pct":  55
+                                                           "aFaturar":  189,
+                                                           "projetado":  305,
+                                                           "pct":  51
                                                        },
                                        "faturamento":  {
                                                            "meta":  297937,
@@ -910,9 +910,9 @@
                                    "positivacao":  {
                                                        "meta":  30,
                                                        "faturado":  14,
-                                                       "aFaturar":  18,
-                                                       "projetado":  32,
-                                                       "pct":  107
+                                                       "aFaturar":  17,
+                                                       "projetado":  21,
+                                                       "pct":  70
                                                    },
                                    "faturamento":  {
                                                        "meta":  50722,
@@ -936,9 +936,9 @@
                                    "positivacao":  {
                                                        "meta":  37,
                                                        "faturado":  5,
-                                                       "aFaturar":  24,
-                                                       "projetado":  29,
-                                                       "pct":  78
+                                                       "aFaturar":  23,
+                                                       "projetado":  27,
+                                                       "pct":  73
                                                    },
                                    "faturamento":  {
                                                        "meta":  144943,
@@ -988,9 +988,9 @@
                                    "positivacao":  {
                                                        "meta":  131,
                                                        "faturado":  46,
-                                                       "aFaturar":  54,
-                                                       "projetado":  100,
-                                                       "pct":  76
+                                                       "aFaturar":  52,
+                                                       "projetado":  87,
+                                                       "pct":  66
                                                    },
                                    "faturamento":  {
                                                        "meta":  587845,
@@ -1040,9 +1040,9 @@
                                    "positivacao":  {
                                                        "meta":  84,
                                                        "faturado":  22,
-                                                       "aFaturar":  35,
-                                                       "projetado":  57,
-                                                       "pct":  68
+                                                       "aFaturar":  33,
+                                                       "projetado":  49,
+                                                       "pct":  58
                                                    },
                                    "faturamento":  {
                                                        "meta":  85406,
@@ -1118,9 +1118,9 @@
                                    "positivacao":  {
                                                        "meta":  176,
                                                        "faturado":  41,
-                                                       "aFaturar":  63,
-                                                       "projetado":  104,
-                                                       "pct":  59
+                                                       "aFaturar":  61,
+                                                       "projetado":  96,
+                                                       "pct":  55
                                                    },
                                    "faturamento":  {
                                                        "meta":  202659,
@@ -1145,8 +1145,8 @@
                                                        "meta":  30,
                                                        "faturado":  7,
                                                        "aFaturar":  5,
-                                                       "projetado":  12,
-                                                       "pct":  40
+                                                       "projetado":  11,
+                                                       "pct":  37
                                                    },
                                    "faturamento":  {
                                                        "meta":  36101,
@@ -1197,8 +1197,8 @@
                                                        "meta":  67,
                                                        "faturado":  17,
                                                        "aFaturar":  37,
-                                                       "projetado":  54,
-                                                       "pct":  81
+                                                       "projetado":  49,
+                                                       "pct":  73
                                                    },
                                    "faturamento":  {
                                                        "meta":  148814,
@@ -1249,8 +1249,8 @@
                                                        "meta":  63,
                                                        "faturado":  1,
                                                        "aFaturar":  38,
-                                                       "projetado":  39,
-                                                       "pct":  62
+                                                       "projetado":  38,
+                                                       "pct":  60
                                                    },
                                    "faturamento":  {
                                                        "meta":  57080,
@@ -1275,8 +1275,8 @@
                                                        "meta":  257,
                                                        "faturado":  32,
                                                        "aFaturar":  106,
-                                                       "projetado":  138,
-                                                       "pct":  54
+                                                       "projetado":  131,
+                                                       "pct":  51
                                                    },
                                    "faturamento":  {
                                                        "meta":  482429,
@@ -1292,7 +1292,7 @@
                         "filialVarejo":  {
                                              "positivacao":  {
                                                                  "meta":  1462,
-                                                                 "realizado":  819
+                                                                 "realizado":  766
                                                              },
                                              "faturamento":  {
                                                                  "meta":  627311,
@@ -1302,7 +1302,7 @@
                         "filialAs":  {
                                          "positivacao":  {
                                                              "meta":  564,
-                                                             "realizado":  342
+                                                             "realizado":  314
                                                          },
                                          "faturamento":  {
                                                              "meta":  1272933,
@@ -1312,7 +1312,7 @@
                         "geral":  {
                                       "positivacao":  {
                                                           "meta":  2416,
-                                                          "realizado":  1185
+                                                          "realizado":  1104
                                                       },
                                       "faturamento":  {
                                                           "meta":  1900000,
