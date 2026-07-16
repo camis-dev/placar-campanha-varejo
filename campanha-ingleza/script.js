@@ -36,6 +36,7 @@ const CAMPANHAS = {
       { ico: "📈", titulo: "Gatilho de Equipe:", texto: "A faixa de premiação individual (R$100, R$150, R$250 ou R$400) é determinada pelo percentual total de positivação consolidada alcançado pela equipe geral (meta base de 1.535,84 — Washignton + Rodrigo + Sueli)." },
       { ico: "🛡", titulo: "Auditoria e Conformidade:", texto: "Cadastros inconsistentes ou devoluções de mercadoria dentro do mês de apuração anulam a positivação do respectivo cliente." },
       { ico: "✓", titulo: "Gatilho de Positivação (85%):", texto: "Para habilitar a premiação dos vendedores VRJ, a equipe precisa atingir pelo menos 85% do objetivo geral de positivação." },
+      { ico: "🔒", titulo: "Trava Combinada (Empresa Toda):", texto: "Além do gatilho acima, nenhuma premiação (individual ou de liderança) é liberada em VRJ nem em AS enquanto a empresa toda não atingir, ao mesmo tempo, 2.416 positivações E R$ 1.900.000,00 de faturamento." },
     ],
     liderancaTexto: "Nossos supervisores VRJ desempenham papel fundamental no direcionamento, acompanhamento, motivação e suporte tático do time de varejo durante esta grande jornada. Para reconhecer esse esforço de coordenação, quando a equipe consolidada atingir <b>100% do volume previsto de positivação</b>:",
     liderancaBox: "🏆 Prêmio de R$ 500,00 para cada um dos 3 Supervisores VRJ!",
@@ -65,6 +66,7 @@ const CAMPANHAS = {
       { ico: "📈", titulo: "Gatilho de Equipe:", texto: "A faixa de premiação individual (R$250, R$400 ou R$500) é determinada pelo percentual total de faturamento consolidado alcançado pela equipe geral (meta base de R$ 1.900.000,00 — Alessandro + Anderson + Arildo)." },
       { ico: "✓", titulo: "Gatilho de Venda (95%):", texto: "Para habilitar a premiação dos vendedores AS, a equipe precisa atingir pelo menos 95% do objetivo geral de faturamento da marca." },
       { ico: "🛡", titulo: "Auditoria e Conformidade:", texto: "Devoluções de mercadoria dentro do mês de apuração são descontadas do faturamento apurado; bonificações (brindes/amostras) não entram na conta." },
+      { ico: "🔒", titulo: "Trava Combinada (Empresa Toda):", texto: "Além do gatilho acima, nenhuma premiação (individual ou de liderança) é liberada em AS nem em VRJ enquanto a empresa toda não atingir, ao mesmo tempo, 2.416 positivações E R$ 1.900.000,00 de faturamento." },
     ],
     liderancaTexto: "Nossos supervisores AS desempenham papel fundamental no direcionamento, acompanhamento, motivação e suporte tático do time durante esta grande jornada. Para reconhecer esse esforço de coordenação, quando a equipe consolidada atingir <b>100% do faturamento previsto</b>:",
     liderancaBox: "🏆 Prêmio de R$ 500,00 para cada um dos 3 Supervisores AS!",
@@ -79,6 +81,20 @@ let secaoAtiva = "placar";
 function modo() { return CAMPANHAS[modoAtivo]; }
 function dados() { return DATA[modoAtivo]; }
 function isGeral() { return modoAtivo === "geral"; }
+
+// Trava adicional pedida pelo usuário: além do gatilho próprio de cada
+// campanha (85% VJ / 95% AS), NENHUM prêmio (individual ou de liderança) em
+// NENHUMA das duas campanhas é liberado enquanto a empresa toda (todos os
+// vendedores da base, não só VJ+AS) não bater as duas metas combinadas ao
+// mesmo tempo: positivação ≥ 2.416 E faturamento ≥ R$ 1.900.000. As duas
+// travas são independentes e cumulativas (precisa bater a própria E a
+// combinada).
+function gatilhoCombinadoOk() {
+  const rg = DATA.resumoGeral;
+  if (!rg) return false;
+  return rg.geral.positivacao.realizado >= rg.geral.positivacao.meta
+      && rg.geral.faturamento.realizado >= rg.geral.faturamento.meta;
+}
 
 function pctColor(pct) {
   if (pct >= 100) return "#1E7145";
@@ -96,6 +112,7 @@ function faixaAtivaCamp(pctEquipe, camp) {
 function faixaAtiva(pctEquipe) { return faixaAtivaCamp(pctEquipe, modo()); }
 
 function premioPessoaCamp(p, pctEquipe, camp) {
+  if (!gatilhoCombinadoOk()) return 0;
   if (p.isSupervisor) {
     return pctEquipe >= camp.gatilhoSupervisor ? camp.premioSupervisor : 0;
   }
@@ -104,6 +121,7 @@ function premioPessoaCamp(p, pctEquipe, camp) {
   return faixa ? faixa.valor : 0;
 }
 function premioPessoa(p, pctEquipe) { return premioPessoaCamp(p, pctEquipe, modo()); }
+function supervisorLiberado(camp, d) { return gatilhoCombinadoOk() && d.pctGeral >= camp.gatilhoSupervisor; }
 
 /* ================= ALTERNADOR VAREJO / AS / GERAL ================= */
 function renderModoSwitch() {
@@ -194,6 +212,19 @@ function gateCardHTML(camp, d) {
     </div>
     <div class="gate-faixas" style="grid-template-columns:repeat(${camp.faixas.length},1fr)">${faixasHTML}</div>
     ${statusHTML}
+    ${gatilhoCombinadoStatusHTML()}
+  `;
+}
+function gatilhoCombinadoStatusHTML() {
+  const rg = DATA.resumoGeral;
+  if (!rg) return "";
+  const ok = gatilhoCombinadoOk();
+  return `
+    <div class="gate-status ${ok ? "acima" : "abaixo"}" style="margin-top:8px;">
+      ${ok
+        ? "Trava combinada da empresa (VJ+AS+demais) liberada: positivação e faturamento bateram a meta."
+        : `Trava adicional (empresa toda): positivação ${fmt0(rg.geral.positivacao.realizado)}/${fmt0(rg.geral.positivacao.meta)} e faturamento ${fmtMoney(rg.geral.faturamento.realizado)}/${fmtMoney(rg.geral.faturamento.meta)} — enquanto as duas não baterem juntas, nenhum prêmio é liberado em nenhuma das campanhas, mesmo com a equipe na própria meta.`}
+    </div>
   `;
 }
 function gateMiniHTML(camp, d) {
@@ -214,6 +245,22 @@ function gateMiniHTML(camp, d) {
     </div>
   `;
 }
+function gatilhoCombinadoMiniHTML() {
+  const rg = DATA.resumoGeral;
+  if (!rg) return "";
+  const ok = gatilhoCombinadoOk();
+  return `
+    <div class="geral-mini" style="grid-column:1 / -1;">
+      <div class="gm-head">
+        <div class="gm-nome">Trava combinada da empresa (VJ + AS + demais)</div>
+      </div>
+      <div class="gm-nums">Positivação ${fmt0(rg.geral.positivacao.realizado)}/${fmt0(rg.geral.positivacao.meta)} · Faturamento ${fmtMoney(rg.geral.faturamento.realizado)}/${fmtMoney(rg.geral.faturamento.meta)}</div>
+      <div class="gm-status" style="background:${ok ? "var(--teal-soft)" : "var(--faixa110-bg)"};color:${ok ? "var(--teal)" : "var(--faixa110)"}">
+        ${ok ? "Liberada — nenhuma trava adicional" : "Bloqueada — sem prêmio em nenhuma campanha até bater as duas juntas"}
+      </div>
+    </div>
+  `;
+}
 function renderGateCard() {
   if (isGeral()) {
     const totalPremiosVarejo = getPremiosRowsCamp(CAMPANHAS.varejo, DATA.varejo).reduce((s,x)=>s+x.premio,0);
@@ -222,6 +269,7 @@ function renderGateCard() {
       <div class="geral-resumo" id="gateCard-wrap">
         ${gateMiniHTML(CAMPANHAS.varejo, DATA.varejo)}
         ${gateMiniHTML(CAMPANHAS.as, DATA.as)}
+        ${gatilhoCombinadoMiniHTML()}
       </div>
       <div class="card gate-card" id="gateCard" style="display:none"></div>
       <div class="geral-strip">
@@ -362,7 +410,7 @@ function equipeRowHTML(r) {
   const detail = `
     ${detailTabelas}
     <div class="premio-full">
-      <div class="k">Prêmio de liderança (equipe geral ${camp.tag} ≥ ${camp.gatilhoSupervisor}%? ${DATA[r._campanha].pctGeral >= camp.gatilhoSupervisor ? "sim" : "não"})</div>
+      <div class="k">Prêmio de liderança (equipe geral ${camp.tag} ≥ ${camp.gatilhoSupervisor}% e trava combinada liberada? ${supervisorLiberado(camp, DATA[r._campanha]) ? "sim" : "não"})</div>
       <div class="v" style="color:${premio > 0 ? "var(--teal)" : "var(--ink-soft)"}">${fmtMoney(premio)}</div>
     </div>
   `;
@@ -528,7 +576,7 @@ function premioRowHTML(item, pos) {
   const { r, premio } = item;
   const campBadge = isGeral() ? `<span class="campanha-badge ${r._campanha}">${camp.tag}</span>` : "";
   const marcaIndividual = r.isSupervisor
-    ? `<span class="premio-ind ${DATA[r._campanha].pctGeral >= camp.gatilhoSupervisor ? "ok" : "no"}">Equipe geral ≥ ${camp.gatilhoSupervisor}%: ${DATA[r._campanha].pctGeral >= camp.gatilhoSupervisor ? "Sim" : "Não"}</span>`
+    ? `<span class="premio-ind ${supervisorLiberado(camp, DATA[r._campanha]) ? "ok" : "no"}">Equipe geral ≥ ${camp.gatilhoSupervisor}% e trava combinada: ${supervisorLiberado(camp, DATA[r._campanha]) ? "Sim" : "Não"}</span>`
     : `<span class="premio-ind ${r.bateuIndividual ? "ok" : "no"}">Meta individual: ${r.bateuIndividual ? "Bateu" : "Não bateu"} (${r.pct}%)</span>`;
   return `
     <div class="vrow ${r.isSupervisor ? "sup" : ""}" style="cursor:default;">
@@ -563,16 +611,20 @@ function renderPremiosBoard() {
       "Lista combinada de Varejo (VRJ) e AS, cada um com a faixa de prêmio calculada pela mecânica da própria campanha. Veja a aba Regras para os detalhes de cada uma.";
   } else {
     const m = modo();
-    const faixa = faixaAtiva(dados().pctGeral);
+    const combinadoOk = gatilhoCombinadoOk();
+    const faixa = combinadoOk ? faixaAtiva(dados().pctGeral) : null;
     document.getElementById("premiosTotal").innerHTML = `
-      <div>Faixa atual da equipe<b>${faixa ? fmtMoney(faixa.valor) + " / vendedor" : `Nenhuma (< ${m.gatilhoMin}%)`}</b></div>
+      <div>Faixa atual da equipe<b>${faixa ? fmtMoney(faixa.valor) + " / vendedor" : (!combinadoOk ? "Nenhuma (trava combinada)" : `Nenhuma (< ${m.gatilhoMin}%)`)}</b></div>
       <div>Ganhadores<b>${totalVendedores} de ${totalVendedoresBase} vendedores</b></div>
       <div>Total a pagar<b>${fmtMoney(totalGeral)}</b></div>
     `;
     document.getElementById("premiosLegenda").innerHTML =
       `A faixa de prêmio (${m.faixas.slice().reverse().map(f => fmtMoney(f.valor)).join(" / ")} por vendedor) depende do atingimento da ` +
       `<b>equipe geral ${m.tag}</b>. Só recebe quem bateu 100% da própria meta individual. Abaixo de ${m.gatilhoMin}% de atingimento geral, ` +
-      `ninguém recebe. Supervisores ganham R$500 fixo quando a equipe geral atingir ${m.gatilhoSupervisor}%.`;
+      `ninguém recebe. Supervisores ganham R$500 fixo quando a equipe geral atingir ${m.gatilhoSupervisor}%. ` +
+      `<b>Além disso</b>, nenhum prêmio (individual ou de liderança) é pago em nenhuma das duas campanhas enquanto a empresa toda não bater ` +
+      `positivação ≥ ${fmt0(DATA.resumoGeral.geral.positivacao.meta)} E faturamento ≥ ${fmtMoney(DATA.resumoGeral.geral.faturamento.meta)} ao mesmo tempo ` +
+      `(hoje: ${fmt0(DATA.resumoGeral.geral.positivacao.realizado)} / ${fmtMoney(DATA.resumoGeral.geral.faturamento.realizado)}).`;
   }
 }
 function exportPremiosCSV() {
