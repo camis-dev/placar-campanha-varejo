@@ -9,39 +9,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  38,
                                              "metaNova":  49,
-                                             "faturado":  7,
+                                             "faturado":  10,
                                              "naoFaturado":  21,
-                                             "projetado":  28,
-                                             "valorFaturado":  3225.31,
-                                             "valorAFaturar":  33189.74,
-                                             "pct":  57
+                                             "projetado":  31,
+                                             "valorFaturado":  3293.65,
+                                             "valorAFaturar":  26507.22,
+                                             "pct":  63
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  47,
                                            "metaNova":  61,
-                                           "faturado":  10,
+                                           "faturado":  14,
                                            "naoFaturado":  15,
-                                           "projetado":  25,
-                                           "valorFaturado":  1744.63,
-                                           "valorAFaturar":  3652.82,
-                                           "pct":  41
+                                           "projetado":  29,
+                                           "valorFaturado":  2393.42,
+                                           "valorAFaturar":  4625.53,
+                                           "pct":  48
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  35,
                                             "metaNova":  46,
-                                            "faturado":  4,
-                                            "naoFaturado":  7,
-                                            "projetado":  11,
-                                            "valorFaturado":  956.46,
-                                            "valorAFaturar":  1993.33,
-                                            "pct":  24
+                                            "faturado":  7,
+                                            "naoFaturado":  9,
+                                            "projetado":  16,
+                                            "valorFaturado":  1378.65,
+                                            "valorAFaturar":  2542.91,
+                                            "pct":  35
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  64,
-                           "totalValorFaturado":  5926.4,
-                           "totalValorAFaturar":  38835.89,
-                           "totalValorGeral":  44762.29
+                           "totalPositivado":  76,
+                           "totalValorFaturado":  7065.72,
+                           "totalValorAFaturar":  33675.66,
+                           "totalValorGeral":  40741.38
                        },
         "representatividade":  {
                                    "PANASONIC":  2.533,
@@ -59,39 +59,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  42,
                                              "metaNova":  55,
-                                             "faturado":  3,
-                                             "naoFaturado":  18,
-                                             "projetado":  21,
-                                             "valorFaturado":  1595.67,
-                                             "valorAFaturar":  2313.63,
-                                             "pct":  38
+                                             "faturado":  7,
+                                             "naoFaturado":  20,
+                                             "projetado":  27,
+                                             "valorFaturado":  2132.91,
+                                             "valorAFaturar":  2561.68,
+                                             "pct":  49
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  52,
                                            "metaNova":  68,
-                                           "faturado":  2,
-                                           "naoFaturado":  20,
-                                           "projetado":  22,
-                                           "valorFaturado":  62.67,
-                                           "valorAFaturar":  4644.19,
-                                           "pct":  32
+                                           "faturado":  4,
+                                           "naoFaturado":  21,
+                                           "projetado":  25,
+                                           "valorFaturado":  550.11,
+                                           "valorAFaturar":  6819.74,
+                                           "pct":  37
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  40,
                                             "metaNova":  52,
-                                            "faturado":  1,
-                                            "naoFaturado":  18,
-                                            "projetado":  19,
-                                            "valorFaturado":  20.38,
-                                            "valorAFaturar":  2158.37,
-                                            "pct":  37
+                                            "faturado":  4,
+                                            "naoFaturado":  17,
+                                            "projetado":  21,
+                                            "valorFaturado":  254.42,
+                                            "valorAFaturar":  2337.92,
+                                            "pct":  40
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  62,
-                           "totalValorFaturado":  1678.72,
-                           "totalValorAFaturar":  9116.19,
-                           "totalValorGeral":  10794.91
+                           "totalPositivado":  73,
+                           "totalValorFaturado":  2937.44,
+                           "totalValorAFaturar":  11719.34,
+                           "totalValorGeral":  14656.78
                        },
         "representatividade":  {
                                    "PANASONIC":  2.8,
@@ -110,38 +110,38 @@
                                              "metaAtual":  59,
                                              "metaNova":  77,
                                              "faturado":  15,
-                                             "naoFaturado":  22,
-                                             "projetado":  37,
+                                             "naoFaturado":  26,
+                                             "projetado":  41,
                                              "valorFaturado":  2278.78,
-                                             "valorAFaturar":  3402.5,
-                                             "pct":  48
+                                             "valorAFaturar":  3804.83,
+                                             "pct":  53
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  80,
                                            "metaNova":  104,
-                                           "faturado":  18,
-                                           "naoFaturado":  34,
-                                           "projetado":  52,
+                                           "faturado":  17,
+                                           "naoFaturado":  41,
+                                           "projetado":  58,
                                            "valorFaturado":  5178.62,
-                                           "valorAFaturar":  9385.29,
-                                           "pct":  50
+                                           "valorAFaturar":  8370.12,
+                                           "pct":  56
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  67,
                                             "metaNova":  87,
-                                            "faturado":  17,
-                                            "naoFaturado":  27,
-                                            "projetado":  44,
+                                            "faturado":  16,
+                                            "naoFaturado":  29,
+                                            "projetado":  45,
                                             "valorFaturado":  4687.04,
-                                            "valorAFaturar":  6259.37,
-                                            "pct":  51
+                                            "valorAFaturar":  5122.67,
+                                            "pct":  52
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  133,
+                           "totalPositivado":  144,
                            "totalValorFaturado":  12144.44,
-                           "totalValorAFaturar":  19047.16,
-                           "totalValorGeral":  31191.6
+                           "totalValorAFaturar":  17297.62,
+                           "totalValorGeral":  29442.06
                        },
         "representatividade":  {
                                    "PANASONIC":  3.933,
@@ -159,39 +159,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  37,
                                              "metaNova":  48,
-                                             "faturado":  5,
-                                             "naoFaturado":  9,
-                                             "projetado":  14,
-                                             "valorFaturado":  921.46,
-                                             "valorAFaturar":  527.31,
-                                             "pct":  29
+                                             "faturado":  6,
+                                             "naoFaturado":  10,
+                                             "projetado":  16,
+                                             "valorFaturado":  974.36,
+                                             "valorAFaturar":  1378.66,
+                                             "pct":  33
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  55,
                                            "metaNova":  72,
                                            "faturado":  6,
-                                           "naoFaturado":  19,
-                                           "projetado":  25,
+                                           "naoFaturado":  24,
+                                           "projetado":  30,
                                            "valorFaturado":  3094.83,
-                                           "valorAFaturar":  3800.28,
-                                           "pct":  35
+                                           "valorAFaturar":  5224.98,
+                                           "pct":  42
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  61,
                                             "metaNova":  79,
-                                            "faturado":  4,
-                                            "naoFaturado":  17,
-                                            "projetado":  21,
-                                            "valorFaturado":  2480.95,
-                                            "valorAFaturar":  2192.3,
-                                            "pct":  27
+                                            "faturado":  5,
+                                            "naoFaturado":  22,
+                                            "projetado":  27,
+                                            "valorFaturado":  2494.64,
+                                            "valorAFaturar":  2328.08,
+                                            "pct":  34
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  60,
-                           "totalValorFaturado":  6497.24,
-                           "totalValorAFaturar":  6519.89,
-                           "totalValorGeral":  13017.13
+                           "totalPositivado":  73,
+                           "totalValorFaturado":  6563.83,
+                           "totalValorAFaturar":  8931.72,
+                           "totalValorGeral":  15495.55
                        },
         "representatividade":  {
                                    "PANASONIC":  2.466,
@@ -209,39 +209,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  22,
                                              "metaNova":  29,
-                                             "faturado":  1,
-                                             "naoFaturado":  12,
-                                             "projetado":  13,
-                                             "valorFaturado":  271.31,
-                                             "valorAFaturar":  50769,
-                                             "pct":  45
+                                             "faturado":  10,
+                                             "naoFaturado":  5,
+                                             "projetado":  15,
+                                             "valorFaturado":  30308.01,
+                                             "valorAFaturar":  11897.5,
+                                             "pct":  52
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  25,
                                            "metaNova":  33,
-                                           "faturado":  4,
-                                           "naoFaturado":  10,
-                                           "projetado":  14,
-                                           "valorFaturado":  1542.86,
-                                           "valorAFaturar":  3890.77,
-                                           "pct":  42
+                                           "faturado":  11,
+                                           "naoFaturado":  5,
+                                           "projetado":  16,
+                                           "valorFaturado":  3052.52,
+                                           "valorAFaturar":  1252.22,
+                                           "pct":  48
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  32,
                                             "metaNova":  42,
-                                            "faturado":  5,
-                                            "naoFaturado":  11,
+                                            "faturado":  11,
+                                            "naoFaturado":  5,
                                             "projetado":  16,
-                                            "valorFaturado":  1213.73,
-                                            "valorAFaturar":  7099.13,
+                                            "valorFaturado":  6616.05,
+                                            "valorAFaturar":  1617.84,
                                             "pct":  38
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  43,
-                           "totalValorFaturado":  3027.9,
-                           "totalValorAFaturar":  61758.9,
-                           "totalValorGeral":  64786.8
+                           "totalPositivado":  47,
+                           "totalValorFaturado":  39976.58,
+                           "totalValorAFaturar":  14767.56,
+                           "totalValorGeral":  54744.14
                        },
         "representatividade":  {
                                    "PANASONIC":  1.467,
@@ -259,39 +259,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  49,
                                              "metaNova":  64,
-                                             "faturado":  4,
-                                             "naoFaturado":  15,
-                                             "projetado":  19,
-                                             "valorFaturado":  486.25,
-                                             "valorAFaturar":  2754.09,
-                                             "pct":  30
+                                             "faturado":  5,
+                                             "naoFaturado":  16,
+                                             "projetado":  21,
+                                             "valorFaturado":  504.22,
+                                             "valorAFaturar":  2624.04,
+                                             "pct":  33
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  72,
                                            "metaNova":  94,
                                            "faturado":  7,
-                                           "naoFaturado":  24,
-                                           "projetado":  31,
-                                           "valorFaturado":  2651.13,
-                                           "valorAFaturar":  1926.17,
-                                           "pct":  33
+                                           "naoFaturado":  35,
+                                           "projetado":  42,
+                                           "valorFaturado":  2563.62,
+                                           "valorAFaturar":  3888.63,
+                                           "pct":  45
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  66,
                                             "metaNova":  86,
-                                            "faturado":  3,
-                                            "naoFaturado":  16,
-                                            "projetado":  19,
-                                            "valorFaturado":  334.6,
-                                            "valorAFaturar":  5158.54,
-                                            "pct":  22
+                                            "faturado":  5,
+                                            "naoFaturado":  23,
+                                            "projetado":  28,
+                                            "valorFaturado":  988.43,
+                                            "valorAFaturar":  6493.68,
+                                            "pct":  33
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  69,
-                           "totalValorFaturado":  3471.98,
-                           "totalValorAFaturar":  9838.8,
-                           "totalValorGeral":  13310.78
+                           "totalPositivado":  91,
+                           "totalValorFaturado":  4056.27,
+                           "totalValorAFaturar":  13006.35,
+                           "totalValorGeral":  17062.62
                        },
         "representatividade":  {
                                    "PANASONIC":  3.266,
@@ -313,35 +313,35 @@
                                              "naoFaturado":  5,
                                              "projetado":  10,
                                              "valorFaturado":  6042.58,
-                                             "valorAFaturar":  1368.52,
+                                             "valorAFaturar":  565.63,
                                              "pct":  18
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  59,
                                            "metaNova":  77,
                                            "faturado":  14,
-                                           "naoFaturado":  21,
-                                           "projetado":  35,
+                                           "naoFaturado":  26,
+                                           "projetado":  40,
                                            "valorFaturado":  8651.07,
-                                           "valorAFaturar":  11260.94,
-                                           "pct":  45
+                                           "valorAFaturar":  11223.28,
+                                           "pct":  52
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  60,
                                             "metaNova":  78,
-                                            "faturado":  9,
-                                            "naoFaturado":  24,
-                                            "projetado":  33,
-                                            "valorFaturado":  3996.93,
-                                            "valorAFaturar":  17157.06,
-                                            "pct":  42
+                                            "faturado":  11,
+                                            "naoFaturado":  18,
+                                            "projetado":  29,
+                                            "valorFaturado":  9103.17,
+                                            "valorAFaturar":  4281.95,
+                                            "pct":  37
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  78,
-                           "totalValorFaturado":  18690.58,
-                           "totalValorAFaturar":  29786.52,
-                           "totalValorGeral":  48477.1
+                           "totalPositivado":  79,
+                           "totalValorFaturado":  23796.82,
+                           "totalValorAFaturar":  16070.86,
+                           "totalValorGeral":  39867.68
                        },
         "representatividade":  {
                                    "PANASONIC":  2.866,
@@ -359,39 +359,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  50,
                                              "metaNova":  65,
-                                             "faturado":  5,
-                                             "naoFaturado":  24,
-                                             "projetado":  29,
-                                             "valorFaturado":  288.93,
-                                             "valorAFaturar":  5410.14,
-                                             "pct":  45
+                                             "faturado":  13,
+                                             "naoFaturado":  17,
+                                             "projetado":  30,
+                                             "valorFaturado":  1111.19,
+                                             "valorAFaturar":  3321.62,
+                                             "pct":  46
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  67,
                                            "metaNova":  87,
-                                           "faturado":  8,
-                                           "naoFaturado":  21,
-                                           "projetado":  29,
-                                           "valorFaturado":  1075.18,
-                                           "valorAFaturar":  3926.28,
-                                           "pct":  33
+                                           "faturado":  11,
+                                           "naoFaturado":  25,
+                                           "projetado":  36,
+                                           "valorFaturado":  1858.58,
+                                           "valorAFaturar":  5026.93,
+                                           "pct":  41
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  55,
                                             "metaNova":  72,
-                                            "faturado":  8,
-                                            "naoFaturado":  15,
-                                            "projetado":  23,
-                                            "valorFaturado":  3960.17,
-                                            "valorAFaturar":  8636.14,
-                                            "pct":  32
+                                            "faturado":  14,
+                                            "naoFaturado":  11,
+                                            "projetado":  25,
+                                            "valorFaturado":  5442.66,
+                                            "valorAFaturar":  1032.07,
+                                            "pct":  35
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  81,
-                           "totalValorFaturado":  5324.28,
-                           "totalValorAFaturar":  17972.56,
-                           "totalValorGeral":  23296.84
+                           "totalPositivado":  91,
+                           "totalValorFaturado":  8412.43,
+                           "totalValorAFaturar":  9380.62,
+                           "totalValorGeral":  17793.05
                        },
         "representatividade":  {
                                    "PANASONIC":  3.333,
@@ -409,39 +409,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  44,
                                              "metaNova":  57,
-                                             "faturado":  5,
-                                             "naoFaturado":  10,
-                                             "projetado":  15,
-                                             "valorFaturado":  509.05,
-                                             "valorAFaturar":  3826.29,
-                                             "pct":  26
+                                             "faturado":  9,
+                                             "naoFaturado":  8,
+                                             "projetado":  17,
+                                             "valorFaturado":  2869.16,
+                                             "valorAFaturar":  1405.52,
+                                             "pct":  30
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  77,
                                            "metaNova":  100,
-                                           "faturado":  11,
-                                           "naoFaturado":  26,
-                                           "projetado":  37,
-                                           "valorFaturado":  2048.2,
-                                           "valorAFaturar":  14315.73,
-                                           "pct":  37
+                                           "faturado":  16,
+                                           "naoFaturado":  25,
+                                           "projetado":  41,
+                                           "valorFaturado":  4903.57,
+                                           "valorAFaturar":  15317.47,
+                                           "pct":  41
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  71,
                                             "metaNova":  92,
-                                            "faturado":  12,
+                                            "faturado":  14,
                                             "naoFaturado":  19,
-                                            "projetado":  31,
-                                            "valorFaturado":  2751.33,
-                                            "valorAFaturar":  5446.85,
-                                            "pct":  34
+                                            "projetado":  33,
+                                            "valorFaturado":  5060.29,
+                                            "valorAFaturar":  4519.4,
+                                            "pct":  36
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  83,
-                           "totalValorFaturado":  5308.58,
-                           "totalValorAFaturar":  23588.87,
-                           "totalValorGeral":  28897.45
+                           "totalPositivado":  91,
+                           "totalValorFaturado":  12833.02,
+                           "totalValorAFaturar":  21242.39,
+                           "totalValorGeral":  34075.41
                        },
         "representatividade":  {
                                    "PANASONIC":  2.933,
@@ -460,11 +460,11 @@
                                              "metaAtual":  30,
                                              "metaNova":  39,
                                              "faturado":  0,
-                                             "naoFaturado":  9,
-                                             "projetado":  9,
+                                             "naoFaturado":  7,
+                                             "projetado":  7,
                                              "valorFaturado":  0,
-                                             "valorAFaturar":  1070.87,
-                                             "pct":  23
+                                             "valorAFaturar":  953.17,
+                                             "pct":  18
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  38,
@@ -473,25 +473,25 @@
                                            "naoFaturado":  18,
                                            "projetado":  19,
                                            "valorFaturado":  161.82,
-                                           "valorAFaturar":  5762.87,
+                                           "valorAFaturar":  6638.52,
                                            "pct":  39
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  23,
                                             "metaNova":  30,
                                             "faturado":  1,
-                                            "naoFaturado":  6,
-                                            "projetado":  7,
+                                            "naoFaturado":  10,
+                                            "projetado":  11,
                                             "valorFaturado":  117.28,
-                                            "valorAFaturar":  1966.41,
-                                            "pct":  23
+                                            "valorAFaturar":  2990.25,
+                                            "pct":  37
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  35,
+                           "totalPositivado":  37,
                            "totalValorFaturado":  279.1,
-                           "totalValorAFaturar":  8800.15,
-                           "totalValorGeral":  9079.25
+                           "totalValorAFaturar":  10581.94,
+                           "totalValorGeral":  10861.04
                        },
         "representatividade":  {
                                    "PANASONIC":  2.0,
@@ -510,21 +510,21 @@
                                              "metaAtual":  8,
                                              "metaNova":  10,
                                              "faturado":  0,
-                                             "naoFaturado":  7,
-                                             "projetado":  7,
+                                             "naoFaturado":  4,
+                                             "projetado":  4,
                                              "valorFaturado":  0,
-                                             "valorAFaturar":  4347.11,
-                                             "pct":  70
+                                             "valorAFaturar":  3767.73,
+                                             "pct":  40
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  30,
                                            "metaNova":  39,
                                            "faturado":  5,
-                                           "naoFaturado":  21,
-                                           "projetado":  26,
+                                           "naoFaturado":  24,
+                                           "projetado":  29,
                                            "valorFaturado":  7753.65,
-                                           "valorAFaturar":  9565.54,
-                                           "pct":  67
+                                           "valorAFaturar":  30454.92,
+                                           "pct":  74
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  54,
@@ -533,15 +533,15 @@
                                             "naoFaturado":  5,
                                             "projetado":  8,
                                             "valorFaturado":  4044,
-                                            "valorAFaturar":  617.49,
+                                            "valorAFaturar":  1480.4,
                                             "pct":  11
                                         }
                        },
         "totalGeral":  {
                            "totalPositivado":  41,
                            "totalValorFaturado":  11797.65,
-                           "totalValorAFaturar":  14530.14,
-                           "totalValorGeral":  26327.79
+                           "totalValorAFaturar":  35703.05,
+                           "totalValorGeral":  47500.7
                        },
         "representatividade":  {
                                    "PANASONIC":  0.533,
@@ -563,35 +563,35 @@
                                              "naoFaturado":  9,
                                              "projetado":  13,
                                              "valorFaturado":  1007.97,
-                                             "valorAFaturar":  3910.58,
+                                             "valorAFaturar":  2636.59,
                                              "pct":  43
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  39,
                                            "metaNova":  51,
                                            "faturado":  7,
-                                           "naoFaturado":  14,
-                                           "projetado":  21,
+                                           "naoFaturado":  20,
+                                           "projetado":  27,
                                            "valorFaturado":  1889.85,
-                                           "valorAFaturar":  4679.38,
-                                           "pct":  41
+                                           "valorAFaturar":  6154.28,
+                                           "pct":  53
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  17,
                                             "metaNova":  22,
                                             "faturado":  3,
-                                            "naoFaturado":  6,
-                                            "projetado":  9,
+                                            "naoFaturado":  3,
+                                            "projetado":  6,
                                             "valorFaturado":  647.19,
-                                            "valorAFaturar":  1236.22,
-                                            "pct":  41
+                                            "valorAFaturar":  500.68,
+                                            "pct":  27
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  43,
+                           "totalPositivado":  46,
                            "totalValorFaturado":  3545.01,
-                           "totalValorAFaturar":  9826.18,
-                           "totalValorGeral":  13371.19
+                           "totalValorAFaturar":  9291.55,
+                           "totalValorGeral":  12836.56
                        },
         "representatividade":  {
                                    "PANASONIC":  1.533,
@@ -609,39 +609,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  445,
                                              "metaNova":  579,
-                                             "faturado":  54,
-                                             "naoFaturado":  161,
-                                             "projetado":  215,
-                                             "valorFaturado":  16627.31,
-                                             "valorAFaturar":  112889.78,
-                                             "pct":  37
+                                             "faturado":  84,
+                                             "naoFaturado":  148,
+                                             "projetado":  232,
+                                             "valorFaturado":  50522.83,
+                                             "valorAFaturar":  61424.19,
+                                             "pct":  40
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  641,
                                            "metaNova":  833,
-                                           "faturado":  93,
-                                           "naoFaturado":  243,
-                                           "projetado":  336,
-                                           "valorFaturado":  35854.51,
-                                           "valorAFaturar":  76810.26,
-                                           "pct":  40
+                                           "faturado":  113,
+                                           "naoFaturado":  279,
+                                           "projetado":  392,
+                                           "valorFaturado":  42051.66,
+                                           "valorAFaturar":  104996.62,
+                                           "pct":  47
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  581,
                                             "metaNova":  755,
-                                            "faturado":  70,
+                                            "faturado":  94,
                                             "naoFaturado":  171,
-                                            "projetado":  241,
-                                            "valorFaturado":  25210.06,
-                                            "valorAFaturar":  59921.21,
-                                            "pct":  32
+                                            "projetado":  265,
+                                            "valorFaturado":  40833.82,
+                                            "valorAFaturar":  35247.85,
+                                            "pct":  35
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  792,
-                           "totalValorFaturado":  77691.88,
-                           "totalValorAFaturar":  249621.25,
-                           "totalValorGeral":  327313.13
+                           "totalPositivado":  889,
+                           "totalValorFaturado":  133408.31,
+                           "totalValorAFaturar":  201668.66,
+                           "totalValorGeral":  335076.97
                        }
     },
     {
@@ -655,38 +655,38 @@
                                              "metaAtual":  22,
                                              "metaNova":  29,
                                              "faturado":  2,
-                                             "naoFaturado":  7,
-                                             "projetado":  9,
+                                             "naoFaturado":  10,
+                                             "projetado":  12,
                                              "valorFaturado":  204.42,
-                                             "valorAFaturar":  1305.78,
-                                             "pct":  31
+                                             "valorAFaturar":  1894.94,
+                                             "pct":  41
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  30,
                                            "metaNova":  39,
-                                           "faturado":  5,
-                                           "naoFaturado":  10,
-                                           "projetado":  15,
-                                           "valorFaturado":  1257.13,
-                                           "valorAFaturar":  2581.19,
-                                           "pct":  38
+                                           "faturado":  6,
+                                           "naoFaturado":  13,
+                                           "projetado":  19,
+                                           "valorFaturado":  1285.78,
+                                           "valorAFaturar":  4052.89,
+                                           "pct":  49
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  23,
                                             "metaNova":  30,
-                                            "faturado":  2,
-                                            "naoFaturado":  8,
-                                            "projetado":  10,
-                                            "valorFaturado":  421.39,
-                                            "valorAFaturar":  2558.78,
-                                            "pct":  33
+                                            "faturado":  3,
+                                            "naoFaturado":  10,
+                                            "projetado":  13,
+                                            "valorFaturado":  635.79,
+                                            "valorAFaturar":  3526.83,
+                                            "pct":  43
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  34,
-                           "totalValorFaturado":  1882.94,
-                           "totalValorAFaturar":  6445.75,
-                           "totalValorGeral":  8328.69
+                           "totalPositivado":  44,
+                           "totalValorFaturado":  2125.99,
+                           "totalValorAFaturar":  9474.66,
+                           "totalValorGeral":  11600.65
                        },
         "representatividade":  {
                                    "PANASONIC":  1.467,
@@ -704,39 +704,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  18,
                                              "metaNova":  23,
-                                             "faturado":  4,
-                                             "naoFaturado":  2,
-                                             "projetado":  6,
+                                             "faturado":  3,
+                                             "naoFaturado":  1,
+                                             "projetado":  4,
                                              "valorFaturado":  482.22,
-                                             "valorAFaturar":  9399.97,
-                                             "pct":  26
+                                             "valorAFaturar":  8500.49,
+                                             "pct":  17
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  24,
                                            "metaNova":  31,
                                            "faturado":  6,
-                                           "naoFaturado":  5,
-                                           "projetado":  11,
+                                           "naoFaturado":  3,
+                                           "projetado":  9,
                                            "valorFaturado":  1257.16,
-                                           "valorAFaturar":  2428.4,
-                                           "pct":  35
+                                           "valorAFaturar":  988.61,
+                                           "pct":  29
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  22,
                                             "metaNova":  29,
-                                            "faturado":  7,
-                                            "naoFaturado":  5,
-                                            "projetado":  12,
+                                            "faturado":  6,
+                                            "naoFaturado":  2,
+                                            "projetado":  8,
                                             "valorFaturado":  3354.15,
-                                            "valorAFaturar":  2454.12,
-                                            "pct":  41
+                                            "valorAFaturar":  241.79,
+                                            "pct":  28
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  29,
+                           "totalPositivado":  21,
                            "totalValorFaturado":  5093.53,
-                           "totalValorAFaturar":  14282.49,
-                           "totalValorGeral":  19376.02
+                           "totalValorAFaturar":  9730.89,
+                           "totalValorGeral":  14824.42
                        },
         "representatividade":  {
                                    "PANASONIC":  1.2,
@@ -754,39 +754,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  26,
                                              "metaNova":  34,
-                                             "faturado":  5,
-                                             "naoFaturado":  3,
-                                             "projetado":  8,
-                                             "valorFaturado":  796.57,
-                                             "valorAFaturar":  720.57,
-                                             "pct":  24
+                                             "faturado":  8,
+                                             "naoFaturado":  1,
+                                             "projetado":  9,
+                                             "valorFaturado":  1517.14,
+                                             "valorAFaturar":  1793.18,
+                                             "pct":  26
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  47,
                                            "metaNova":  61,
                                            "faturado":  4,
-                                           "naoFaturado":  0,
-                                           "projetado":  4,
+                                           "naoFaturado":  1,
+                                           "projetado":  5,
                                            "valorFaturado":  1093.38,
-                                           "valorAFaturar":  0,
-                                           "pct":  7
+                                           "valorAFaturar":  888.45,
+                                           "pct":  8
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  40,
                                             "metaNova":  52,
-                                            "faturado":  5,
-                                            "naoFaturado":  2,
+                                            "faturado":  6,
+                                            "naoFaturado":  1,
                                             "projetado":  7,
-                                            "valorFaturado":  585.13,
-                                            "valorAFaturar":  1861.68,
+                                            "valorFaturado":  2362.57,
+                                            "valorAFaturar":  84.24,
                                             "pct":  13
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  19,
-                           "totalValorFaturado":  2475.08,
-                           "totalValorAFaturar":  2582.25,
-                           "totalValorGeral":  5057.33
+                           "totalPositivado":  21,
+                           "totalValorFaturado":  4973.09,
+                           "totalValorAFaturar":  2765.87,
+                           "totalValorGeral":  7738.96
                        },
         "representatividade":  {
                                    "PANASONIC":  1.733,
@@ -804,39 +804,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  65,
                                              "metaNova":  85,
-                                             "faturado":  21,
-                                             "naoFaturado":  19,
-                                             "projetado":  40,
-                                             "valorFaturado":  3260.43,
-                                             "valorAFaturar":  4894.97,
-                                             "pct":  47
+                                             "faturado":  27,
+                                             "naoFaturado":  21,
+                                             "projetado":  48,
+                                             "valorFaturado":  4181.11,
+                                             "valorAFaturar":  5288.08,
+                                             "pct":  56
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  74,
                                            "metaNova":  96,
-                                           "faturado":  24,
-                                           "naoFaturado":  25,
-                                           "projetado":  49,
-                                           "valorFaturado":  4617.44,
-                                           "valorAFaturar":  5494.78,
-                                           "pct":  51
+                                           "faturado":  30,
+                                           "naoFaturado":  33,
+                                           "projetado":  63,
+                                           "valorFaturado":  5633.34,
+                                           "valorAFaturar":  8524.72,
+                                           "pct":  66
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  58,
                                             "metaNova":  75,
-                                            "faturado":  12,
-                                            "naoFaturado":  13,
-                                            "projetado":  25,
-                                            "valorFaturado":  3519.26,
-                                            "valorAFaturar":  5535.71,
-                                            "pct":  33
+                                            "faturado":  14,
+                                            "naoFaturado":  19,
+                                            "projetado":  33,
+                                            "valorFaturado":  3672.04,
+                                            "valorAFaturar":  9972.91,
+                                            "pct":  44
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  114,
-                           "totalValorFaturado":  11397.13,
-                           "totalValorAFaturar":  15925.46,
-                           "totalValorGeral":  27322.59
+                           "totalPositivado":  144,
+                           "totalValorFaturado":  13486.49,
+                           "totalValorAFaturar":  23785.71,
+                           "totalValorGeral":  37272.2
                        },
         "representatividade":  {
                                    "PANASONIC":  4.333,
@@ -854,39 +854,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  40,
                                              "metaNova":  52,
-                                             "faturado":  7,
-                                             "naoFaturado":  12,
+                                             "faturado":  8,
+                                             "naoFaturado":  11,
                                              "projetado":  19,
-                                             "valorFaturado":  1456.16,
-                                             "valorAFaturar":  2578.56,
+                                             "valorFaturado":  1729.31,
+                                             "valorAFaturar":  7966.13,
                                              "pct":  37
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  68,
                                            "metaNova":  88,
-                                           "faturado":  17,
-                                           "naoFaturado":  23,
-                                           "projetado":  40,
-                                           "valorFaturado":  5079.16,
-                                           "valorAFaturar":  7020.29,
-                                           "pct":  45
+                                           "faturado":  22,
+                                           "naoFaturado":  20,
+                                           "projetado":  42,
+                                           "valorFaturado":  6822.58,
+                                           "valorAFaturar":  6271.04,
+                                           "pct":  48
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  66,
                                             "metaNova":  86,
-                                            "faturado":  13,
-                                            "naoFaturado":  24,
-                                            "projetado":  37,
-                                            "valorFaturado":  4480.59,
-                                            "valorAFaturar":  9622.31,
-                                            "pct":  43
+                                            "faturado":  17,
+                                            "naoFaturado":  23,
+                                            "projetado":  40,
+                                            "valorFaturado":  7552.97,
+                                            "valorAFaturar":  8691.13,
+                                            "pct":  47
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  96,
-                           "totalValorFaturado":  11015.91,
-                           "totalValorAFaturar":  19221.16,
-                           "totalValorGeral":  30237.07
+                           "totalPositivado":  101,
+                           "totalValorFaturado":  16104.86,
+                           "totalValorAFaturar":  22928.3,
+                           "totalValorGeral":  39033.16
                        },
         "representatividade":  {
                                    "PANASONIC":  2.666,
@@ -904,39 +904,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  46,
                                              "metaNova":  60,
-                                             "faturado":  9,
-                                             "naoFaturado":  17,
-                                             "projetado":  26,
-                                             "valorFaturado":  1005.57,
-                                             "valorAFaturar":  3520.83,
-                                             "pct":  43
+                                             "faturado":  15,
+                                             "naoFaturado":  13,
+                                             "projetado":  28,
+                                             "valorFaturado":  2319.14,
+                                             "valorAFaturar":  2558.49,
+                                             "pct":  47
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  56,
                                            "metaNova":  73,
-                                           "faturado":  7,
-                                           "naoFaturado":  18,
+                                           "faturado":  14,
+                                           "naoFaturado":  11,
                                            "projetado":  25,
-                                           "valorFaturado":  1323.27,
-                                           "valorAFaturar":  7718.39,
+                                           "valorFaturado":  6526.72,
+                                           "valorAFaturar":  3058.73,
                                            "pct":  34
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  51,
                                             "metaNova":  66,
-                                            "faturado":  9,
-                                            "naoFaturado":  13,
-                                            "projetado":  22,
-                                            "valorFaturado":  7538.77,
-                                            "valorAFaturar":  3383.13,
-                                            "pct":  33
+                                            "faturado":  16,
+                                            "naoFaturado":  7,
+                                            "projetado":  23,
+                                            "valorFaturado":  9791.51,
+                                            "valorAFaturar":  1503.59,
+                                            "pct":  35
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  73,
-                           "totalValorFaturado":  9867.61,
-                           "totalValorAFaturar":  14622.35,
-                           "totalValorGeral":  24489.96
+                           "totalPositivado":  76,
+                           "totalValorFaturado":  18637.37,
+                           "totalValorAFaturar":  7120.81,
+                           "totalValorGeral":  25758.18
                        },
         "representatividade":  {
                                    "PANASONIC":  3.066,
@@ -955,38 +955,38 @@
                                              "metaAtual":  31,
                                              "metaNova":  40,
                                              "faturado":  6,
-                                             "naoFaturado":  29,
-                                             "projetado":  35,
+                                             "naoFaturado":  38,
+                                             "projetado":  44,
                                              "valorFaturado":  998.78,
-                                             "valorAFaturar":  3683.42,
-                                             "pct":  88
+                                             "valorAFaturar":  4930.22,
+                                             "pct":  110
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  42,
                                            "metaNova":  55,
-                                           "faturado":  12,
-                                           "naoFaturado":  40,
-                                           "projetado":  52,
+                                           "faturado":  11,
+                                           "naoFaturado":  49,
+                                           "projetado":  60,
                                            "valorFaturado":  3854.42,
-                                           "valorAFaturar":  11767.26,
-                                           "pct":  95
+                                           "valorAFaturar":  14484.54,
+                                           "pct":  109
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  37,
                                             "metaNova":  48,
                                             "faturado":  12,
-                                            "naoFaturado":  26,
-                                            "projetado":  38,
+                                            "naoFaturado":  34,
+                                            "projetado":  46,
                                             "valorFaturado":  4855.05,
-                                            "valorAFaturar":  10097.43,
-                                            "pct":  79
+                                            "valorAFaturar":  12293.09,
+                                            "pct":  96
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  125,
+                           "totalPositivado":  150,
                            "totalValorFaturado":  9708.25,
-                           "totalValorAFaturar":  25548.11,
-                           "totalValorGeral":  35256.36
+                           "totalValorAFaturar":  31707.85,
+                           "totalValorGeral":  41416.1
                        },
         "representatividade":  {
                                    "PANASONIC":  2.067,
@@ -1004,39 +1004,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  56,
                                              "metaNova":  73,
-                                             "faturado":  4,
-                                             "naoFaturado":  15,
-                                             "projetado":  19,
-                                             "valorFaturado":  2104.36,
-                                             "valorAFaturar":  2495.89,
-                                             "pct":  26
+                                             "faturado":  5,
+                                             "naoFaturado":  16,
+                                             "projetado":  21,
+                                             "valorFaturado":  2232.16,
+                                             "valorAFaturar":  5360.72,
+                                             "pct":  29
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  75,
                                            "metaNova":  98,
-                                           "faturado":  5,
-                                           "naoFaturado":  32,
-                                           "projetado":  37,
-                                           "valorFaturado":  1077.9,
-                                           "valorAFaturar":  13090.94,
-                                           "pct":  38
+                                           "faturado":  7,
+                                           "naoFaturado":  35,
+                                           "projetado":  42,
+                                           "valorFaturado":  1611.24,
+                                           "valorAFaturar":  13381.7,
+                                           "pct":  43
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  88,
                                             "metaNova":  114,
-                                            "faturado":  5,
-                                            "naoFaturado":  35,
-                                            "projetado":  40,
-                                            "valorFaturado":  3061.4,
-                                            "valorAFaturar":  19573.47,
-                                            "pct":  35
+                                            "faturado":  7,
+                                            "naoFaturado":  39,
+                                            "projetado":  46,
+                                            "valorFaturado":  3930.35,
+                                            "valorAFaturar":  20331.92,
+                                            "pct":  40
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  96,
-                           "totalValorFaturado":  6243.66,
-                           "totalValorAFaturar":  35160.3,
-                           "totalValorGeral":  41403.96
+                           "totalPositivado":  109,
+                           "totalValorFaturado":  7773.75,
+                           "totalValorAFaturar":  39074.34,
+                           "totalValorGeral":  46848.09
                        },
         "representatividade":  {
                                    "PANASONIC":  3.733,
@@ -1055,38 +1055,38 @@
                                              "metaAtual":  23,
                                              "metaNova":  30,
                                              "faturado":  2,
-                                             "naoFaturado":  6,
-                                             "projetado":  8,
+                                             "naoFaturado":  8,
+                                             "projetado":  10,
                                              "valorFaturado":  622.79,
-                                             "valorAFaturar":  20971.07,
-                                             "pct":  27
+                                             "valorAFaturar":  21122.61,
+                                             "pct":  33
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  32,
                                            "metaNova":  42,
                                            "faturado":  1,
-                                           "naoFaturado":  6,
-                                           "projetado":  7,
+                                           "naoFaturado":  9,
+                                           "projetado":  10,
                                            "valorFaturado":  403.8,
-                                           "valorAFaturar":  4654.52,
-                                           "pct":  17
+                                           "valorAFaturar":  8739.23,
+                                           "pct":  24
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  27,
                                             "metaNova":  35,
                                             "faturado":  0,
-                                            "naoFaturado":  5,
-                                            "projetado":  5,
+                                            "naoFaturado":  8,
+                                            "projetado":  8,
                                             "valorFaturado":  0,
-                                            "valorAFaturar":  1478.45,
-                                            "pct":  14
+                                            "valorAFaturar":  2675.79,
+                                            "pct":  23
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  20,
+                           "totalPositivado":  28,
                            "totalValorFaturado":  1026.59,
-                           "totalValorAFaturar":  27104.04,
-                           "totalValorGeral":  28130.63
+                           "totalValorAFaturar":  32537.63,
+                           "totalValorGeral":  33564.22
                        },
         "representatividade":  {
                                    "PANASONIC":  1.533,
@@ -1104,39 +1104,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  24,
                                              "metaNova":  31,
-                                             "faturado":  6,
+                                             "faturado":  10,
                                              "naoFaturado":  5,
-                                             "projetado":  11,
-                                             "valorFaturado":  515.02,
-                                             "valorAFaturar":  1200.4,
-                                             "pct":  35
+                                             "projetado":  15,
+                                             "valorFaturado":  1715.42,
+                                             "valorAFaturar":  289.37,
+                                             "pct":  48
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  70,
                                            "metaNova":  91,
-                                           "faturado":  9,
+                                           "faturado":  19,
                                            "naoFaturado":  15,
-                                           "projetado":  24,
-                                           "valorFaturado":  2415.25,
-                                           "valorAFaturar":  4169.64,
-                                           "pct":  26
+                                           "projetado":  34,
+                                           "valorFaturado":  4809.56,
+                                           "valorAFaturar":  3913.9,
+                                           "pct":  37
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  54,
                                             "metaNova":  70,
-                                            "faturado":  5,
-                                            "naoFaturado":  10,
-                                            "projetado":  15,
-                                            "valorFaturado":  1697.37,
-                                            "valorAFaturar":  14960.73,
-                                            "pct":  21
+                                            "faturado":  12,
+                                            "naoFaturado":  11,
+                                            "projetado":  23,
+                                            "valorFaturado":  9044.35,
+                                            "valorAFaturar":  8815.12,
+                                            "pct":  33
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  50,
-                           "totalValorFaturado":  4627.64,
-                           "totalValorAFaturar":  20330.77,
-                           "totalValorGeral":  24958.41
+                           "totalPositivado":  72,
+                           "totalValorFaturado":  15569.33,
+                           "totalValorAFaturar":  13018.39,
+                           "totalValorGeral":  28587.72
                        },
         "representatividade":  {
                                    "PANASONIC":  1.6,
@@ -1158,35 +1158,35 @@
                                              "naoFaturado":  1,
                                              "projetado":  3,
                                              "valorFaturado":  683.99,
-                                             "valorAFaturar":  3016.5,
+                                             "valorAFaturar":  2675.08,
                                              "pct":  12
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  22,
                                            "metaNova":  29,
-                                           "faturado":  6,
-                                           "naoFaturado":  10,
-                                           "projetado":  16,
-                                           "valorFaturado":  8643.48,
-                                           "valorAFaturar":  4808.32,
-                                           "pct":  55
+                                           "faturado":  9,
+                                           "naoFaturado":  8,
+                                           "projetado":  17,
+                                           "valorFaturado":  9594.38,
+                                           "valorAFaturar":  4185.38,
+                                           "pct":  59
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  11,
                                             "metaNova":  14,
-                                            "faturado":  4,
-                                            "naoFaturado":  9,
+                                            "faturado":  8,
+                                            "naoFaturado":  5,
                                             "projetado":  13,
-                                            "valorFaturado":  16300.22,
-                                            "valorAFaturar":  14008.05,
+                                            "valorFaturado":  18121.97,
+                                            "valorAFaturar":  12186.3,
                                             "pct":  93
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  32,
-                           "totalValorFaturado":  25627.69,
-                           "totalValorAFaturar":  21832.87,
-                           "totalValorGeral":  47460.56
+                           "totalPositivado":  33,
+                           "totalValorFaturado":  28400.34,
+                           "totalValorAFaturar":  19046.76,
+                           "totalValorGeral":  47447.1
                        },
         "representatividade":  {
                                    "PANASONIC":  1.333,
@@ -1204,39 +1204,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  51,
                                              "metaNova":  66,
-                                             "faturado":  4,
-                                             "naoFaturado":  7,
+                                             "faturado":  8,
+                                             "naoFaturado":  3,
                                              "projetado":  11,
-                                             "valorFaturado":  764.12,
-                                             "valorAFaturar":  5876.69,
+                                             "valorFaturado":  1615.79,
+                                             "valorAFaturar":  5126.69,
                                              "pct":  17
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  58,
                                            "metaNova":  75,
-                                           "faturado":  7,
-                                           "naoFaturado":  20,
-                                           "projetado":  27,
-                                           "valorFaturado":  2930.18,
-                                           "valorAFaturar":  30948.14,
-                                           "pct":  36
+                                           "faturado":  16,
+                                           "naoFaturado":  13,
+                                           "projetado":  29,
+                                           "valorFaturado":  4991.3,
+                                           "valorAFaturar":  30511.79,
+                                           "pct":  39
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  62,
                                             "metaNova":  81,
-                                            "faturado":  5,
-                                            "naoFaturado":  11,
-                                            "projetado":  16,
-                                            "valorFaturado":  1667.67,
-                                            "valorAFaturar":  11956.95,
-                                            "pct":  20
+                                            "faturado":  10,
+                                            "naoFaturado":  9,
+                                            "projetado":  19,
+                                            "valorFaturado":  2759.09,
+                                            "valorAFaturar":  12706.92,
+                                            "pct":  23
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  54,
-                           "totalValorFaturado":  5361.97,
-                           "totalValorAFaturar":  48781.78,
-                           "totalValorGeral":  54143.75
+                           "totalPositivado":  59,
+                           "totalValorFaturado":  9366.18,
+                           "totalValorAFaturar":  48345.4,
+                           "totalValorGeral":  57711.58
                        },
         "representatividade":  {
                                    "PANASONIC":  3.4,
@@ -1254,39 +1254,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  422,
                                              "metaNova":  549,
-                                             "faturado":  72,
-                                             "naoFaturado":  123,
-                                             "projetado":  195,
-                                             "valorFaturado":  12894.43,
-                                             "valorAFaturar":  59664.65,
-                                             "pct":  36
+                                             "faturado":  96,
+                                             "naoFaturado":  128,
+                                             "projetado":  224,
+                                             "valorFaturado":  18302.27,
+                                             "valorAFaturar":  67506,
+                                             "pct":  41
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  598,
                                            "metaNova":  777,
-                                           "faturado":  103,
-                                           "naoFaturado":  204,
-                                           "projetado":  307,
-                                           "valorFaturado":  33952.57,
-                                           "valorAFaturar":  94681.87,
-                                           "pct":  40
+                                           "faturado":  145,
+                                           "naoFaturado":  210,
+                                           "projetado":  355,
+                                           "valorFaturado":  47883.66,
+                                           "valorAFaturar":  99000.98,
+                                           "pct":  46
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  539,
                                             "metaNova":  701,
-                                            "faturado":  79,
-                                            "naoFaturado":  161,
-                                            "projetado":  240,
-                                            "valorFaturado":  47481,
-                                            "valorAFaturar":  97490.81,
-                                            "pct":  34
+                                            "faturado":  111,
+                                            "naoFaturado":  168,
+                                            "projetado":  279,
+                                            "valorFaturado":  66079.84,
+                                            "valorAFaturar":  93029.63,
+                                            "pct":  40
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  742,
-                           "totalValorFaturado":  94328,
-                           "totalValorAFaturar":  251837.33,
-                           "totalValorGeral":  346165.33
+                           "totalPositivado":  858,
+                           "totalValorFaturado":  132265.77,
+                           "totalValorAFaturar":  259536.61,
+                           "totalValorGeral":  391802.38
                        }
     },
     {
@@ -1299,39 +1299,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  66,
                                              "metaNova":  86,
-                                             "faturado":  7,
-                                             "naoFaturado":  26,
-                                             "projetado":  33,
-                                             "valorFaturado":  556.4,
-                                             "valorAFaturar":  3418.78,
-                                             "pct":  38
+                                             "faturado":  22,
+                                             "naoFaturado":  17,
+                                             "projetado":  39,
+                                             "valorFaturado":  2899.75,
+                                             "valorAFaturar":  1788.63,
+                                             "pct":  45
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  84,
                                            "metaNova":  109,
                                            "faturado":  8,
-                                           "naoFaturado":  31,
-                                           "projetado":  39,
+                                           "naoFaturado":  41,
+                                           "projetado":  49,
                                            "valorFaturado":  794.91,
-                                           "valorAFaturar":  5550.69,
-                                           "pct":  36
+                                           "valorAFaturar":  8812.46,
+                                           "pct":  45
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  58,
                                             "metaNova":  75,
-                                            "faturado":  4,
-                                            "naoFaturado":  22,
-                                            "projetado":  26,
-                                            "valorFaturado":  556.64,
-                                            "valorAFaturar":  3421.13,
-                                            "pct":  35
+                                            "faturado":  15,
+                                            "naoFaturado":  13,
+                                            "projetado":  28,
+                                            "valorFaturado":  2449.02,
+                                            "valorAFaturar":  1858.71,
+                                            "pct":  37
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  98,
-                           "totalValorFaturado":  1907.95,
-                           "totalValorAFaturar":  12390.6,
-                           "totalValorGeral":  14298.55
+                           "totalPositivado":  116,
+                           "totalValorFaturado":  6143.68,
+                           "totalValorAFaturar":  12459.8,
+                           "totalValorGeral":  18603.48
                        },
         "representatividade":  {
                                    "PANASONIC":  4.4,
@@ -1350,38 +1350,38 @@
                                              "metaAtual":  23,
                                              "metaNova":  30,
                                              "faturado":  1,
-                                             "naoFaturado":  2,
-                                             "projetado":  3,
+                                             "naoFaturado":  3,
+                                             "projetado":  4,
                                              "valorFaturado":  56.1,
-                                             "valorAFaturar":  400.34,
-                                             "pct":  10
+                                             "valorAFaturar":  962.48,
+                                             "pct":  13
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  46,
                                            "metaNova":  60,
                                            "faturado":  6,
-                                           "naoFaturado":  11,
-                                           "projetado":  17,
+                                           "naoFaturado":  15,
+                                           "projetado":  21,
                                            "valorFaturado":  1215.66,
-                                           "valorAFaturar":  2856.21,
-                                           "pct":  28
+                                           "valorAFaturar":  3459.66,
+                                           "pct":  35
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  42,
                                             "metaNova":  55,
                                             "faturado":  5,
-                                            "naoFaturado":  9,
-                                            "projetado":  14,
+                                            "naoFaturado":  14,
+                                            "projetado":  19,
                                             "valorFaturado":  1152.84,
-                                            "valorAFaturar":  1514.95,
-                                            "pct":  25
+                                            "valorAFaturar":  7240.52,
+                                            "pct":  35
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  34,
+                           "totalPositivado":  44,
                            "totalValorFaturado":  2424.6,
-                           "totalValorAFaturar":  4771.5,
-                           "totalValorGeral":  7196.1
+                           "totalValorAFaturar":  11662.66,
+                           "totalValorGeral":  14087.26
                        },
         "representatividade":  {
                                    "PANASONIC":  1.533,
@@ -1410,28 +1410,28 @@
                                            "metaAtual":  60,
                                            "metaNova":  78,
                                            "faturado":  7,
-                                           "naoFaturado":  16,
-                                           "projetado":  23,
+                                           "naoFaturado":  20,
+                                           "projetado":  27,
                                            "valorFaturado":  2706.18,
-                                           "valorAFaturar":  3450.72,
-                                           "pct":  29
+                                           "valorAFaturar":  4762.71,
+                                           "pct":  35
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  30,
                                             "metaNova":  39,
                                             "faturado":  12,
-                                            "naoFaturado":  14,
-                                            "projetado":  26,
+                                            "naoFaturado":  17,
+                                            "projetado":  29,
                                             "valorFaturado":  2649.94,
-                                            "valorAFaturar":  4032.83,
-                                            "pct":  67
+                                            "valorAFaturar":  5598.17,
+                                            "pct":  74
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  54,
+                           "totalPositivado":  61,
                            "totalValorFaturado":  5482.6,
-                           "totalValorAFaturar":  7755.78,
-                           "totalValorGeral":  13238.38
+                           "totalValorAFaturar":  10633.11,
+                           "totalValorGeral":  16115.71
                        },
         "representatividade":  {
                                    "PANASONIC":  2.533,
@@ -1450,38 +1450,38 @@
                                              "metaAtual":  29,
                                              "metaNova":  38,
                                              "faturado":  1,
-                                             "naoFaturado":  1,
-                                             "projetado":  2,
+                                             "naoFaturado":  2,
+                                             "projetado":  3,
                                              "valorFaturado":  99.67,
-                                             "valorAFaturar":  59.4,
-                                             "pct":  5
+                                             "valorAFaturar":  3571.08,
+                                             "pct":  8
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  48,
                                            "metaNova":  62,
                                            "faturado":  5,
-                                           "naoFaturado":  9,
-                                           "projetado":  14,
+                                           "naoFaturado":  19,
+                                           "projetado":  24,
                                            "valorFaturado":  3275.75,
-                                           "valorAFaturar":  7030.04,
-                                           "pct":  23
+                                           "valorAFaturar":  9418.04,
+                                           "pct":  39
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  45,
                                             "metaNova":  59,
                                             "faturado":  1,
-                                            "naoFaturado":  7,
-                                            "projetado":  8,
+                                            "naoFaturado":  10,
+                                            "projetado":  11,
                                             "valorFaturado":  138.08,
-                                            "valorAFaturar":  2398.2,
-                                            "pct":  14
+                                            "valorAFaturar":  2930.78,
+                                            "pct":  19
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  24,
+                           "totalPositivado":  38,
                            "totalValorFaturado":  3513.5,
-                           "totalValorAFaturar":  9487.64,
-                           "totalValorGeral":  13001.14
+                           "totalValorAFaturar":  15919.9,
+                           "totalValorGeral":  19433.4
                        },
         "representatividade":  {
                                    "PANASONIC":  1.933,
@@ -1500,38 +1500,38 @@
                                              "metaAtual":  31,
                                              "metaNova":  40,
                                              "faturado":  2,
-                                             "naoFaturado":  1,
-                                             "projetado":  3,
+                                             "naoFaturado":  5,
+                                             "projetado":  7,
                                              "valorFaturado":  153.12,
-                                             "valorAFaturar":  101.67,
-                                             "pct":  8
+                                             "valorAFaturar":  3943.79,
+                                             "pct":  18
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  59,
                                            "metaNova":  77,
                                            "faturado":  4,
-                                           "naoFaturado":  13,
-                                           "projetado":  17,
+                                           "naoFaturado":  19,
+                                           "projetado":  23,
                                            "valorFaturado":  530.75,
-                                           "valorAFaturar":  5300.66,
-                                           "pct":  22
+                                           "valorAFaturar":  18353.4,
+                                           "pct":  30
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  71,
                                             "metaNova":  92,
                                             "faturado":  2,
-                                            "naoFaturado":  13,
-                                            "projetado":  15,
+                                            "naoFaturado":  20,
+                                            "projetado":  22,
                                             "valorFaturado":  478.31,
-                                            "valorAFaturar":  4181.16,
-                                            "pct":  16
+                                            "valorAFaturar":  38771.45,
+                                            "pct":  24
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  35,
+                           "totalPositivado":  52,
                            "totalValorFaturado":  1162.18,
-                           "totalValorAFaturar":  9583.49,
-                           "totalValorGeral":  10745.67
+                           "totalValorAFaturar":  61068.64,
+                           "totalValorGeral":  62230.82
                        },
         "representatividade":  {
                                    "PANASONIC":  2.067,
@@ -1549,39 +1549,39 @@
                            "PANASONIC":  {
                                              "metaAtual":  187,
                                              "metaNova":  243,
-                                             "faturado":  13,
-                                             "naoFaturado":  33,
-                                             "projetado":  46,
-                                             "valorFaturado":  991.77,
-                                             "valorAFaturar":  4252.42,
-                                             "pct":  19
+                                             "faturado":  28,
+                                             "naoFaturado":  30,
+                                             "projetado":  58,
+                                             "valorFaturado":  3335.12,
+                                             "valorAFaturar":  10538.21,
+                                             "pct":  24
                                          },
                            "INGLEZA":  {
                                            "metaAtual":  297,
                                            "metaNova":  386,
                                            "faturado":  30,
-                                           "naoFaturado":  80,
-                                           "projetado":  110,
+                                           "naoFaturado":  114,
+                                           "projetado":  144,
                                            "valorFaturado":  8523.25,
-                                           "valorAFaturar":  24188.32,
-                                           "pct":  28
+                                           "valorAFaturar":  44806.27,
+                                           "pct":  37
                                        },
                            "AB MAURI":  {
                                             "metaAtual":  246,
                                             "metaNova":  320,
-                                            "faturado":  24,
-                                            "naoFaturado":  65,
-                                            "projetado":  89,
-                                            "valorFaturado":  4975.81,
-                                            "valorAFaturar":  15548.27,
-                                            "pct":  28
+                                            "faturado":  35,
+                                            "naoFaturado":  74,
+                                            "projetado":  109,
+                                            "valorFaturado":  6868.19,
+                                            "valorAFaturar":  56399.63,
+                                            "pct":  34
                                         }
                        },
         "totalGeral":  {
-                           "totalPositivado":  245,
-                           "totalValorFaturado":  14490.83,
-                           "totalValorAFaturar":  43989.01,
-                           "totalValorGeral":  58479.84
+                           "totalPositivado":  311,
+                           "totalValorFaturado":  18726.56,
+                           "totalValorAFaturar":  111744.11,
+                           "totalValorGeral":  130470.67
                        }
     }
 ]

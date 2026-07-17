@@ -9,7 +9,7 @@ const INDUSTRIAS = ["PANASONIC", "INGLEZA", "AB MAURI"];
 const IND_LABEL = { PANASONIC: "Panasonic", INGLEZA: "Ingleza", "AB MAURI": "AB Mauri" };
 const EQUIPES = ["Washignton", "Rodrigo", "Sueli"];
 const TEAM_COLOR = { Washignton: "#1E7145", Rodrigo: "#B8620A", Sueli: "#A33B3B" };
-const PERIODO = "01/07 – 13/07/2026 (mês em andamento)";
+const PERIODO = "08/06 – 17/07/2026 (mês em andamento)";
 document.getElementById("periodoLabel").textContent = PERIODO;
 
 const PREMIO_POR_INDUSTRIA = 100;
@@ -416,5 +416,6 @@ fetch("data.json")
     renderSupplierButtons();
     renderPremiosBoard();
   });
+
 
 
