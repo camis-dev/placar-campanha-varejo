@@ -62,7 +62,7 @@ const CAMPANHAS = {
     regras: [
       { ico: "📅", titulo: "Período Oficial:", texto: "Válido estritamente para faturamentos registrados entre 01/07/2026 e 31/07/2026." },
       { ico: "✓", titulo: "Regra de Elegibilidade:", texto: "A premiação do vendedor AS só é liberada se ele atingir 100% da sua meta individual de faturamento estabelecida." },
-      { ico: "📈", titulo: "Gatilho de Equipe:", texto: "A faixa de premiação individual (R$250, R$400 ou R$500) é determinada pelo percentual total de faturamento alcançado pela empresa toda (meta de R$ 1.900.000,00 — VJ + AS)." },
+      { ico: "📈", titulo: "Gatilho de Equipe:", texto: "A faixa de premiação individual (R$250, R$400 ou R$500) é determinada pelo percentual total de faturamento alcançado pela empresa toda (meta de R$ 2.000.000,00 — VJ + AS)." },
       { ico: "✓", titulo: "Gatilho de Venda (95%):", texto: "Para habilitar a premiação dos vendedores AS, a equipe precisa atingir pelo menos 95% do objetivo geral de faturamento da marca." },
       { ico: "🛡", titulo: "Auditoria e Conformidade:", texto: "Devoluções de mercadoria dentro do mês de apuração são descontadas do faturamento apurado; bonificações (brindes/amostras) não entram na conta." },
     ],
@@ -75,6 +75,8 @@ const CAMPANHAS = {
 let busca = "";
 let equipeFiltro = "Todas";
 let secaoAtiva = "placar";
+let simuladorAberto = { varejo: false, as: false };
+let marcadorAberto = { varejo: null, as: null }; // qual % da regua esta com o popup de simulacao aberto
 
 function modo() { return CAMPANHAS[modoAtivo]; }
 function dados() { return DATA[modoAtivo]; }
@@ -162,9 +164,11 @@ function gateCardHTML(camp, d) {
   const maxEscala = Math.max(...camp.faixas.map(f => f.min)) + 10;
   const pctBarra = Math.min(pct, maxEscala);
 
+  const marcadorSelecionado = marcadorAberto[camp.chave];
   const marcadores = camp.faixas.map(f => f.min).sort((a, b) => a - b).map(min => {
     const ativo = pct >= min;
-    return `<div class="gate-marker ${ativo ? "active" : ""}" style="left:${(min / maxEscala * 100)}%"><div class="dot"></div></div>`;
+    const selecionado = marcadorSelecionado === min;
+    return `<div class="gate-marker ${ativo ? "active" : ""} ${selecionado ? "selecionado" : ""}" style="left:${(min / maxEscala * 100)}%" onclick="toggleMarcador('${camp.chave}', ${min})" title="Simular equipe batendo ${min}%"><div class="dot"></div></div>`;
   }).join("");
 
   const faixasAsc = camp.faixas.slice().sort((a, b) => a.min - b.min);
@@ -182,6 +186,9 @@ function gateCardHTML(camp, d) {
     ? `<div class="gate-status abaixo">Abaixo de ${camp.gatilhoMin}% — nenhum prêmio liberado ainda</div>`
     : `<div class="gate-status acima">Faixa liberada: ${fmtMoney(faixa.valor)} por vendedor (que bateu a própria meta)</div>`;
 
+  const aberto = simuladorAberto[camp.chave];
+  const faixasTextoOrdenado = faixasAsc.map(f => f.label).join(" / ");
+
   return `
     <div class="gate-head">
       <div class="gate-title">${camp.gateLabel}</div>
@@ -192,8 +199,137 @@ function gateCardHTML(camp, d) {
       ${marcadores}
       <div class="gate-fill" style="width:${(pctBarra / maxEscala * 100)}%;background:linear-gradient(90deg,${gradiente})"></div>
     </div>
+    <div class="gate-track-hint">Toque numa bolinha da régua pra simular a equipe batendo aquele percentual.</div>
+    ${marcadorSelecionado !== null && marcadorSelecionado !== undefined ? `<div class="marcador-pop">${marcadorSimHTML(camp, d, marcadorSelecionado)}</div>` : ""}
     <div class="gate-faixas" style="grid-template-columns:repeat(${camp.faixas.length},1fr)">${faixasHTML}</div>
     ${statusHTML}
+    <div class="gate-sim-toggle">
+      <button class="gate-sim-btn" onclick="toggleSimulador('${camp.chave}')">
+        🧮 ${aberto ? "Fechar simulador" : "Simular prêmios por faixa"}
+      </button>
+      <div class="gate-sim-hint">Quanto cada pessoa ganharia em cada faixa (${faixasTextoOrdenado}) — e o que falta pra cada um bater a própria meta.</div>
+    </div>
+    ${aberto ? `<div class="simulador aberto">${simuladorHTML(camp, d)}</div>` : ""}
+  `;
+}
+
+/* ================= SIMULADOR "E SE A EQUIPE BATESSE X%?" ================= */
+function pessoasOrdenadasCamp(camp, d) {
+  const linhas = [];
+  for (const eq of camp.equipes) {
+    const sup = d.pessoas.find(p => p.isSupervisor && p.equipe === eq);
+    if (sup) linhas.push(sup);
+    const membros = d.pessoas.filter(p => !p.isSupervisor && p.equipe === eq).sort((a, b) => a.nome.localeCompare(b.nome));
+    linhas.push(...membros);
+  }
+  return linhas;
+}
+function toggleSimulador(chave) {
+  simuladorAberto[chave] = !simuladorAberto[chave];
+  renderGateCard();
+}
+
+/* ================= SIMULADOR DA BOLINHA (1 patamar especifico da regua) ================= */
+function toggleMarcador(chave, min) {
+  marcadorAberto[chave] = marcadorAberto[chave] === min ? null : min;
+  renderGateCard();
+}
+function marcadorSimHTML(camp, d, minPct) {
+  const targetAtPct = Math.round(d.metaGeral * minPct / 100);
+  const faltaTeam = Math.max(targetAtPct - d.valorGeral, 0);
+  const jaChegou = d.valorGeral >= targetAtPct;
+  const faixa = camp.faixas.find(f => f.min === minPct);
+  const pessoas = pessoasOrdenadasCamp(camp, d);
+
+  const statusHTML = jaChegou
+    ? `<div class="marcador-status ok">A equipe já bateu ${minPct}% (meta ${fmtValorCamp(targetAtPct, camp)}, atual ${fmtValorCamp(d.valorGeral, camp)}).</div>`
+    : `<div class="marcador-status pendente">Faltam <b>${fmtValorCamp(faltaTeam, camp)}</b> ${camp.metricaLabelPlural} pra equipe geral chegar em ${minPct}% (meta ${fmtValorCamp(targetAtPct, camp)}, atual ${fmtValorCamp(d.valorGeral, camp)}).</div>`;
+
+  const premioHTML = faixa
+    ? `<div class="marcador-premio">Prêmio nesse patamar: <b>${fmtMoney(faixa.valor)}</b> por vendedor que também bater a própria meta.</div>`
+    : `<div class="marcador-premio no">Abaixo do gatilho mínimo (${camp.gatilhoMin}%) — nenhum prêmio ainda nesse patamar.</div>`;
+
+  // So temos dado real de meta redistribuida da planilha pros patamares 100%
+  // e 110% (colunas "meta 100%"/"meta 110%"); pros demais (85/90/95) a meta
+  // individual de cada vendedor nao muda com o patamar da equipe - ela e
+  // sempre a mesma (fixa em 100%), so o valor do premio por faixa que varia.
+  const usaMeta110 = minPct === 110;
+
+  const linhasHTML = pessoas.map(p => {
+    const premioPessoa = p.isSupervisor
+      ? (minPct >= camp.gatilhoSupervisor ? camp.premioSupervisor : 0)
+      : (faixa && p.pct >= 100 ? faixa.valor : 0);
+    let elegibilidade;
+    if (p.isSupervisor) {
+      elegibilidade = `Recebe ${fmtMoney(camp.premioSupervisor)} fixo se a equipe bater ${camp.gatilhoSupervisor}% (não varia por faixa)`;
+    } else if (usaMeta110 && p.meta110 > 0) {
+      const falta110 = Math.max(p.meta110 - p.projetado, 0);
+      elegibilidade = `Meta de referência p/ cenário 110%: ${fmtValorCamp(p.meta110, camp)} · ${falta110 > 0 ? `faltam ${fmtValorCamp(falta110, camp)}` : "já bateu"} <span class="sim-meta-fixa">(meta oficial continua ${fmtValorCamp(p.meta, camp)})</span>`;
+    } else {
+      const faltaMeta = Math.max(p.meta - p.projetado, 0);
+      elegibilidade = `Meta individual (fixa, não muda com o patamar): ${fmtValorCamp(p.meta, camp)} · ${p.bateuIndividual ? "já bateu" : `faltam ${fmtValorCamp(faltaMeta, camp)}`}`;
+    }
+    return `
+      <tr class="${p.isSupervisor ? "sim-sup" : ""}">
+        <td class="sim-nome">${p.nome}${p.isSupervisor ? ` <span class="sim-tag">equipe ${p.equipe}</span>` : ""}<div class="sim-elegibilidade">${elegibilidade}</div></td>
+        <td class="${premioPessoa > 0 ? "sim-ok" : "sim-no"}">${premioPessoa > 0 ? fmtMoney(premioPessoa) : "—"}</td>
+      </tr>
+    `;
+  }).join("");
+
+  return `
+    <div class="marcador-titulo">Simulação — equipe batendo ${minPct}%</div>
+    ${statusHTML}
+    ${premioHTML}
+    <div class="sim-table-wrap">
+      <table class="sim-table">
+        <thead><tr><th class="sim-th-nome">Pessoa</th><th>Prêmio nesse cenário</th></tr></thead>
+        <tbody>${linhasHTML}</tbody>
+      </table>
+    </div>
+  `;
+}
+function simuladorHTML(camp, d) {
+  const faixasAsc = camp.faixas.slice().sort((a, b) => a.min - b.min);
+  const pessoas = pessoasOrdenadasCamp(camp, d);
+
+  const headerCols = faixasAsc.map(f => `
+    <th class="${f.css}">
+      <div class="sim-th-pct">${f.label}${f.nome ? ` · ${f.nome}` : ""}</div>
+      <div class="sim-th-valor">${fmtMoney(f.valor)}</div>
+    </th>
+  `).join("");
+
+  const linhasHTML = pessoas.map(p => {
+    const cols = faixasAsc.map(f => {
+      const premio = premioPessoaCamp(p, f.min, camp);
+      return `<td class="${premio > 0 ? "sim-ok" : "sim-no"}">${premio > 0 ? fmtMoney(premio) : "—"}</td>`;
+    }).join("");
+    const elegibilidade = p.isSupervisor
+      ? `Recebe ${fmtMoney(camp.premioSupervisor)} fixo quando a equipe bate ${camp.gatilhoSupervisor}% (não varia por faixa)`
+      : `Meta individual: ${fmtValorCamp(p.meta, camp)} · ${p.bateuIndividual ? "já bateu — elegível" : `faltam ${fmtValorCamp(Math.max(p.meta - p.projetado, 0), camp)} pra bater e ficar elegível`}`;
+    return `
+      <tr class="${p.isSupervisor ? "sim-sup" : ""}">
+        <td class="sim-nome">${p.nome}${p.isSupervisor ? ` <span class="sim-tag">equipe ${p.equipe}</span>` : ""}<div class="sim-elegibilidade">${elegibilidade}</div></td>
+        ${cols}
+      </tr>
+    `;
+  }).join("");
+
+  return `
+    <div class="sim-explicacao">
+      <b>Como ler:</b> cada coluna simula a equipe geral batendo aquele percentual da meta de ${fmtValorCamp(d.metaGeral, camp)}
+      (empresa toda — mesma régua acima). O valor mostrado é o que a pessoa receberia <u>se</u> a equipe chegasse lá
+      — só conta de verdade se ela também bater 100% da própria meta individual (linha abaixo do nome).
+      Supervisores não têm faixa: ganham ${fmtMoney(camp.premioSupervisor)} fixo assim que a equipe bate
+      ${camp.gatilhoSupervisor}%, senão nada. Abaixo de ${camp.gatilhoMin}% (gatilho mínimo da campanha) ninguém recebe nada, mesmo batendo a meta individual.
+    </div>
+    <div class="sim-table-wrap">
+      <table class="sim-table">
+        <thead><tr><th class="sim-th-nome">Pessoa</th>${headerCols}</tr></thead>
+        <tbody>${linhasHTML}</tbody>
+      </table>
+    </div>
   `;
 }
 function gateMiniHTML(camp, d) {

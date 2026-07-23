@@ -1,1323 +1,1470 @@
-﻿{
-    "periodo":  "01/07 a 31/07/2026",
-    "varejo":  {
-                   "metaGeral":  1767,
-                   "valorGeral":  1029,
-                   "pctGeral":  58.2,
-                   "pessoas":  [
-                                   {
-                                       "setor":  530,
-                                       "nome":  "Marcos Aurelio",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Washignton",
-                                       "meta":  54,
-                                       "faturado":  19,
-                                       "aFaturar":  16,
-                                       "projetado":  34,
-                                       "pct":  63,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  54,
-                                                           "faturado":  19,
-                                                           "aFaturar":  16,
-                                                           "projetado":  34,
-                                                           "pct":  63
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  12414,
-                                                           "faturado":  4984.72,
-                                                           "aFaturar":  3915.09,
-                                                           "projetado":  8899.81,
-                                                           "pct":  72
-                                                       }
-                                   },
-                                   {
-                                       "setor":  244,
-                                       "nome":  "Marcia Martins Goncalves",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Washignton",
-                                       "meta":  60,
-                                       "faturado":  13,
-                                       "aFaturar":  17,
-                                       "projetado":  28,
-                                       "pct":  47,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  60,
-                                                           "faturado":  13,
-                                                           "aFaturar":  17,
-                                                           "projetado":  28,
-                                                           "pct":  47
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  54331,
-                                                           "faturado":  2745.86,
-                                                           "aFaturar":  6531.09,
-                                                           "projetado":  9276.95,
-                                                           "pct":  17
-                                                       }
-                                   },
-                                   {
-                                       "setor":  245,
-                                       "nome":  "Jorge Dos Santos",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Washignton",
-                                       "meta":  92,
-                                       "faturado":  44,
-                                       "aFaturar":  24,
-                                       "projetado":  63,
-                                       "pct":  68,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  92,
-                                                           "faturado":  44,
-                                                           "aFaturar":  24,
-                                                           "projetado":  63,
-                                                           "pct":  68
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  20677,
-                                                           "faturado":  13142.68,
-                                                           "aFaturar":  3537.6,
-                                                           "projetado":  16680.28,
-                                                           "pct":  81
-                                                       }
-                                   },
-                                   {
-                                       "setor":  247,
-                                       "nome":  "Vanessa Mendes Da Luz",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Washignton",
-                                       "meta":  63,
-                                       "faturado":  12,
-                                       "aFaturar":  31,
-                                       "projetado":  42,
-                                       "pct":  67,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  63,
-                                                           "faturado":  12,
-                                                           "aFaturar":  31,
-                                                           "projetado":  42,
-                                                           "pct":  67
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  19260,
-                                                           "faturado":  3759.3,
-                                                           "aFaturar":  7885.72,
-                                                           "projetado":  11645.02,
-                                                           "pct":  60
-                                                       }
-                                   },
-                                   {
-                                       "setor":  250,
-                                       "nome":  "Tania Regina",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Washignton",
-                                       "meta":  29,
-                                       "faturado":  12,
-                                       "aFaturar":  8,
-                                       "projetado":  18,
-                                       "pct":  62,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  29,
-                                                           "faturado":  12,
-                                                           "aFaturar":  8,
-                                                           "projetado":  18,
-                                                           "pct":  62
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  6086,
-                                                           "faturado":  4560.69,
-                                                           "aFaturar":  1717.58,
-                                                           "projetado":  6278.27,
-                                                           "pct":  103
-                                                       }
-                                   },
-                                   {
-                                       "setor":  251,
-                                       "nome":  "Ana Carolina Maciel Brotto",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Washignton",
-                                       "meta":  83,
-                                       "faturado":  25,
-                                       "aFaturar":  34,
-                                       "projetado":  56,
-                                       "pct":  67,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  83,
-                                                           "faturado":  25,
-                                                           "aFaturar":  34,
-                                                           "projetado":  56,
-                                                           "pct":  67
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  11826,
-                                                           "faturado":  4269.61,
-                                                           "aFaturar":  5338.99,
-                                                           "projetado":  9608.6,
-                                                           "pct":  81
-                                                       }
-                                   },
-                                   {
-                                       "setor":  252,
-                                       "nome":  "Luciana Agata Pinto",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Washignton",
-                                       "meta":  68,
-                                       "faturado":  21,
-                                       "aFaturar":  21,
-                                       "projetado":  39,
-                                       "pct":  57,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  68,
-                                                           "faturado":  21,
-                                                           "aFaturar":  21,
-                                                           "projetado":  39,
-                                                           "pct":  57
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  36192,
-                                                           "faturado":  17403.23,
-                                                           "aFaturar":  7530.32,
-                                                           "projetado":  24933.55,
-                                                           "pct":  69
-                                                       }
-                                   },
-                                   {
-                                       "setor":  253,
-                                       "nome":  "Aparecido Agnaldo Araujo",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Washignton",
-                                       "meta":  77,
-                                       "faturado":  24,
-                                       "aFaturar":  21,
-                                       "projetado":  44,
-                                       "pct":  57,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  77,
-                                                           "faturado":  24,
-                                                           "aFaturar":  21,
-                                                           "projetado":  44,
-                                                           "pct":  57
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  17806,
-                                                           "faturado":  3819.85,
-                                                           "aFaturar":  6852.35,
-                                                           "projetado":  10672.2,
-                                                           "pct":  60
-                                                       }
-                                   },
-                                   {
-                                       "setor":  255,
-                                       "nome":  "Willians De Alcantra Correa",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Washignton",
-                                       "meta":  89,
-                                       "faturado":  25,
-                                       "aFaturar":  27,
-                                       "projetado":  46,
-                                       "pct":  52,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  89,
-                                                           "faturado":  25,
-                                                           "aFaturar":  27,
-                                                           "projetado":  46,
-                                                           "pct":  52
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  25401,
-                                                           "faturado":  8982.84,
-                                                           "aFaturar":  17575.7,
-                                                           "projetado":  26558.54,
-                                                           "pct":  105
-                                                       }
-                                   },
-                                   {
-                                       "setor":  271,
-                                       "nome":  "Cleverson Rodrigues Ferreira",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Washignton",
-                                       "meta":  44,
-                                       "faturado":  19,
-                                       "aFaturar":  7,
-                                       "projetado":  26,
-                                       "pct":  59,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  44,
-                                                           "faturado":  19,
-                                                           "aFaturar":  7,
-                                                           "projetado":  26,
-                                                           "pct":  59
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  11553,
-                                                           "faturado":  5907.56,
-                                                           "aFaturar":  1499.47,
-                                                           "projetado":  7407.03,
-                                                           "pct":  64
-                                                       }
-                                   },
-                                   {
-                                       "setor":  267,
-                                       "nome":  "Kamilla Aparecida Xavier",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Washignton",
-                                       "meta":  47,
-                                       "faturado":  24,
-                                       "aFaturar":  9,
-                                       "projetado":  32,
-                                       "pct":  68,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  47,
-                                                           "faturado":  24,
-                                                           "aFaturar":  9,
-                                                           "projetado":  32,
-                                                           "pct":  68
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  20567,
-                                                           "faturado":  17222.23,
-                                                           "aFaturar":  23701.62,
-                                                           "projetado":  40923.85,
-                                                           "pct":  199
-                                                       }
-                                   },
-                                   {
-                                       "setor":  527,
-                                       "nome":  "Maria Madalena",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Washignton",
-                                       "meta":  45,
-                                       "faturado":  20,
-                                       "aFaturar":  19,
-                                       "projetado":  37,
-                                       "pct":  82,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  45,
-                                                           "faturado":  20,
-                                                           "aFaturar":  19,
-                                                           "projetado":  37,
-                                                           "pct":  82
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  13626,
-                                                           "faturado":  6979.41,
-                                                           "aFaturar":  5334.74,
-                                                           "projetado":  12314.15,
-                                                           "pct":  90
-                                                       }
-                                   },
-                                   {
-                                       "setor":  100,
-                                       "nome":  "WASHIGNTON",
-                                       "isSupervisor":  true,
-                                       "equipe":  "Washignton",
-                                       "meta":  751,
-                                       "faturado":  258,
-                                       "aFaturar":  234,
-                                       "projetado":  465,
-                                       "pct":  62,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  751,
-                                                           "faturado":  258,
-                                                           "aFaturar":  234,
-                                                           "projetado":  465,
-                                                           "pct":  62
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  249739,
-                                                           "faturado":  93777.98,
-                                                           "aFaturar":  91420.27,
-                                                           "projetado":  185198.25,
-                                                           "pct":  74
-                                                       }
-                                   },
-                                   {
-                                       "setor":  249,
-                                       "nome":  "Edinei Diego Specth",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Sueli",
-                                       "meta":  97,
-                                       "faturado":  40,
-                                       "aFaturar":  21,
-                                       "projetado":  58,
-                                       "pct":  60,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  97,
-                                                           "faturado":  40,
-                                                           "aFaturar":  21,
-                                                           "projetado":  58,
-                                                           "pct":  60
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  14294,
-                                                           "faturado":  5838.33,
-                                                           "aFaturar":  4706.23,
-                                                           "projetado":  10544.56,
-                                                           "pct":  74
-                                                       }
-                                   },
-                                   {
-                                       "setor":  261,
-                                       "nome":  "Pedro Henrique Deschk Gomes",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Sueli",
-                                       "meta":  72,
-                                       "faturado":  16,
-                                       "aFaturar":  13,
-                                       "projetado":  26,
-                                       "pct":  36,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  72,
-                                                           "faturado":  16,
-                                                           "aFaturar":  13,
-                                                           "projetado":  26,
-                                                           "pct":  36
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  900,
-                                                           "faturado":  3995.34,
-                                                           "aFaturar":  2718.81,
-                                                           "projetado":  6714.15,
-                                                           "pct":  746
-                                                       }
-                                   },
-                                   {
-                                       "setor":  277,
-                                       "nome":  "Diego Bech",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Sueli",
-                                       "meta":  34,
-                                       "faturado":  23,
-                                       "aFaturar":  5,
-                                       "projetado":  28,
-                                       "pct":  82,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  34,
-                                                           "faturado":  23,
-                                                           "aFaturar":  5,
-                                                           "projetado":  28,
-                                                           "pct":  82
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  14294,
-                                                           "faturado":  6023.28,
-                                                           "aFaturar":  1604.38,
-                                                           "projetado":  7627.66,
-                                                           "pct":  53
-                                                       }
-                                   },
-                                   {
-                                       "setor":  529,
-                                       "nome":  "Paola De Paula",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Sueli",
-                                       "meta":  58,
-                                       "faturado":  10,
-                                       "aFaturar":  15,
-                                       "projetado":  24,
-                                       "pct":  41,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  58,
-                                                           "faturado":  10,
-                                                           "aFaturar":  15,
-                                                           "projetado":  24,
-                                                           "pct":  41
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  9456,
-                                                           "faturado":  9890.14,
-                                                           "aFaturar":  3442.54,
-                                                           "projetado":  13332.68,
-                                                           "pct":  141
-                                                       }
-                                   },
-                                   {
-                                       "setor":  276,
-                                       "nome":  "Adao Expedito Vieira Da Rocha",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Sueli",
-                                       "meta":  68,
-                                       "faturado":  16,
-                                       "aFaturar":  13,
-                                       "projetado":  28,
-                                       "pct":  41,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  68,
-                                                           "faturado":  16,
-                                                           "aFaturar":  13,
-                                                           "projetado":  28,
-                                                           "pct":  41
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  40447,
-                                                           "faturado":  5620.99,
-                                                           "aFaturar":  22867.83,
-                                                           "projetado":  28488.82,
-                                                           "pct":  70
-                                                       }
-                                   },
-                                   {
-                                       "setor":  28,
-                                       "nome":  "SUELI",
-                                       "isSupervisor":  true,
-                                       "equipe":  "Sueli",
-                                       "meta":  329,
-                                       "faturado":  105,
-                                       "aFaturar":  66,
-                                       "projetado":  163,
-                                       "pct":  50,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  329,
-                                                           "faturado":  105,
-                                                           "aFaturar":  66,
-                                                           "projetado":  163,
-                                                           "pct":  50
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  79391,
-                                                           "faturado":  31368.08,
-                                                           "aFaturar":  35339.79,
-                                                           "projetado":  66707.87,
-                                                           "pct":  84
-                                                       }
-                                   },
-                                   {
-                                       "setor":  239,
-                                       "nome":  "Eder Da Silva Viana",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  34,
-                                       "faturado":  13,
-                                       "aFaturar":  16,
-                                       "projetado":  27,
-                                       "pct":  79,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  34,
-                                                           "faturado":  13,
-                                                           "aFaturar":  16,
-                                                           "projetado":  27,
-                                                           "pct":  79
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  38871,
-                                                           "faturado":  3177.14,
-                                                           "aFaturar":  5190.72,
-                                                           "projetado":  8367.86,
-                                                           "pct":  22
-                                                       }
-                                   },
-                                   {
-                                       "setor":  241,
-                                       "nome":  "Luiz Felipe Fernandes",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  28,
-                                       "faturado":  10,
-                                       "aFaturar":  2,
-                                       "projetado":  12,
-                                       "pct":  43,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  28,
-                                                           "faturado":  10,
-                                                           "aFaturar":  2,
-                                                           "projetado":  12,
-                                                           "pct":  43
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  15785,
-                                                           "faturado":  3465.24,
-                                                           "aFaturar":  697.43,
-                                                           "projetado":  4162.67,
-                                                           "pct":  26
-                                                       }
-                                   },
-                                   {
-                                       "setor":  243,
-                                       "nome":  "Beatriz Aparecida Cruz Vicente",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  54,
-                                       "faturado":  4,
-                                       "aFaturar":  8,
-                                       "projetado":  12,
-                                       "pct":  22,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  54,
-                                                           "faturado":  4,
-                                                           "aFaturar":  8,
-                                                           "projetado":  12,
-                                                           "pct":  22
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  14420,
-                                                           "faturado":  1093.38,
-                                                           "aFaturar":  3991.78,
-                                                           "projetado":  5085.16,
-                                                           "pct":  35
-                                                       }
-                                   },
-                                   {
-                                       "setor":  254,
-                                       "nome":  "Rodrigo Margulski",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  85,
-                                       "faturado":  29,
-                                       "aFaturar":  34,
-                                       "projetado":  54,
-                                       "pct":  64,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  85,
-                                                           "faturado":  29,
-                                                           "aFaturar":  34,
-                                                           "projetado":  54,
-                                                           "pct":  64
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  23533,
-                                                           "faturado":  6829.99,
-                                                           "aFaturar":  12199.32,
-                                                           "projetado":  19029.31,
-                                                           "pct":  81
-                                                       }
-                                   },
-                                   {
-                                       "setor":  257,
-                                       "nome":  "Cleyton Alberto Carvalho",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  78,
-                                       "faturado":  22,
-                                       "aFaturar":  20,
-                                       "projetado":  35,
-                                       "pct":  45,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  78,
-                                                           "faturado":  22,
-                                                           "aFaturar":  20,
-                                                           "projetado":  35,
-                                                           "pct":  45
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  25970,
-                                                           "faturado":  8998.45,
-                                                           "aFaturar":  6712.94,
-                                                           "projetado":  15711.39,
-                                                           "pct":  60
-                                                       }
-                                   },
-                                   {
-                                       "setor":  258,
-                                       "nome":  "Lidiane Cristina Henning",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  64,
-                                       "faturado":  18,
-                                       "aFaturar":  10,
-                                       "projetado":  26,
-                                       "pct":  41,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  64,
-                                                           "faturado":  18,
-                                                           "aFaturar":  10,
-                                                           "projetado":  26,
-                                                           "pct":  41
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  15484,
-                                                           "faturado":  8854.97,
-                                                           "aFaturar":  1456.57,
-                                                           "projetado":  10311.54,
-                                                           "pct":  67
-                                                       }
-                                   },
-                                   {
-                                       "setor":  269,
-                                       "nome":  "Valdir",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  48,
-                                       "faturado":  49,
-                                       "aFaturar":  29,
-                                       "projetado":  71,
-                                       "pct":  148,
-                                       "bateuIndividual":  true,
-                                       "positivacao":  {
-                                                           "meta":  48,
-                                                           "faturado":  49,
-                                                           "aFaturar":  29,
-                                                           "projetado":  71,
-                                                           "pct":  148
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  19306,
-                                                           "faturado":  14920.68,
-                                                           "aFaturar":  10345.47,
-                                                           "projetado":  25266.15,
-                                                           "pct":  131
-                                                       }
-                                   },
-                                   {
-                                       "setor":  279,
-                                       "nome":  "Julio Cesar Passos Ferreira",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  86,
-                                       "faturado":  35,
-                                       "aFaturar":  14,
-                                       "projetado":  45,
-                                       "pct":  52,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  86,
-                                                           "faturado":  35,
-                                                           "aFaturar":  14,
-                                                           "projetado":  45,
-                                                           "pct":  52
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  28142,
-                                                           "faturado":  13785.59,
-                                                           "aFaturar":  1964.12,
-                                                           "projetado":  15749.71,
-                                                           "pct":  56
-                                                       }
-                                   },
-                                   {
-                                       "setor":  281,
-                                       "nome":  "Daniel Alexandre Nunes",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  37,
-                                       "faturado":  5,
-                                       "aFaturar":  17,
-                                       "projetado":  22,
-                                       "pct":  59,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  37,
-                                                           "faturado":  5,
-                                                           "aFaturar":  17,
-                                                           "projetado":  22,
-                                                           "pct":  59
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  29400,
-                                                           "faturado":  4887.44,
-                                                           "aFaturar":  15308.82,
-                                                           "projetado":  20196.26,
-                                                           "pct":  69
-                                                       }
-                                   },
-                                   {
-                                       "setor":  282,
-                                       "nome":  "Rafael Machado De Souza",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  81,
-                                       "faturado":  19,
-                                       "aFaturar":  28,
-                                       "projetado":  44,
-                                       "pct":  54,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  81,
-                                                           "faturado":  19,
-                                                           "aFaturar":  28,
-                                                           "projetado":  44,
-                                                           "pct":  54
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  23410,
-                                                           "faturado":  5704.64,
-                                                           "aFaturar":  5984.87,
-                                                           "projetado":  11689.51,
-                                                           "pct":  50
-                                                       }
-                                   },
-                                   {
-                                       "setor":  283,
-                                       "nome":  "Glacilda Faria",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  25,
-                                       "faturado":  15,
-                                       "aFaturar":  8,
-                                       "projetado":  21,
-                                       "pct":  84,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  25,
-                                                           "faturado":  15,
-                                                           "aFaturar":  8,
-                                                           "projetado":  21,
-                                                           "pct":  84
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  35233,
-                                                           "faturado":  12476.42,
-                                                           "aFaturar":  29085.12,
-                                                           "projetado":  41561.54,
-                                                           "pct":  118
-                                                       }
-                                   },
-                                   {
-                                       "setor":  528,
-                                       "nome":  "Maria Cristina",
-                                       "isSupervisor":  false,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  67,
-                                       "faturado":  21,
-                                       "aFaturar":  12,
-                                       "projetado":  32,
-                                       "pct":  48,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  67,
-                                                           "faturado":  21,
-                                                           "aFaturar":  12,
-                                                           "projetado":  32,
-                                                           "pct":  48
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  28383,
-                                                           "faturado":  10842.24,
-                                                           "aFaturar":  26133.25,
-                                                           "projetado":  36975.49,
-                                                           "pct":  130
-                                                       }
-                                   },
-                                   {
-                                       "setor":  27,
-                                       "nome":  "RODRIGO",
-                                       "isSupervisor":  true,
-                                       "equipe":  "Rodrigo",
-                                       "meta":  687,
-                                       "faturado":  240,
-                                       "aFaturar":  198,
-                                       "projetado":  401,
-                                       "pct":  58,
-                                       "bateuIndividual":  false,
-                                       "positivacao":  {
-                                                           "meta":  687,
-                                                           "faturado":  240,
-                                                           "aFaturar":  198,
-                                                           "projetado":  401,
-                                                           "pct":  58
-                                                       },
-                                       "faturamento":  {
-                                                           "meta":  297937,
-                                                           "faturado":  95036.18,
-                                                           "aFaturar":  119070.41,
-                                                           "projetado":  214106.59,
-                                                           "pct":  72
-                                                       }
-                                   }
-                               ]
-               },
-    "as":  {
-               "metaGeral":  1272933,
-               "valorGeral":  859496.54,
-               "pctGeral":  67.5,
-               "pessoas":  [
-                               {
-                                   "setor":  240,
-                                   "nome":  "Pj Sergio Augusto Brauza",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Arildo",
-                                   "meta":  100322,
-                                   "faturado":  154269.33,
-                                   "aFaturar":  0,
-                                   "projetado":  154269.33,
-                                   "pct":  154,
-                                   "bateuIndividual":  true,
-                                   "positivacao":  {
-                                                       "meta":  21,
-                                                       "faturado":  29,
-                                                       "aFaturar":  0,
-                                                       "projetado":  29,
-                                                       "pct":  138
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  100322,
-                                                       "faturado":  154269.33,
-                                                       "aFaturar":  0,
-                                                       "projetado":  154269.33,
-                                                       "pct":  154
-                                                   }
-                               },
-                               {
-                                   "setor":  242,
-                                   "nome":  "Clodoaldo Dos Santos",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Arildo",
-                                   "meta":  148451,
-                                   "faturado":  26602.52,
-                                   "aFaturar":  430.8,
-                                   "projetado":  27033.32,
-                                   "pct":  18,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  34,
-                                                       "faturado":  9,
-                                                       "aFaturar":  0,
-                                                       "projetado":  9,
-                                                       "pct":  26
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  148451,
-                                                       "faturado":  26602.52,
-                                                       "aFaturar":  430.8,
-                                                       "projetado":  27033.32,
-                                                       "pct":  18
-                                                   }
-                               },
-                               {
-                                   "setor":  265,
-                                   "nome":  "Marcos Jose Walesko",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Arildo",
-                                   "meta":  50722,
-                                   "faturado":  28188.43,
-                                   "aFaturar":  10682.16,
-                                   "projetado":  38870.59,
-                                   "pct":  77,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  34,
-                                                       "faturado":  17,
-                                                       "aFaturar":  5,
-                                                       "projetado":  21,
-                                                       "pct":  62
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  50722,
-                                                       "faturado":  28188.43,
-                                                       "aFaturar":  10682.16,
-                                                       "projetado":  38870.59,
-                                                       "pct":  77
-                                                   }
-                               },
-                               {
-                                   "setor":  275,
-                                   "nome":  "Pj-Fabiano Aparecido Santos",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Arildo",
-                                   "meta":  144943,
-                                   "faturado":  84568.2,
-                                   "aFaturar":  16852.29,
-                                   "projetado":  101420.49,
-                                   "pct":  70,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  43,
-                                                       "faturado":  18,
-                                                       "aFaturar":  9,
-                                                       "projetado":  27,
-                                                       "pct":  63
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  144943,
-                                                       "faturado":  84568.2,
-                                                       "aFaturar":  16852.29,
-                                                       "projetado":  101420.49,
-                                                       "pct":  70
-                                                   }
-                               },
-                               {
-                                   "setor":  278,
-                                   "nome":  "Pj- Pedro Paulo Do Nascimento",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Arildo",
-                                   "meta":  143407,
-                                   "faturado":  0,
-                                   "aFaturar":  244844.63,
-                                   "projetado":  244844.63,
-                                   "pct":  171,
-                                   "bateuIndividual":  true,
-                                   "positivacao":  {
-                                                       "meta":  18,
-                                                       "faturado":  0,
-                                                       "aFaturar":  12,
-                                                       "projetado":  12,
-                                                       "pct":  67
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  143407,
-                                                       "faturado":  0,
-                                                       "aFaturar":  244844.63,
-                                                       "projetado":  244844.63,
-                                                       "pct":  171
-                                                   }
-                               },
-                               {
-                                   "setor":  24,
-                                   "nome":  "ARILDO",
-                                   "isSupervisor":  true,
-                                   "equipe":  "Arildo",
-                                   "meta":  587845,
-                                   "faturado":  293628.48,
-                                   "aFaturar":  272809.88,
-                                   "projetado":  566438.36,
-                                   "pct":  96,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  150,
-                                                       "faturado":  73,
-                                                       "aFaturar":  26,
-                                                       "projetado":  98,
-                                                       "pct":  65
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  587845,
-                                                       "faturado":  293628.48,
-                                                       "aFaturar":  272809.88,
-                                                       "projetado":  566438.36,
-                                                       "pct":  96
-                                                   }
-                               },
-                               {
-                                   "setor":  238,
-                                   "nome":  "Aquinele Roberta",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Alessandro",
-                                   "meta":  60442,
-                                   "faturado":  5760.62,
-                                   "aFaturar":  9300.14,
-                                   "projetado":  15060.76,
-                                   "pct":  25,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  5,
-                                                       "faturado":  4,
-                                                       "aFaturar":  7,
-                                                       "projetado":  10,
-                                                       "pct":  200
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  60442,
-                                                       "faturado":  5760.62,
-                                                       "aFaturar":  9300.14,
-                                                       "projetado":  15060.76,
-                                                       "pct":  25
-                                                   }
-                               },
-                               {
-                                   "setor":  264,
-                                   "nome":  "Pj - Jair Antonio Tosto",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Alessandro",
-                                   "meta":  85406,
-                                   "faturado":  39007.94,
-                                   "aFaturar":  10440.27,
-                                   "projetado":  49448.21,
-                                   "pct":  58,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  97,
-                                                       "faturado":  39,
-                                                       "aFaturar":  14,
-                                                       "projetado":  51,
-                                                       "pct":  53
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  85406,
-                                                       "faturado":  39007.94,
-                                                       "aFaturar":  10440.27,
-                                                       "projetado":  49448.21,
-                                                       "pct":  58
-                                                   }
-                               },
-                               {
-                                   "setor":  266,
-                                   "nome":  "Pj-Adilson Santos Biauki",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Alessandro",
-                                   "meta":  55631,
-                                   "faturado":  8485.65,
-                                   "aFaturar":  11841.39,
-                                   "projetado":  20327.04,
-                                   "pct":  37,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  89,
-                                                       "faturado":  23,
-                                                       "aFaturar":  23,
-                                                       "projetado":  38,
-                                                       "pct":  43
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  55631,
-                                                       "faturado":  8485.65,
-                                                       "aFaturar":  11841.39,
-                                                       "projetado":  20327.04,
-                                                       "pct":  37
-                                                   }
-                               },
-                               {
-                                   "setor":  280,
-                                   "nome":  "Aricleia Do Rocio Stofella",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Alessandro",
-                                   "meta":  1180,
-                                   "faturado":  62.34,
-                                   "aFaturar":  338.49,
-                                   "projetado":  400.83,
-                                   "pct":  34,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  13,
-                                                       "faturado":  3,
-                                                       "aFaturar":  12,
-                                                       "projetado":  12,
-                                                       "pct":  92
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  1180,
-                                                       "faturado":  62.34,
-                                                       "aFaturar":  338.49,
-                                                       "projetado":  400.83,
-                                                       "pct":  34
-                                                   }
-                               },
-                               {
-                                   "setor":  80,
-                                   "nome":  "ALESSANDRO",
-                                   "isSupervisor":  true,
-                                   "equipe":  "Alessandro",
-                                   "meta":  202659,
-                                   "faturado":  53316.55,
-                                   "aFaturar":  31920.29,
-                                   "projetado":  85236.84,
-                                   "pct":  42,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  204,
-                                                       "faturado":  69,
-                                                       "aFaturar":  56,
-                                                       "projetado":  111,
-                                                       "pct":  54
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  202659,
-                                                       "faturado":  53316.55,
-                                                       "aFaturar":  31920.29,
-                                                       "projetado":  85236.84,
-                                                       "pct":  42
-                                                   }
-                               },
-                               {
-                                   "setor":  256,
-                                   "nome":  "Pj-Eliseu Hauagge Neto",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Anderson",
-                                   "meta":  36101,
-                                   "faturado":  10982.8,
-                                   "aFaturar":  12919.52,
-                                   "projetado":  23902.32,
-                                   "pct":  66,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  34,
-                                                       "faturado":  6,
-                                                       "aFaturar":  9,
-                                                       "projetado":  11,
-                                                       "pct":  32
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  36101,
-                                                       "faturado":  10982.8,
-                                                       "aFaturar":  12919.52,
-                                                       "projetado":  23902.32,
-                                                       "pct":  66
-                                                   }
-                               },
-                               {
-                                   "setor":  263,
-                                   "nome":  "Pj-Luiz Carlos P. Pereira",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Anderson",
-                                   "meta":  64570,
-                                   "faturado":  31128.72,
-                                   "aFaturar":  42802.44,
-                                   "projetado":  73931.16,
-                                   "pct":  114,
-                                   "bateuIndividual":  true,
-                                   "positivacao":  {
-                                                       "meta":  15,
-                                                       "faturado":  10,
-                                                       "aFaturar":  2,
-                                                       "projetado":  10,
-                                                       "pct":  67
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  64570,
-                                                       "faturado":  31128.72,
-                                                       "aFaturar":  42802.44,
-                                                       "projetado":  73931.16,
-                                                       "pct":  114
-                                                   }
-                               },
-                               {
-                                   "setor":  268,
-                                   "nome":  "Pj-Anderson Kosowski",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Anderson",
-                                   "meta":  148814,
-                                   "faturado":  32861.87,
-                                   "aFaturar":  12783.58,
-                                   "projetado":  45645.45,
-                                   "pct":  31,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  77,
-                                                       "faturado":  43,
-                                                       "aFaturar":  14,
-                                                       "projetado":  51,
-                                                       "pct":  66
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  148814,
-                                                       "faturado":  32861.87,
-                                                       "aFaturar":  12783.58,
-                                                       "projetado":  45645.45,
-                                                       "pct":  31
-                                                   }
-                               },
-                               {
-                                   "setor":  272,
-                                   "nome":  "Pj- Joao Miguel Andriolli",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Anderson",
-                                   "meta":  175864,
-                                   "faturado":  0,
-                                   "aFaturar":  33079.49,
-                                   "projetado":  33079.49,
-                                   "pct":  19,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  97,
-                                                       "faturado":  0,
-                                                       "aFaturar":  28,
-                                                       "projetado":  28,
-                                                       "pct":  29
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  175864,
-                                                       "faturado":  0,
-                                                       "aFaturar":  33079.49,
-                                                       "projetado":  33079.49,
-                                                       "pct":  19
-                                                   }
-                               },
-                               {
-                                   "setor":  274,
-                                   "nome":  "Pj- Sueli Representacoes Com.",
-                                   "isSupervisor":  false,
-                                   "equipe":  "Anderson",
-                                   "meta":  57080,
-                                   "faturado":  733.32,
-                                   "aFaturar":  30529.6,
-                                   "projetado":  31262.92,
-                                   "pct":  55,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  72,
-                                                       "faturado":  1,
-                                                       "aFaturar":  47,
-                                                       "projetado":  47,
-                                                       "pct":  65
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  57080,
-                                                       "faturado":  733.32,
-                                                       "aFaturar":  30529.6,
-                                                       "projetado":  31262.92,
-                                                       "pct":  55
-                                                   }
-                               },
-                               {
-                                   "setor":  23,
-                                   "nome":  "ANDERSON",
-                                   "isSupervisor":  true,
-                                   "equipe":  "Anderson",
-                                   "meta":  482429,
-                                   "faturado":  75706.71,
-                                   "aFaturar":  132114.63,
-                                   "projetado":  207821.34,
-                                   "pct":  43,
-                                   "bateuIndividual":  false,
-                                   "positivacao":  {
-                                                       "meta":  295,
-                                                       "faturado":  60,
-                                                       "aFaturar":  100,
-                                                       "projetado":  147,
-                                                       "pct":  50
-                                                   },
-                                   "faturamento":  {
-                                                       "meta":  482429,
-                                                       "faturado":  75706.71,
-                                                       "aFaturar":  132114.63,
-                                                       "projetado":  207821.34,
-                                                       "pct":  43
-                                                   }
-                               }
-                           ]
-           },
-    "resumoGeral":  {
-                        "filialVarejo":  {
-                                             "positivacao":  {
-                                                                 "meta":  1767,
-                                                                 "realizado":  1029
-                                                             },
-                                             "faturamento":  {
-                                                                 "meta":  627067,
-                                                                 "realizado":  466012.71
-                                                             }
-                                         },
-                        "filialAs":  {
-                                         "positivacao":  {
-                                                             "meta":  649,
-                                                             "realizado":  356
-                                                         },
-                                         "faturamento":  {
-                                                             "meta":  1272933,
-                                                             "realizado":  859496.54
-                                                         }
-                                     },
-                        "geral":  {
-                                      "positivacao":  {
-                                                          "meta":  2416,
-                                                          "realizado":  1405
-                                                      },
-                                      "faturamento":  {
-                                                          "meta":  1900000,
-                                                          "realizado":  1342548.63
-                                                      }
-                                  }
-                    }
+{
+  "periodo": "01/07 a 31/07/2026",
+  "varejo": {
+    "metaGeral": 1852.0,
+    "valorGeral": 1101,
+    "pctGeral": 59.4,
+    "pessoas": [
+      {
+        "setor": 530,
+        "nome": "Marcos Aurelio",
+        "isSupervisor": false,
+        "equipe": "Washignton",
+        "meta": 62.0,
+        "meta110": 72.0,
+        "faturado": 22,
+        "aFaturar": 19,
+        "projetado": 39,
+        "pct": 63.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 62.0,
+          "meta110": 72.0,
+          "faturado": 22,
+          "aFaturar": 19,
+          "projetado": 39,
+          "pct": 63.0
+        },
+        "faturamento": {
+          "meta": 12414.0,
+          "meta110": 12414.0,
+          "faturado": 5134.19,
+          "aFaturar": 4090.61,
+          "projetado": 9224.8,
+          "pct": 74.0
+        }
+      },
+      {
+        "setor": 244,
+        "nome": "Marcia Martins Goncalves",
+        "isSupervisor": false,
+        "equipe": "Washignton",
+        "meta": 68.0,
+        "meta110": 78.0,
+        "faturado": 16,
+        "aFaturar": 19,
+        "projetado": 33,
+        "pct": 49.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 68.0,
+          "meta110": 78.0,
+          "faturado": 16,
+          "aFaturar": 19,
+          "projetado": 33,
+          "pct": 49.0
+        },
+        "faturamento": {
+          "meta": 54331.0,
+          "meta110": 54331.0,
+          "faturado": 3316.17,
+          "aFaturar": 7939.09,
+          "projetado": 11255.26,
+          "pct": 21.0
+        }
+      },
+      {
+        "setor": 245,
+        "nome": "Jorge Dos Santos",
+        "isSupervisor": false,
+        "equipe": "Washignton",
+        "meta": 93.0,
+        "meta110": 100.0,
+        "faturado": 44,
+        "aFaturar": 27,
+        "projetado": 63,
+        "pct": 68.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 93.0,
+          "meta110": 100.0,
+          "faturado": 44,
+          "aFaturar": 27,
+          "projetado": 63,
+          "pct": 68.0
+        },
+        "faturamento": {
+          "meta": 20677.0,
+          "meta110": 20677.0,
+          "faturado": 13142.68,
+          "aFaturar": 4198.54,
+          "projetado": 17341.22,
+          "pct": 84.0
+        }
+      },
+      {
+        "setor": 247,
+        "nome": "Vanessa Mendes Da Luz",
+        "isSupervisor": false,
+        "equipe": "Washignton",
+        "meta": 68.0,
+        "meta110": 78.0,
+        "faturado": 25,
+        "aFaturar": 24,
+        "projetado": 46,
+        "pct": 68.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 68.0,
+          "meta110": 78.0,
+          "faturado": 25,
+          "aFaturar": 24,
+          "projetado": 46,
+          "pct": 68.0
+        },
+        "faturamento": {
+          "meta": 19260.0,
+          "meta110": 19260.0,
+          "faturado": 7300.67,
+          "aFaturar": 6356.2,
+          "projetado": 13656.87,
+          "pct": 71.0
+        }
+      },
+      {
+        "setor": 250,
+        "nome": "Tania Regina",
+        "isSupervisor": false,
+        "equipe": "Washignton",
+        "meta": 38.0,
+        "meta110": 48.0,
+        "faturado": 12,
+        "aFaturar": 8,
+        "projetado": 18,
+        "pct": 47.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 38.0,
+          "meta110": 48.0,
+          "faturado": 12,
+          "aFaturar": 8,
+          "projetado": 18,
+          "pct": 47.0
+        },
+        "faturamento": {
+          "meta": 6086.0,
+          "meta110": 6086.0,
+          "faturado": 4560.69,
+          "aFaturar": 1717.58,
+          "projetado": 6278.27,
+          "pct": 103.0
+        }
+      },
+      {
+        "setor": 251,
+        "nome": "Ana Carolina Maciel Brotto",
+        "isSupervisor": false,
+        "equipe": "Washignton",
+        "meta": 88.0,
+        "meta110": 85.0,
+        "faturado": 25,
+        "aFaturar": 39,
+        "projetado": 61,
+        "pct": 69.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 88.0,
+          "meta110": 85.0,
+          "faturado": 25,
+          "aFaturar": 39,
+          "projetado": 61,
+          "pct": 69.0
+        },
+        "faturamento": {
+          "meta": 11826.0,
+          "meta110": 11826.0,
+          "faturado": 4269.61,
+          "aFaturar": 5931.35,
+          "projetado": 10200.96,
+          "pct": 86.0
+        }
+      },
+      {
+        "setor": 252,
+        "nome": "Luciana Agata Pinto",
+        "isSupervisor": false,
+        "equipe": "Washignton",
+        "meta": 62.0,
+        "meta110": 72.0,
+        "faturado": 21,
+        "aFaturar": 24,
+        "projetado": 42,
+        "pct": 68.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 62.0,
+          "meta110": 72.0,
+          "faturado": 21,
+          "aFaturar": 24,
+          "projetado": 42,
+          "pct": 68.0
+        },
+        "faturamento": {
+          "meta": 36192.0,
+          "meta110": 36192.0,
+          "faturado": 17403.23,
+          "aFaturar": 8183.15,
+          "projetado": 25586.38,
+          "pct": 71.0
+        }
+      },
+      {
+        "setor": 253,
+        "nome": "Aparecido Agnaldo Araujo",
+        "isSupervisor": false,
+        "equipe": "Washignton",
+        "meta": 78.0,
+        "meta110": 85.0,
+        "faturado": 24,
+        "aFaturar": 23,
+        "projetado": 46,
+        "pct": 59.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 78.0,
+          "meta110": 85.0,
+          "faturado": 24,
+          "aFaturar": 23,
+          "projetado": 46,
+          "pct": 59.0
+        },
+        "faturamento": {
+          "meta": 17806.0,
+          "meta110": 17806.0,
+          "faturado": 3819.85,
+          "aFaturar": 7648.71,
+          "projetado": 11468.56,
+          "pct": 64.0
+        }
+      },
+      {
+        "setor": 255,
+        "nome": "Willians De Alcantra Correa",
+        "isSupervisor": false,
+        "equipe": "Washignton",
+        "meta": 88.0,
+        "meta110": 90.0,
+        "faturado": 25,
+        "aFaturar": 31,
+        "projetado": 48,
+        "pct": 55.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 88.0,
+          "meta110": 90.0,
+          "faturado": 25,
+          "aFaturar": 31,
+          "projetado": 48,
+          "pct": 55.0
+        },
+        "faturamento": {
+          "meta": 25401.0,
+          "meta110": 25401.0,
+          "faturado": 8982.84,
+          "aFaturar": 19813.33,
+          "projetado": 28796.17,
+          "pct": 113.0
+        }
+      },
+      {
+        "setor": 271,
+        "nome": "Cleverson Rodrigues Ferreira",
+        "isSupervisor": false,
+        "equipe": "Washignton",
+        "meta": 48.0,
+        "meta110": 58.0,
+        "faturado": 19,
+        "aFaturar": 8,
+        "projetado": 27,
+        "pct": 56.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 48.0,
+          "meta110": 58.0,
+          "faturado": 19,
+          "aFaturar": 8,
+          "projetado": 27,
+          "pct": 56.0
+        },
+        "faturamento": {
+          "meta": 11553.0,
+          "meta110": 11553.0,
+          "faturado": 5907.56,
+          "aFaturar": 1718.92,
+          "projetado": 7626.48,
+          "pct": 66.0
+        }
+      },
+      {
+        "setor": 267,
+        "nome": "Kamilla Aparecida Xavier",
+        "isSupervisor": false,
+        "equipe": "Washignton",
+        "meta": 58.0,
+        "meta110": 69.0,
+        "faturado": 24,
+        "aFaturar": 9,
+        "projetado": 32,
+        "pct": 55.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 58.0,
+          "meta110": 69.0,
+          "faturado": 24,
+          "aFaturar": 9,
+          "projetado": 32,
+          "pct": 55.0
+        },
+        "faturamento": {
+          "meta": 20567.0,
+          "meta110": 20567.0,
+          "faturado": 17222.23,
+          "aFaturar": 23701.62,
+          "projetado": 40923.85,
+          "pct": 199.0
+        }
+      },
+      {
+        "setor": 527,
+        "nome": "Maria Madalena",
+        "isSupervisor": false,
+        "equipe": "Washignton",
+        "meta": 48.0,
+        "meta110": 58.0,
+        "faturado": 20,
+        "aFaturar": 24,
+        "projetado": 42,
+        "pct": 88.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 48.0,
+          "meta110": 58.0,
+          "faturado": 20,
+          "aFaturar": 24,
+          "projetado": 42,
+          "pct": 88.0
+        },
+        "faturamento": {
+          "meta": 13626.0,
+          "meta110": 13626.0,
+          "faturado": 6979.41,
+          "aFaturar": 5692.91,
+          "projetado": 12672.32,
+          "pct": 93.0
+        }
+      },
+      {
+        "setor": 100,
+        "nome": "WASHIGNTON",
+        "isSupervisor": true,
+        "equipe": "Washignton",
+        "meta": 799.0,
+        "meta110": 893.0,
+        "faturado": 277,
+        "aFaturar": 255,
+        "projetado": 497,
+        "pct": 62.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 799.0,
+          "meta110": 893.0,
+          "faturado": 277,
+          "aFaturar": 255,
+          "projetado": 497,
+          "pct": 62.0
+        },
+        "faturamento": {
+          "meta": 249739.0,
+          "meta110": 249739.0,
+          "faturado": 98039.13,
+          "aFaturar": 96992.01,
+          "projetado": 195031.14,
+          "pct": 78.0
+        }
+      },
+      {
+        "setor": 239,
+        "nome": "Eder Da Silva Viana",
+        "isSupervisor": false,
+        "equipe": "Rodrigo",
+        "meta": 48.0,
+        "meta110": 58.0,
+        "faturado": 13,
+        "aFaturar": 21,
+        "projetado": 32,
+        "pct": 67.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 48.0,
+          "meta110": 58.0,
+          "faturado": 13,
+          "aFaturar": 21,
+          "projetado": 32,
+          "pct": 67.0
+        },
+        "faturamento": {
+          "meta": 38871.0,
+          "meta110": 38871.0,
+          "faturado": 3177.14,
+          "aFaturar": 19512.56,
+          "projetado": 22689.7,
+          "pct": 58.0
+        }
+      },
+      {
+        "setor": 241,
+        "nome": "Luiz Felipe Fernandes",
+        "isSupervisor": false,
+        "equipe": "Rodrigo",
+        "meta": 29.0,
+        "meta110": 39.0,
+        "faturado": 10,
+        "aFaturar": 2,
+        "projetado": 12,
+        "pct": 41.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 29.0,
+          "meta110": 39.0,
+          "faturado": 10,
+          "aFaturar": 2,
+          "projetado": 12,
+          "pct": 41.0
+        },
+        "faturamento": {
+          "meta": 15785.0,
+          "meta110": 15785.0,
+          "faturado": 3465.24,
+          "aFaturar": 697.43,
+          "projetado": 4162.67,
+          "pct": 26.0
+        }
+      },
+      {
+        "setor": 243,
+        "nome": "Beatriz Aparecida Cruz Vicente",
+        "isSupervisor": false,
+        "equipe": "Rodrigo",
+        "meta": 53.0,
+        "meta110": 63.0,
+        "faturado": 4,
+        "aFaturar": 13,
+        "projetado": 17,
+        "pct": 32.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 53.0,
+          "meta110": 63.0,
+          "faturado": 4,
+          "aFaturar": 13,
+          "projetado": 17,
+          "pct": 32.0
+        },
+        "faturamento": {
+          "meta": 14420.0,
+          "meta110": 14420.0,
+          "faturado": 1093.38,
+          "aFaturar": 5320.3,
+          "projetado": 6413.68,
+          "pct": 44.0
+        }
+      },
+      {
+        "setor": 254,
+        "nome": "Rodrigo Margulski",
+        "isSupervisor": false,
+        "equipe": "Rodrigo",
+        "meta": 78.0,
+        "meta110": 80.0,
+        "faturado": 29,
+        "aFaturar": 42,
+        "projetado": 61,
+        "pct": 78.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 78.0,
+          "meta110": 80.0,
+          "faturado": 29,
+          "aFaturar": 42,
+          "projetado": 61,
+          "pct": 78.0
+        },
+        "faturamento": {
+          "meta": 23533.0,
+          "meta110": 23533.0,
+          "faturado": 6829.99,
+          "aFaturar": 14753.88,
+          "projetado": 21583.87,
+          "pct": 92.0
+        }
+      },
+      {
+        "setor": 257,
+        "nome": "Cleyton Alberto Carvalho",
+        "isSupervisor": false,
+        "equipe": "Rodrigo",
+        "meta": 73.0,
+        "meta110": 83.0,
+        "faturado": 25,
+        "aFaturar": 18,
+        "projetado": 37,
+        "pct": 51.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 73.0,
+          "meta110": 83.0,
+          "faturado": 25,
+          "aFaturar": 18,
+          "projetado": 37,
+          "pct": 51.0
+        },
+        "faturamento": {
+          "meta": 25970.0,
+          "meta110": 25970.0,
+          "faturado": 10314.72,
+          "aFaturar": 5750.27,
+          "projetado": 16064.99,
+          "pct": 62.0
+        }
+      },
+      {
+        "setor": 258,
+        "nome": "Lidiane Cristina Henning",
+        "isSupervisor": false,
+        "equipe": "Rodrigo",
+        "meta": 63.0,
+        "meta110": 73.0,
+        "faturado": 20,
+        "aFaturar": 9,
+        "projetado": 27,
+        "pct": 43.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 63.0,
+          "meta110": 73.0,
+          "faturado": 20,
+          "aFaturar": 9,
+          "projetado": 27,
+          "pct": 43.0
+        },
+        "faturamento": {
+          "meta": 15484.0,
+          "meta110": 15484.0,
+          "faturado": 8997.86,
+          "aFaturar": 1352.26,
+          "projetado": 10350.12,
+          "pct": 67.0
+        }
+      },
+      {
+        "setor": 269,
+        "nome": "Valdir",
+        "isSupervisor": false,
+        "equipe": "Rodrigo",
+        "meta": 62.0,
+        "meta110": 72.0,
+        "faturado": 49,
+        "aFaturar": 36,
+        "projetado": 75,
+        "pct": 121.0,
+        "bateuIndividual": true,
+        "positivacao": {
+          "meta": 62.0,
+          "meta110": 72.0,
+          "faturado": 49,
+          "aFaturar": 36,
+          "projetado": 75,
+          "pct": 121.0
+        },
+        "faturamento": {
+          "meta": 19306.0,
+          "meta110": 19306.0,
+          "faturado": 14920.68,
+          "aFaturar": 10875.6,
+          "projetado": 25796.28,
+          "pct": 134.0
+        }
+      },
+      {
+        "setor": 279,
+        "nome": "Julio Cesar Passos Ferreira",
+        "isSupervisor": false,
+        "equipe": "Rodrigo",
+        "meta": 80.0,
+        "meta110": 80.0,
+        "faturado": 35,
+        "aFaturar": 18,
+        "projetado": 47,
+        "pct": 59.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 80.0,
+          "meta110": 80.0,
+          "faturado": 35,
+          "aFaturar": 18,
+          "projetado": 47,
+          "pct": 59.0
+        },
+        "faturamento": {
+          "meta": 28142.0,
+          "meta110": 28142.0,
+          "faturado": 13785.59,
+          "aFaturar": 2454.16,
+          "projetado": 16239.75,
+          "pct": 58.0
+        }
+      },
+      {
+        "setor": 281,
+        "nome": "Daniel Alexandre Nunes",
+        "isSupervisor": false,
+        "equipe": "Rodrigo",
+        "meta": 48.0,
+        "meta110": 58.0,
+        "faturado": 5,
+        "aFaturar": 17,
+        "projetado": 22,
+        "pct": 46.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 48.0,
+          "meta110": 58.0,
+          "faturado": 5,
+          "aFaturar": 17,
+          "projetado": 22,
+          "pct": 46.0
+        },
+        "faturamento": {
+          "meta": 29400.0,
+          "meta110": 29400.0,
+          "faturado": 4887.44,
+          "aFaturar": 15308.82,
+          "projetado": 20196.26,
+          "pct": 69.0
+        }
+      },
+      {
+        "setor": 282,
+        "nome": "Rafael Machado De Souza",
+        "isSupervisor": false,
+        "equipe": "Rodrigo",
+        "meta": 83.0,
+        "meta110": 93.0,
+        "faturado": 19,
+        "aFaturar": 33,
+        "projetado": 49,
+        "pct": 59.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 83.0,
+          "meta110": 93.0,
+          "faturado": 19,
+          "aFaturar": 33,
+          "projetado": 49,
+          "pct": 59.0
+        },
+        "faturamento": {
+          "meta": 23410.0,
+          "meta110": 23410.0,
+          "faturado": 5704.64,
+          "aFaturar": 7315.81,
+          "projetado": 13020.45,
+          "pct": 56.0
+        }
+      },
+      {
+        "setor": 283,
+        "nome": "Glacilda Faria",
+        "isSupervisor": false,
+        "equipe": "Rodrigo",
+        "meta": 38.0,
+        "meta110": 48.0,
+        "faturado": 16,
+        "aFaturar": 7,
+        "projetado": 21,
+        "pct": 55.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 38.0,
+          "meta110": 48.0,
+          "faturado": 16,
+          "aFaturar": 7,
+          "projetado": 21,
+          "pct": 55.0
+        },
+        "faturamento": {
+          "meta": 35233.0,
+          "meta110": 35233.0,
+          "faturado": 13308.84,
+          "aFaturar": 28252.7,
+          "projetado": 41561.54,
+          "pct": 118.0
+        }
+      },
+      {
+        "setor": 528,
+        "nome": "Maria Cristina",
+        "isSupervisor": false,
+        "equipe": "Rodrigo",
+        "meta": 63.0,
+        "meta110": 73.0,
+        "faturado": 21,
+        "aFaturar": 13,
+        "projetado": 33,
+        "pct": 52.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 63.0,
+          "meta110": 73.0,
+          "faturado": 21,
+          "aFaturar": 13,
+          "projetado": 33,
+          "pct": 52.0
+        },
+        "faturamento": {
+          "meta": 28383.0,
+          "meta110": 28383.0,
+          "faturado": 10842.24,
+          "aFaturar": 28301.87,
+          "projetado": 39144.11,
+          "pct": 138.0
+        }
+      },
+      {
+        "setor": 27,
+        "nome": "RODRIGO",
+        "isSupervisor": true,
+        "equipe": "Rodrigo",
+        "meta": 718.0,
+        "meta110": 820.0,
+        "faturado": 246,
+        "aFaturar": 229,
+        "projetado": 433,
+        "pct": 60.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 718.0,
+          "meta110": 820.0,
+          "faturado": 246,
+          "aFaturar": 229,
+          "projetado": 433,
+          "pct": 60.0
+        },
+        "faturamento": {
+          "meta": 297937.0,
+          "meta110": 297937.0,
+          "faturado": 97327.76,
+          "aFaturar": 139895.66,
+          "projetado": 237223.42,
+          "pct": 80.0
+        }
+      },
+      {
+        "setor": 249,
+        "nome": "Edinei Diego Specth",
+        "isSupervisor": false,
+        "equipe": "Sueli",
+        "meta": 98.0,
+        "meta110": 108.0,
+        "faturado": 40,
+        "aFaturar": 25,
+        "projetado": 62,
+        "pct": 63.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 98.0,
+          "meta110": 108.0,
+          "faturado": 40,
+          "aFaturar": 25,
+          "projetado": 62,
+          "pct": 63.0
+        },
+        "faturamento": {
+          "meta": 14294.0,
+          "meta110": 14294.0,
+          "faturado": 5838.33,
+          "aFaturar": 5291.79,
+          "projetado": 11130.12,
+          "pct": 78.0
+        }
+      },
+      {
+        "setor": 261,
+        "nome": "Pedro Henrique Deschk Gomes",
+        "isSupervisor": false,
+        "equipe": "Sueli",
+        "meta": 73.0,
+        "meta110": 79.0,
+        "faturado": 16,
+        "aFaturar": 14,
+        "projetado": 27,
+        "pct": 37.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 73.0,
+          "meta110": 79.0,
+          "faturado": 16,
+          "aFaturar": 14,
+          "projetado": 27,
+          "pct": 37.0
+        },
+        "faturamento": {
+          "meta": 900.0,
+          "meta110": 900.0,
+          "faturado": 3995.34,
+          "aFaturar": 2729.97,
+          "projetado": 6725.31,
+          "pct": 747.0
+        }
+      },
+      {
+        "setor": 277,
+        "nome": "Diego Bech",
+        "isSupervisor": false,
+        "equipe": "Sueli",
+        "meta": 38.0,
+        "meta110": 48.0,
+        "faturado": 23,
+        "aFaturar": 5,
+        "projetado": 28,
+        "pct": 74.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 38.0,
+          "meta110": 48.0,
+          "faturado": 23,
+          "aFaturar": 5,
+          "projetado": 28,
+          "pct": 74.0
+        },
+        "faturamento": {
+          "meta": 14294.0,
+          "meta110": 14294.0,
+          "faturado": 6023.28,
+          "aFaturar": 1604.38,
+          "projetado": 7627.66,
+          "pct": 53.0
+        }
+      },
+      {
+        "setor": 529,
+        "nome": "Paola De Paula",
+        "isSupervisor": false,
+        "equipe": "Sueli",
+        "meta": 58.0,
+        "meta110": 68.0,
+        "faturado": 10,
+        "aFaturar": 17,
+        "projetado": 26,
+        "pct": 45.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 58.0,
+          "meta110": 68.0,
+          "faturado": 10,
+          "aFaturar": 17,
+          "projetado": 26,
+          "pct": 45.0
+        },
+        "faturamento": {
+          "meta": 9456.0,
+          "meta110": 9456.0,
+          "faturado": 9890.14,
+          "aFaturar": 4172.11,
+          "projetado": 14062.25,
+          "pct": 149.0
+        }
+      },
+      {
+        "setor": 276,
+        "nome": "Adao Expedito Vieira Da Rocha",
+        "isSupervisor": false,
+        "equipe": "Sueli",
+        "meta": 68.0,
+        "meta110": 78.0,
+        "faturado": 16,
+        "aFaturar": 14,
+        "projetado": 29,
+        "pct": 43.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 68.0,
+          "meta110": 78.0,
+          "faturado": 16,
+          "aFaturar": 14,
+          "projetado": 29,
+          "pct": 43.0
+        },
+        "faturamento": {
+          "meta": 40447.0,
+          "meta110": 40447.0,
+          "faturado": 5620.99,
+          "aFaturar": 22964.64,
+          "projetado": 28585.63,
+          "pct": 71.0
+        }
+      },
+      {
+        "setor": 28,
+        "nome": "SUELI",
+        "isSupervisor": true,
+        "equipe": "Sueli",
+        "meta": 335.0,
+        "meta110": 381.0,
+        "faturado": 105,
+        "aFaturar": 74,
+        "projetado": 171,
+        "pct": 51.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 335.0,
+          "meta110": 381.0,
+          "faturado": 105,
+          "aFaturar": 74,
+          "projetado": 171,
+          "pct": 51.0
+        },
+        "faturamento": {
+          "meta": 79391.0,
+          "meta110": 79391.0,
+          "faturado": 31368.08,
+          "aFaturar": 36762.89,
+          "projetado": 68130.97,
+          "pct": 86.0
+        }
+      }
+    ]
+  },
+  "as": {
+    "metaGeral": 1372933.0,
+    "valorGeral": 932131.39,
+    "pctGeral": 67.9,
+    "pessoas": [
+      {
+        "setor": 240,
+        "nome": "Pj Sergio Augusto Brauza",
+        "isSupervisor": false,
+        "equipe": "Arildo",
+        "meta": 105909.5,
+        "meta110": 120195.5,
+        "faturado": 154269.33,
+        "aFaturar": 0.0,
+        "projetado": 154269.33,
+        "pct": 146.0,
+        "bateuIndividual": true,
+        "positivacao": {
+          "meta": 18.0,
+          "meta110": 18.0,
+          "faturado": 29,
+          "aFaturar": 0,
+          "projetado": 29,
+          "pct": 161.0
+        },
+        "faturamento": {
+          "meta": 105909.5,
+          "meta110": 120195.5,
+          "faturado": 154269.33,
+          "aFaturar": 0.0,
+          "projetado": 154269.33,
+          "pct": 146.0
+        }
+      },
+      {
+        "setor": 242,
+        "nome": "Clodoaldo Dos Santos",
+        "isSupervisor": false,
+        "equipe": "Arildo",
+        "meta": 153909.5,
+        "meta110": 168191.5,
+        "faturado": 26602.52,
+        "aFaturar": 61691.2,
+        "projetado": 88293.72,
+        "pct": 57.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 30.0,
+          "meta110": 30.0,
+          "faturado": 9,
+          "aFaturar": 12,
+          "projetado": 15,
+          "pct": 50.0
+        },
+        "faturamento": {
+          "meta": 153909.5,
+          "meta110": 168191.5,
+          "faturado": 26602.52,
+          "aFaturar": 61691.2,
+          "projetado": 88293.72,
+          "pct": 57.0
+        }
+      },
+      {
+        "setor": 265,
+        "nome": "Marcos Jose Walesko",
+        "isSupervisor": false,
+        "equipe": "Arildo",
+        "meta": 55909.5,
+        "meta110": 70195.5,
+        "faturado": 28188.43,
+        "aFaturar": 10682.16,
+        "projetado": 38870.59,
+        "pct": 70.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 30.0,
+          "meta110": 30.0,
+          "faturado": 17,
+          "aFaturar": 5,
+          "projetado": 21,
+          "pct": 70.0
+        },
+        "faturamento": {
+          "meta": 55909.5,
+          "meta110": 70195.5,
+          "faturado": 28188.43,
+          "aFaturar": 10682.16,
+          "projetado": 38870.59,
+          "pct": 70.0
+        }
+      },
+      {
+        "setor": 275,
+        "nome": "Pj-Fabiano Aparecido Santos",
+        "isSupervisor": false,
+        "equipe": "Arildo",
+        "meta": 154909.5,
+        "meta110": 169195.5,
+        "faturado": 88146.78,
+        "aFaturar": 13192.35,
+        "projetado": 101339.13,
+        "pct": 65.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 37.0,
+          "meta110": 37.0,
+          "faturado": 20,
+          "aFaturar": 7,
+          "projetado": 27,
+          "pct": 73.0
+        },
+        "faturamento": {
+          "meta": 154909.5,
+          "meta110": 169195.5,
+          "faturado": 88146.78,
+          "aFaturar": 13192.35,
+          "projetado": 101339.13,
+          "pct": 65.0
+        }
+      },
+      {
+        "setor": 278,
+        "nome": "Pj- Pedro Paulo Do Nascimento",
+        "isSupervisor": false,
+        "equipe": "Arildo",
+        "meta": 154909.5,
+        "meta110": 169195.5,
+        "faturado": 60619.16,
+        "aFaturar": 183532.7,
+        "projetado": 244151.86,
+        "pct": 158.0,
+        "bateuIndividual": true,
+        "positivacao": {
+          "meta": 16.0,
+          "meta110": 16.0,
+          "faturado": 3,
+          "aFaturar": 10,
+          "projetado": 12,
+          "pct": 75.0
+        },
+        "faturamento": {
+          "meta": 154909.5,
+          "meta110": 169195.5,
+          "faturado": 60619.16,
+          "aFaturar": 183532.7,
+          "projetado": 244151.86,
+          "pct": 158.0
+        }
+      },
+      {
+        "setor": 24,
+        "nome": "ARILDO",
+        "isSupervisor": true,
+        "equipe": "Arildo",
+        "meta": 625547.5,
+        "meta110": 696973.5,
+        "faturado": 357826.22,
+        "aFaturar": 269098.41,
+        "projetado": 626924.63,
+        "pct": 100.0,
+        "bateuIndividual": true,
+        "positivacao": {
+          "meta": 131.0,
+          "meta110": 131.0,
+          "faturado": 78,
+          "aFaturar": 34,
+          "projetado": 104,
+          "pct": 79.0
+        },
+        "faturamento": {
+          "meta": 625547.5,
+          "meta110": 696973.5,
+          "faturado": 357826.22,
+          "aFaturar": 269098.41,
+          "projetado": 626924.63,
+          "pct": 100.0
+        }
+      },
+      {
+        "setor": 238,
+        "nome": "Aquinele Roberta",
+        "isSupervisor": false,
+        "equipe": "Alessandro",
+        "meta": 69909.5,
+        "meta110": 84195.5,
+        "faturado": 10014.4,
+        "aFaturar": 5046.36,
+        "projetado": 15060.76,
+        "pct": 22.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 4.0,
+          "meta110": 4.0,
+          "faturado": 6,
+          "aFaturar": 5,
+          "projetado": 10,
+          "pct": 250.0
+        },
+        "faturamento": {
+          "meta": 69909.5,
+          "meta110": 84195.5,
+          "faturado": 10014.4,
+          "aFaturar": 5046.36,
+          "projetado": 15060.76,
+          "pct": 22.0
+        }
+      },
+      {
+        "setor": 264,
+        "nome": "Pj - Jair Antonio Tosto",
+        "isSupervisor": false,
+        "equipe": "Alessandro",
+        "meta": 94909.5,
+        "meta110": 109195.5,
+        "faturado": 39007.94,
+        "aFaturar": 12398.41,
+        "projetado": 51406.35,
+        "pct": 54.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 84.0,
+          "meta110": 84.0,
+          "faturado": 39,
+          "aFaturar": 16,
+          "projetado": 51,
+          "pct": 61.0
+        },
+        "faturamento": {
+          "meta": 94909.5,
+          "meta110": 109195.5,
+          "faturado": 39007.94,
+          "aFaturar": 12398.41,
+          "projetado": 51406.35,
+          "pct": 54.0
+        }
+      },
+      {
+        "setor": 266,
+        "nome": "Pj-Adilson Santos Biauki",
+        "isSupervisor": false,
+        "equipe": "Alessandro",
+        "meta": 64909.5,
+        "meta110": 79195.5,
+        "faturado": 8485.65,
+        "aFaturar": 16458.81,
+        "projetado": 24944.46,
+        "pct": 38.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 77.0,
+          "meta110": 77.0,
+          "faturado": 23,
+          "aFaturar": 33,
+          "projetado": 48,
+          "pct": 62.0
+        },
+        "faturamento": {
+          "meta": 64909.5,
+          "meta110": 79195.5,
+          "faturado": 8485.65,
+          "aFaturar": 16458.81,
+          "projetado": 24944.46,
+          "pct": 38.0
+        }
+      },
+      {
+        "setor": 280,
+        "nome": "Aricleia Do Rocio Stofella",
+        "isSupervisor": false,
+        "equipe": "Alessandro",
+        "meta": 6109.5,
+        "meta110": 20395.5,
+        "faturado": 62.34,
+        "aFaturar": 338.49,
+        "projetado": 400.83,
+        "pct": 7.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 11.0,
+          "meta110": 11.0,
+          "faturado": 3,
+          "aFaturar": 12,
+          "projetado": 12,
+          "pct": 109.0
+        },
+        "faturamento": {
+          "meta": 6109.5,
+          "meta110": 20395.5,
+          "faturado": 62.34,
+          "aFaturar": 338.49,
+          "projetado": 400.83,
+          "pct": 7.0
+        }
+      },
+      {
+        "setor": 80,
+        "nome": "ALESSANDRO",
+        "isSupervisor": true,
+        "equipe": "Alessandro",
+        "meta": 235838.0,
+        "meta110": 292982.0,
+        "faturado": 57570.33,
+        "aFaturar": 34242.07,
+        "projetado": 91812.4,
+        "pct": 39.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 176.0,
+          "meta110": 176.0,
+          "faturado": 71,
+          "aFaturar": 66,
+          "projetado": 121,
+          "pct": 69.0
+        },
+        "faturamento": {
+          "meta": 235838.0,
+          "meta110": 292982.0,
+          "faturado": 57570.33,
+          "aFaturar": 34242.07,
+          "projetado": 91812.4,
+          "pct": 39.0
+        }
+      },
+      {
+        "setor": 256,
+        "nome": "Pj-Eliseu Hauagge Neto",
+        "isSupervisor": false,
+        "equipe": "Anderson",
+        "meta": 42909.5,
+        "meta110": 57195.5,
+        "faturado": 10982.8,
+        "aFaturar": 12919.52,
+        "projetado": 23902.32,
+        "pct": 56.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 30.0,
+          "meta110": 30.0,
+          "faturado": 6,
+          "aFaturar": 9,
+          "projetado": 11,
+          "pct": 37.0
+        },
+        "faturamento": {
+          "meta": 42909.5,
+          "meta110": 57195.5,
+          "faturado": 10982.8,
+          "aFaturar": 12919.52,
+          "projetado": 23902.32,
+          "pct": 56.0
+        }
+      },
+      {
+        "setor": 263,
+        "nome": "Pj-Luiz Carlos P. Pereira",
+        "isSupervisor": false,
+        "equipe": "Anderson",
+        "meta": 69909.5,
+        "meta110": 84195.5,
+        "faturado": 31128.72,
+        "aFaturar": 43498.38,
+        "projetado": 74627.1,
+        "pct": 107.0,
+        "bateuIndividual": true,
+        "positivacao": {
+          "meta": 13.0,
+          "meta110": 13.0,
+          "faturado": 10,
+          "aFaturar": 4,
+          "projetado": 10,
+          "pct": 77.0
+        },
+        "faturamento": {
+          "meta": 69909.5,
+          "meta110": 84195.5,
+          "faturado": 31128.72,
+          "aFaturar": 43498.38,
+          "projetado": 74627.1,
+          "pct": 107.0
+        }
+      },
+      {
+        "setor": 268,
+        "nome": "Pj-Anderson Kosowski",
+        "isSupervisor": false,
+        "equipe": "Anderson",
+        "meta": 154909.5,
+        "meta110": 169195.5,
+        "faturado": 32861.87,
+        "aFaturar": 15947.82,
+        "projetado": 48809.69,
+        "pct": 32.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 67.0,
+          "meta110": 67.0,
+          "faturado": 43,
+          "aFaturar": 16,
+          "projetado": 52,
+          "pct": 78.0
+        },
+        "faturamento": {
+          "meta": 154909.5,
+          "meta110": 169195.5,
+          "faturado": 32861.87,
+          "aFaturar": 15947.82,
+          "projetado": 48809.69,
+          "pct": 32.0
+        }
+      },
+      {
+        "setor": 272,
+        "nome": "Pj- Joao Miguel Andriolli",
+        "isSupervisor": false,
+        "equipe": "Anderson",
+        "meta": 180909.5,
+        "meta110": 195195.5,
+        "faturado": 0.0,
+        "aFaturar": 35167.48,
+        "projetado": 35167.48,
+        "pct": 19.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 84.0,
+          "meta110": 84.0,
+          "faturado": 0,
+          "aFaturar": 33,
+          "projetado": 33,
+          "pct": 39.0
+        },
+        "faturamento": {
+          "meta": 180909.5,
+          "meta110": 195195.5,
+          "faturado": 0.0,
+          "aFaturar": 35167.48,
+          "projetado": 35167.48,
+          "pct": 19.0
+        }
+      },
+      {
+        "setor": 274,
+        "nome": "Pj- Sueli Representacoes Com.",
+        "isSupervisor": false,
+        "equipe": "Anderson",
+        "meta": 62909.5,
+        "meta110": 77195.5,
+        "faturado": 11476.41,
+        "aFaturar": 19411.36,
+        "projetado": 30887.77,
+        "pct": 49.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 63.0,
+          "meta110": 63.0,
+          "faturado": 18,
+          "aFaturar": 32,
+          "projetado": 49,
+          "pct": 78.0
+        },
+        "faturamento": {
+          "meta": 62909.5,
+          "meta110": 77195.5,
+          "faturado": 11476.41,
+          "aFaturar": 19411.36,
+          "projetado": 30887.77,
+          "pct": 49.0
+        }
+      },
+      {
+        "setor": 23,
+        "nome": "ANDERSON",
+        "isSupervisor": true,
+        "equipe": "Anderson",
+        "meta": 511547.5,
+        "meta110": 582977.5,
+        "faturado": 86449.8,
+        "aFaturar": 126944.56,
+        "projetado": 213394.36,
+        "pct": 42.0,
+        "bateuIndividual": false,
+        "positivacao": {
+          "meta": 257.0,
+          "meta110": 257.0,
+          "faturado": 77,
+          "aFaturar": 94,
+          "projetado": 155,
+          "pct": 60.0
+        },
+        "faturamento": {
+          "meta": 511547.5,
+          "meta110": 582977.5,
+          "faturado": 86449.8,
+          "aFaturar": 126944.56,
+          "projetado": 213394.36,
+          "pct": 42.0
+        }
+      }
+    ]
+  },
+  "resumoGeral": {
+    "filialVarejo": {
+      "positivacao": {
+        "meta": 1852.0,
+        "realizado": 1101
+      },
+      "faturamento": {
+        "meta": 627067.0,
+        "realizado": 500385.53
+      }
+    },
+    "filialAs": {
+      "positivacao": {
+        "meta": 564.0,
+        "realizado": 380
+      },
+      "faturamento": {
+        "meta": 1372933.0,
+        "realizado": 932131.39
+      }
+    },
+    "geral": {
+      "positivacao": {
+        "meta": 2416.0,
+        "realizado": 1501
+      },
+      "faturamento": {
+        "meta": 2000000.0,
+        "realizado": 1449556.3
+      }
+    }
+  }
 }
