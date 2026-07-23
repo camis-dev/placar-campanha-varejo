@@ -239,7 +239,6 @@ function marcadorSimHTML(camp, d, minPct) {
   const faltaTeam = Math.max(targetAtPct - d.valorGeral, 0);
   const jaChegou = d.valorGeral >= targetAtPct;
   const faixa = camp.faixas.find(f => f.min === minPct);
-  const pessoas = pessoasOrdenadasCamp(camp, d);
 
   const statusHTML = jaChegou
     ? `<div class="marcador-status ok">A equipe já bateu ${minPct}% (meta ${fmtValorCamp(targetAtPct, camp)}, atual ${fmtValorCamp(d.valorGeral, camp)}).</div>`
@@ -255,25 +254,41 @@ function marcadorSimHTML(camp, d, minPct) {
   // sempre a mesma (fixa em 100%), so o valor do premio por faixa que varia.
   const usaMeta110 = minPct === 110;
 
-  const linhasHTML = pessoas.map(p => {
+  function linhaPessoa(p) {
+    const usaRef110 = !p.isSupervisor && usaMeta110 && p.meta110 > 0;
+    const alvo = usaRef110 ? p.meta110 : p.meta;
+    const falta = Math.max(alvo - p.projetado, 0);
+    const bateu = falta <= 0;
     const premioPessoa = p.isSupervisor
       ? (minPct >= camp.gatilhoSupervisor ? camp.premioSupervisor : 0)
       : (faixa && p.pct >= 100 ? faixa.valor : 0);
-    let elegibilidade;
-    if (p.isSupervisor) {
-      elegibilidade = `Recebe ${fmtMoney(camp.premioSupervisor)} fixo se a equipe bater ${camp.gatilhoSupervisor}% (não varia por faixa)`;
-    } else if (usaMeta110 && p.meta110 > 0) {
-      const falta110 = Math.max(p.meta110 - p.projetado, 0);
-      elegibilidade = `Meta de referência p/ cenário 110%: ${fmtValorCamp(p.meta110, camp)} · ${falta110 > 0 ? `faltam ${fmtValorCamp(falta110, camp)}` : "já bateu"} <span class="sim-meta-fixa">(meta oficial continua ${fmtValorCamp(p.meta, camp)})</span>`;
-    } else {
-      const faltaMeta = Math.max(p.meta - p.projetado, 0);
-      elegibilidade = `Meta individual (fixa, não muda com o patamar): ${fmtValorCamp(p.meta, camp)} · ${p.bateuIndividual ? "já bateu" : `faltam ${fmtValorCamp(faltaMeta, camp)}`}`;
-    }
+    const subNome = p.isSupervisor ? "meta do time" : (usaRef110 ? "referência 110%" : "meta individual");
     return `
-      <tr class="${p.isSupervisor ? "sim-sup" : ""}">
-        <td class="sim-nome">${p.nome}${p.isSupervisor ? ` <span class="sim-tag">equipe ${p.equipe}</span>` : ""}<div class="sim-elegibilidade">${elegibilidade}</div></td>
-        <td class="${premioPessoa > 0 ? "sim-ok" : "sim-no"}">${premioPessoa > 0 ? fmtMoney(premioPessoa) : "—"}</td>
+      <tr class="${p.isSupervisor ? "marcador-sup" : ""}">
+        <td class="marcador-nome">${p.nome}<span class="marcador-nome-sub">${subNome}</span></td>
+        <td class="marcador-meta num">${fmtValorCamp(alvo, camp)}</td>
+        <td class="marcador-falta num ${bateu ? "ok" : ""}">${bateu ? "bateu" : fmtValorCamp(falta, camp)}</td>
+        <td class="marcador-premio-cel num ${premioPessoa > 0 ? "ok" : ""}">${premioPessoa > 0 ? fmtMoney(premioPessoa) : "—"}</td>
       </tr>
+    `;
+  }
+
+  const equipesHTML = camp.equipes.map(eqNome => {
+    const sup = d.pessoas.find(p => p.isSupervisor && p.equipe === eqNome);
+    const membros = d.pessoas.filter(p => !p.isSupervisor && p.equipe === eqNome).sort((a, b) => a.nome.localeCompare(b.nome));
+    const linhas = [sup, ...membros].filter(Boolean).map(linhaPessoa).join("");
+    return `
+      <div class="marcador-equipe">
+        <div class="marcador-equipe-head">
+          <span class="marcador-equipe-dot" style="background:${camp.teamColor[eqNome]}"></span>Equipe ${eqNome}
+        </div>
+        <div class="marcador-table-wrap">
+          <table class="marcador-table">
+            <thead><tr><th class="marcador-th-nome">Pessoa</th><th>Meta</th><th>Falta</th><th>Prêmio</th></tr></thead>
+            <tbody>${linhas}</tbody>
+          </table>
+        </div>
+      </div>
     `;
   }).join("");
 
@@ -281,12 +296,7 @@ function marcadorSimHTML(camp, d, minPct) {
     <div class="marcador-titulo">Simulação — equipe batendo ${minPct}%</div>
     ${statusHTML}
     ${premioHTML}
-    <div class="sim-table-wrap">
-      <table class="sim-table">
-        <thead><tr><th class="sim-th-nome">Pessoa</th><th>Prêmio nesse cenário</th></tr></thead>
-        <tbody>${linhasHTML}</tbody>
-      </table>
-    </div>
+    ${equipesHTML}
   `;
 }
 function simuladorHTML(camp, d) {

@@ -92,19 +92,41 @@
   .gate-marker.selecionado .dot { border-color: var(--teal); background: var(--teal); width: 12px; height: 12px; box-shadow: 0 0 0 4px var(--teal-soft); }
   .gate-track-hint { font-size: 10px; color: var(--ink-soft); text-align: center; margin: 0 4px 14px; }
 
-  /* ---- Popup da bolinha (simulacao de 1 patamar) ---- */
+  /* ---- Popup da bolinha (simulacao de 1 patamar, separado por equipe) ---- */
   .marcador-pop {
-    background: #F7F9FA; border: 1.5px solid var(--teal); border-radius: 10px; padding: 12px 14px;
+    background: #F7F9FA; border: 1.5px solid var(--teal); border-radius: 12px; padding: 14px;
     margin: -6px 4px 14px;
   }
-  .marcador-titulo { font-family: 'Oswald', sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .3px; color: var(--ink); margin-bottom: 8px; }
+  .marcador-titulo { font-family: 'Oswald', sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .3px; color: var(--ink); margin-bottom: 10px; }
   .marcador-status { font-size: 12px; line-height: 1.5; padding: 8px 10px; border-radius: 8px; background: var(--faixa110-bg); color: var(--faixa110); margin-bottom: 6px; }
   .marcador-status.ok { background: var(--teal-soft); color: var(--teal); }
   .marcador-status b { font-weight: 700; }
-  .marcador-premio { font-size: 12px; line-height: 1.5; padding: 8px 10px; border-radius: 8px; background: var(--teal-soft); color: var(--ink); margin-bottom: 10px; }
-  .marcador-premio.no { background: #E7EEF0; color: var(--ink-soft); }
+  .marcador-premio { font-size: 11px; line-height: 1.5; padding: 7px 10px; border-radius: 8px; background: #fff; border: 1px solid var(--line); color: var(--ink-soft); margin-bottom: 12px; }
   .marcador-premio b { color: var(--teal); font-weight: 700; }
   .marcador-premio.no b { color: var(--ink-soft); }
+
+  .marcador-equipe { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px; margin-bottom: 8px; }
+  .marcador-equipe:last-child { margin-bottom: 0; }
+  .marcador-equipe-head { display: flex; align-items: center; gap: 7px; font-size: 12px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+  .marcador-equipe-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .marcador-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table.marcador-table { width: 100%; border-collapse: collapse; }
+  table.marcador-table th {
+    font-size: 8px; text-transform: uppercase; letter-spacing: .2px; color: var(--ink-soft); font-weight: 700;
+    padding: 4px 3px; text-align: center; border-bottom: 1.5px solid var(--line); white-space: nowrap;
+  }
+  table.marcador-table th.marcador-th-nome { text-align: left; }
+  table.marcador-table td { padding: 7px 3px; text-align: center; border-bottom: 1px solid var(--line); }
+  table.marcador-table tr:last-child td { border-bottom: none; }
+  table.marcador-table td.marcador-nome { text-align: left; font-weight: 700; font-size: 12px; color: var(--ink); white-space: nowrap; }
+  .marcador-nome-sub { display: block; font-weight: 500; font-size: 9px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .2px; margin-top: 1px; }
+  td.marcador-meta { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 15px; color: var(--ink); }
+  td.marcador-falta { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 13px; color: var(--faixa110); }
+  td.marcador-falta.ok { color: var(--teal); font-size: 12px; text-transform: uppercase; letter-spacing: .2px; }
+  td.marcador-premio-cel { font-size: 11px; font-weight: 600; color: var(--ink-soft); opacity: .7; }
+  td.marcador-premio-cel.ok { color: var(--teal); opacity: 1; }
+  tr.marcador-sup td.marcador-nome { color: var(--ink); }
+  tr.marcador-sup { background: #F7F9FA; }
 
   /* ---- Simulador de faixas (botao "Simular premios por faixa") ---- */
   .gate-sim-toggle { margin-top: 14px; text-align: center; }
@@ -128,7 +150,6 @@
   table.sim-table td.sim-nome { text-align: left; font-weight: 700; font-size: 12px; color: var(--ink); }
   table.sim-table tr.sim-sup td.sim-nome { font-style: normal; }
   .sim-elegibilidade { font-size: 10px; font-weight: 500; color: var(--ink-soft); margin-top: 2px; line-height: 1.4; }
-  .sim-meta-fixa { display: block; opacity: .8; }
   .sim-tag { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .2px; padding: 1px 6px; border-radius: 5px; background: #E7EEF0; color: var(--ink-soft); }
   td.sim-ok { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 14px; color: var(--teal); }
   td.sim-no { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 14px; color: var(--ink-soft); opacity: .6; }
